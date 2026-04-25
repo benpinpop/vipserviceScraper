@@ -184,14 +184,6 @@ api_to_wallet_table = {}
 
 def main(api_domain):
     wallets = scrape_wallets_from_api(api_domain)
-
-    for wallet in wallets:
-        if wallet["coin"] == "SOL" or wallet["coin"] == "XAUT" or wallet["coin"] == "XRP":
-            wallets.remove(wallet)
-            continue
-
-        print(wallet)
-
     api_to_wallet_table[api_domain] = wallets
 
 with open('logs/api_to_site.json', mode='r', encoding='utf-8') as file:
