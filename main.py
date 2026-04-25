@@ -4,6 +4,7 @@ import time
 import uuid
 from settings import configuration
 import requests
+from threading import Thread
 
 SCAMBUSTERS_REPORTED_ENDPOINT = "https://scambuster.intelligenceforgood.org/api/check"
 URLSCAN_API_ENDPOINT = "https://urlscan.io/api/v1/result/"
@@ -179,16 +180,30 @@ def scrape_wallets_from_api(api_domain: str):
 
     return table
    
-site_to_api = {}
+api_to_wallet_table = {}
+
+def main(api_domain):
+    wallets = scrape_wallets_from_api(api_domain)
+
+    for wallet in wallets:
+        if wallet["coin"] == "SOL" or wallet["coin"] == "XAUT" or wallet["coin"] == "XRP":
+            wallets.remove(wallet)
+            continue
+
+        print(wallet)
+
+    api_to_wallet_table[api_domain] = wallets
 
 with open('logs/api_to_site.json', mode='r', encoding='utf-8') as file:
     api_to_site = json.load(file)
-    
+    threads = []
     for api_domain, sites in api_to_site.items():
-        wallets = scrape_wallets_from_api(api_domain)
-        print(f"API Domain: {api_domain}")
-        print(wallets)
-        for wallet in wallets:
-            print(f"Coin: {wallet['coin']}, Network: {wallet['network']}, Address: {wallet['address']}")
+        t = Thread(target=main, args=(api_domain,))
+        t.start()
+        threads.append(t)
+
+    for t in threads:
+        t.join()
         
-        break
+with open('logs/api_to_wallet_table.json', mode='w', encoding='utf-8') as file:
+        json.dump(api_to_wallet_table, file, indent=4)

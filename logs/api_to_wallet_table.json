@@ -1,0 +1,981 @@
+{
+    "webapi.world138id.com": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1pwjmeh3jfuheladkgh6dhn476cd36kfl7qnxr9vwuhafqlztdjv7s6s4rzm"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x0b933B7C3004C284eDCBD4EEe23DAE5bacB166a4"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x0b933B7C3004C284eDCBD4EEe23DAE5bacB166a4"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TBNQPtcQozZB2cJWtzWFK5wx6Sdfw7vP79"
+        }
+    ],
+    "webapi.fin1328.cc": [
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x99d1A3e3Cf432CE23bBA5dF198ae67651b18AD5F"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TV8Wv82TWQQ69B2EEHMWCVHmPLj24Ez3So"
+        },
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1qd84mvjtle02l2ch5xpzk3xvnl04ddud0xgnj3n"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x99d1A3e3Cf432CE23bBA5dF198ae67651b18AD5F"
+        },
+        {
+            "coin": "USDC",
+            "network": "base",
+            "address": "0x99d1A3e3Cf432CE23bBA5dF198ae67651b18AD5F"
+        },
+        {
+            "coin": "USDC",
+            "network": "ERC20",
+            "address": "0x99d1A3e3Cf432CE23bBA5dF198ae67651b18AD5F"
+        }
+    ],
+    "webapi.b2c21688.cc": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "3Nuo12ABHdQ859YsSvpLGwZ4iBSJ6DK1MP"
+        },
+        {
+            "coin": "ETH",
+            "network": "ERC20",
+            "address": "0xa601875492688B4C9F15Aa79F622f5dD5B599027"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0xa601875492688B4C9F15Aa79F622f5dD5B599027"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TGPPkeveaVjJ5VoiY7cY8nukD1nSsKYnVz"
+        },
+        {
+            "coin": "usdc",
+            "network": "USDC",
+            "address": "0xa601875492688B4C9F15Aa79F622f5dD5B599027"
+        }
+    ],
+    "webapi.bit173finex.com": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "1JJ9qA69kQsEStEUuP3AfUEnUwgfUai4YV"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xE766A5b094E6A2A07c0953f4c8DDfAD55dAa437b"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0xE766A5b094E6A2A07c0953f4c8DDfAD55dAa437b"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TX46Zs9FaWJ36c3nkQ2FuwNgbyDLf4TqxW"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0xE766A5b094E6A2A07c0953f4c8DDfAD55dAa437b"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TX46Zs9FaWJ36c3nkQ2FuwNgbyDLf4TqxW"
+        }
+    ],
+    "webapi.nextebackend.cc": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "36GvxShv5WZhEuAzw52bNpm19sgmpquN2H"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xa6F80E7B4eC48c64Dd2124deCB58753ae678C879"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0xa6F80E7B4eC48c64Dd2124deCB58753ae678C879"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TKTVmHMg6AEfTUZ6ZX7k1ELS8VWzN8pyNS"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0xa6F80E7B4eC48c64Dd2124deCB58753ae678C879"
+        },
+        {
+            "coin": "usdc",
+            "network": "BASE",
+            "address": "0xa6F80E7B4eC48c64Dd2124deCB58753ae678C879"
+        }
+    ],
+    "webapi.atomany.vip": [
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x025685aD636c9FbaD585b1B7e2612883c25DB55A"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TDVewoDu4btrMvqHH12MFagMcaQ9uQ9xSs"
+        },
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1pxu4ycqxslk0j3uxeeqhts3wme70gyrkvn5xv5xwmxzjhljlmxgvswt7r04"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x025685aD636c9FbaD585b1B7e2612883c25DB55A"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0x025685aD636c9FbaD585b1B7e2612883c25DB55A"
+        },
+        {
+            "coin": "usdc",
+            "network": "trc20",
+            "address": "TDVewoDu4btrMvqHH12MFagMcaQ9uQ9xSs"
+        },
+        {
+            "coin": "SOL",
+            "network": "Solana\uff08SOL\uff09",
+            "address": "Fe6L9KzKemzmiHfFuFXDt7GQuwEiH3RHeBYeVSWDrhyc"
+        }
+    ],
+    "webapi.keeta.bz": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "3CJWSJXt4eoFnposJ1wb7h9Y1eMXFNdRza"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TYpHobemhvsgKNBEx2Lud5bzw2dzkfdALB"
+        },
+        {
+            "coin": "USDC",
+            "network": "ERC20",
+            "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19"
+        },
+        {
+            "coin": "PAXG",
+            "network": "Ethereum",
+            "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19"
+        }
+    ],
+    "webapi.rh2873k.vip": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1qqzzp2z08kuff4fmumy9n67qcf0dg02vqrtsnzz"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xE758230e112898C411F63A839800E34cB6919830"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0xE758230e112898C411F63A839800E34cB6919830"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TXokyRLGTMhfTh7BMBXiNg9Tahc4gFgF4m"
+        },
+        {
+            "coin": "USDT",
+            "network": "solana",
+            "address": "N9JF6KmWhXn6LgjFCJ7jMHnXbS4fJMyZ5w2vjgipLF4"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0xE758230e112898C411F63A839800E34cB6919830"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TXokyRLGTMhfTh7BMBXiNg9Tahc4gFgF4m"
+        },
+        {
+            "coin": "usdc",
+            "network": "solana",
+            "address": "N9JF6KmWhXn6LgjFCJ7jMHnXbS4fJMyZ5w2vjgipLF4"
+        },
+        {
+            "coin": "DOGE",
+            "network": "Dogecoin",
+            "address": "123"
+        }
+    ],
+    "webapi.goldocket1688.vip": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "17Zox3nVxVJxHZ31sG6jgaq5QvBvrqDJCj"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xdA08b5a2a53f75a79155bBDABEB47A8C424fa2b3"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TSCh6haAG7SJViQ4myMyTsGufLUDNZ79Zo"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x971D07E192fD0B40FE735A645dbbDdAc4Da74Db8"
+        },
+        {
+            "coin": "usdc",
+            "network": "ERC20",
+            "address": "0x10c88e56748C67b3Eed6B27deb6DF37Aaf546c70"
+        },
+        {
+            "coin": "DOGE",
+            "network": "Dogecoin",
+            "address": "DEWpghu5fN3FZxG31WbZFxXEj7MJcSxXLr"
+        },
+        {
+            "coin": "BNB",
+            "network": "BNB Chain",
+            "address": "0x980aeEfa75Aa0D65089bc9dfBEfD262a0fC50a1C"
+        }
+    ],
+    "webapi.rocketinvest.com": [
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TPcCfAb42XxBRyMfECDVsdpnyYtvXaR2E2"
+        },
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "3ARcWAMYzfbDq3VauMaLebQQzgq89gzNP2"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767"
+        },
+        {
+            "coin": "ETH",
+            "network": "Base",
+            "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767"
+        },
+        {
+            "coin": "usdc",
+            "network": "Base",
+            "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767"
+        }
+    ],
+    "webapi.goldpocket.com": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "17Zox3nVxVJxHZ31sG6jgaq5QvBvrqDJCj"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xdA08b5a2a53f75a79155bBDABEB47A8C424fa2b3"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TSCh6haAG7SJViQ4myMyTsGufLUDNZ79Zo"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x971D07E192fD0B40FE735A645dbbDdAc4Da74Db8"
+        },
+        {
+            "coin": "usdc",
+            "network": "ERC20",
+            "address": "0x10c88e56748C67b3Eed6B27deb6DF37Aaf546c70"
+        },
+        {
+            "coin": "DOGE",
+            "network": "Dogecoin",
+            "address": "DEWpghu5fN3FZxG31WbZFxXEj7MJcSxXLr"
+        },
+        {
+            "coin": "BNB",
+            "network": "BNB Chain",
+            "address": "0x980aeEfa75Aa0D65089bc9dfBEfD262a0fC50a1C"
+        }
+    ],
+    "webapi.oba97is.com": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1qk94f93zl53ak40nfwwkr25xflft9ccd3ql4lgf"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x7713D1DE4a11729fA4B9b80952Cd144720D7a98d"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x7713D1DE4a11729fA4B9b80952Cd144720D7a98d"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TUs7CYd7ou2XFNFeyCSjisTSWVzkckpMmi"
+        },
+        {
+            "coin": "USDT",
+            "network": "Solana",
+            "address": "HwkQAcCMCPzQ1vTMU2mijg7NKuUFDiqxE15ZQp3h5Fw4"
+        },
+        {
+            "coin": "USDT",
+            "network": "BASE",
+            "address": "0x7713D1DE4a11729fA4B9b80952Cd144720D7a98d"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0x7713D1DE4a11729fA4B9b80952Cd144720D7a98d"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TUs7CYd7ou2XFNFeyCSjisTSWVzkckpMmi"
+        },
+        {
+            "coin": "usdc",
+            "network": "solana",
+            "address": "HwkQAcCMCPzQ1vTMU2mijg7NKuUFDiqxE15ZQp3h5Fw4"
+        },
+        {
+            "coin": "usdc",
+            "network": "BASE",
+            "address": "0x7713D1DE4a11729fA4B9b80952Cd144720D7a98d"
+        }
+    ],
+    "webapi.401k-invest.com": [
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0xf5Ef421eA8775DA961d28e8f25785F29e1439d0b"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TCpoUeeTE3z31vG8n6TBjtugxTTG9qHvMa"
+        },
+        {
+            "coin": "USDT",
+            "network": "BASE",
+            "address": "0xf5Ef421eA8775DA961d28e8f25785F29e1439d0b"
+        },
+        {
+            "coin": "usdc",
+            "network": "ERC20",
+            "address": "0xf5Ef421eA8775DA961d28e8f25785F29e1439d0b"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TCpoUeeTE3z31vG8n6TBjtugxTTG9qHvMa"
+        },
+        {
+            "coin": "usdc",
+            "network": "Solana",
+            "address": "6j3KyqL8Bx1K58ngKctkRGAB4L9oEGAyobeDpoUpW2ab"
+        },
+        {
+            "coin": "usdc",
+            "network": "BASE",
+            "address": "0xf5Ef421eA8775DA961d28e8f25785F29e1439d0b"
+        },
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "36NyKBzgimoLbGmG5xnx3NCVnveBY5r4FY"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xf5Ef421eA8775DA961d28e8f25785F29e1439d0b"
+        },
+        {
+            "coin": "ETH",
+            "network": "BASE",
+            "address": "0xf5Ef421eA8775DA961d28e8f25785F29e1439d0b"
+        }
+    ],
+    "webapi.gmo.band": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "123123"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "123123"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "123123"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "123123"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "123123"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "123123"
+        },
+        {
+            "coin": "DOGE",
+            "network": "Dogecoin",
+            "address": "123"
+        }
+    ],
+    "webapi.zeus1688dex.com": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1qzyvhc84kjpel3p67w3ddh64wvw67pn76weqk2s"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xdC2C2B82B67365703c38c96a906237E3AaB4C761"
+        },
+        {
+            "coin": "ETH",
+            "network": "BASE",
+            "address": "0xdC2C2B82B67365703c38c96a906237E3AaB4C761"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0xdC2C2B82B67365703c38c96a906237E3AaB4C761"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TKGS58zp6QgQM74dK4Zz7F1RMNn34ufHdz"
+        },
+        {
+            "coin": "USDT",
+            "network": "BASE",
+            "address": "0xdC2C2B82B67365703c38c96a906237E3AaB4C761"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0xdC2C2B82B67365703c38c96a906237E3AaB4C761"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TKGS58zp6QgQM74dK4Zz7F1RMNn34ufHdz"
+        },
+        {
+            "coin": "usdc",
+            "network": "BASE",
+            "address": "0xdC2C2B82B67365703c38c96a906237E3AaB4C761"
+        },
+        {
+            "coin": "XRP",
+            "network": "Ripple",
+            "address": "rwoBLRPEymG69nxTQ8XpJiKYx5JzS2ShYS"
+        }
+    ],
+    "webapi.adooo.cc": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "1KaCXSHeoabm3hPfgVa25ABxCg3CyqGUAv"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TRVcxrJzfq82JGnuDXveJ7QTMtMyYfq8Uu"
+        },
+        {
+            "coin": "USDT",
+            "network": "Base",
+            "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TRVcxrJzfq82JGnuDXveJ7QTMtMyYfq8Uu"
+        },
+        {
+            "coin": "usdc",
+            "network": "Base",
+            "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64"
+        },
+        {
+            "coin": "DOGE",
+            "network": "Dogecoin",
+            "address": "DMDm6ELwdz9AUHd2kGG6MZgTMapWfpj22y"
+        },
+        {
+            "coin": "XAUT",
+            "network": "xaut",
+            "address": "0xAc007d5537DAA891639Bf7AE6598ea96dA3f5d89"
+        }
+    ],
+    "webapi.bo1688aei.com": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1qcx9rnvzcfdvrqqcrylpdemujlw832vm6y0tn9k"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xefb4e04c1a1ae2e002a5f15c6a1444b1eee4d83b"
+        },
+        {
+            "coin": "ETH",
+            "network": "BASE",
+            "address": "0xefb4e04c1a1ae2e002a5f15c6a1444b1eee4d83b"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0xefb4e04c1a1ae2e002a5f15c6a1444b1eee4d83b"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TKPCSEw5rBtJ3SFkwYa4Sr3TjNL8raPWKi"
+        },
+        {
+            "coin": "USDT",
+            "network": "BASE",
+            "address": "0xefb4e04c1a1ae2e002a5f15c6a1444b1eee4d83b"
+        },
+        {
+            "coin": "USDT",
+            "network": "solana",
+            "address": "5n3bULbggcyi1s6PbfmcV67zAYLKXr3hv65PMvnQRVtp"
+        },
+        {
+            "coin": "usdc",
+            "network": "ERC20",
+            "address": "0xefb4e04c1a1ae2e002a5f15c6a1444b1eee4d83b"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TQW8bbrgeKpPZcZwMjLdRsuGtww44UXgE2"
+        },
+        {
+            "coin": "usdc",
+            "network": "BASE",
+            "address": "0xefb4e04c1a1ae2e002a5f15c6a1444b1eee4d83b"
+        },
+        {
+            "coin": "usdc",
+            "network": "solana",
+            "address": "5n3bULbggcyi1s6PbfmcV67zAYLKXr3hv65PMvnQRVtp"
+        },
+        {
+            "coin": "TRX",
+            "network": "TRC20",
+            "address": "TKPCSEw5rBtJ3SFkwYa4Sr3TjNL8raPWKi"
+        }
+    ],
+    "webapi.like1688fire.cc": [
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x70f5C49ac171CfC93C09070b0D1D7fd364F5e884"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TJv8iaqChhJPQqJyzpSTDfM9P2nMX34ZLd"
+        },
+        {
+            "coin": "USDT",
+            "network": "Base",
+            "address": "0x70f5C49ac171CfC93C09070b0D1D7fd364F5e884"
+        },
+        {
+            "coin": "USDT",
+            "network": "Solana",
+            "address": "7PCufyBNbcp2zQMZJzXXAu5DquAhMnznoZ4NPx3DzzfC"
+        },
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "3LyeZSXeTJs8CiXUNBBmHnAydUrysEKeUF"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x70f5C49ac171CfC93C09070b0D1D7fd364F5e884"
+        },
+        {
+            "coin": "ETH",
+            "network": "Base",
+            "address": "0x70f5C49ac171CfC93C09070b0D1D7fd364F5e884"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0x70f5C49ac171CfC93C09070b0D1D7fd364F5e884"
+        },
+        {
+            "coin": "usdc",
+            "network": "Base",
+            "address": "0x70f5C49ac171CfC93C09070b0D1D7fd364F5e884"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TJv8iaqChhJPQqJyzpSTDfM9P2nMX34ZLd"
+        },
+        {
+            "coin": "DOGE",
+            "network": "Dogecoin",
+            "address": "DT9WHuYViU7dc12oRFVmgif4UGZG8sGycm"
+        }
+    ],
+    "webapi.fxmode1688.com": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1qkx0fr8svkav5kx3jj9pvyjr4fk54gxfknlraqd"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x0ef6e9b846a066a1a371a2cb3f1f02acdbb22b89"
+        },
+        {
+            "coin": "ETH",
+            "network": "BASE",
+            "address": "0x0ef6e9b846a066a1a371a2cb3f1f02acdbb22b89"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x0ef6e9b846a066a1a371a2cb3f1f02acdbb22b89"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TPDobBnUSgrtGSwJdLsPKdDE2na717QQXQ"
+        },
+        {
+            "coin": "USDT",
+            "network": "Solana",
+            "address": "9hXgRMwvQyFtA73q4UxVuyhPG89Qup8V5MJftitXgpkV"
+        },
+        {
+            "coin": "USDT",
+            "network": "BASE",
+            "address": "0x0ef6e9b846a066a1a371a2cb3f1f02acdbb22b89"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0x0ef6e9b846a066a1a371a2cb3f1f02acdbb22b89"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TPDobBnUSgrtGSwJdLsPKdDE2na717QQXQ"
+        },
+        {
+            "coin": "usdc",
+            "network": "Solana",
+            "address": "9hXgRMwvQyFtA73q4UxVuyhPG89Qup8V5MJftitXgpkV"
+        },
+        {
+            "coin": "usdc",
+            "network": "BASE",
+            "address": "0x0ef6e9b846a066a1a371a2cb3f1f02acdbb22b89"
+        },
+        {
+            "coin": "XRP",
+            "network": "Ripple",
+            "address": "rJGe3ecXGZK4G2DeYCVbuv5aJwFwEnhtjG"
+        }
+    ],
+    "webapi.bezes.com": [
+        {
+            "coin": "BTC",
+            "network": "BTC",
+            "address": "bc1qvmz96rad9xcvvhpawgztqjhr2u46rgdsycn752"
+        },
+        {
+            "coin": "ETH",
+            "network": "ERC20",
+            "address": "0x1c1e8c31f0fac83e5e3d03e7a27f9433dd73f1d7"
+        },
+        {
+            "coin": "ETH",
+            "network": "BASE",
+            "address": "0x1c1e8c31f0fac83e5e3d03e7a27f9433dd73f1d7"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x1c1e8c31f0fac83e5e3d03e7a27f9433dd73f1d7"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TP4R6UZyQkX3h3Qcj63ZrmkKRtzC2B5Q5M"
+        },
+        {
+            "coin": "USDT",
+            "network": "BASE",
+            "address": "0x1c1e8c31f0fac83e5e3d03e7a27f9433dd73f1d7"
+        },
+        {
+            "coin": "USDT",
+            "network": "solana",
+            "address": "BHsjkeE9iUUkNUQaJq6jxz7tt8FPxKJzyirCqq25c3Cr"
+        },
+        {
+            "coin": "usdc",
+            "network": "ERC20",
+            "address": "0x1c1e8c31f0fac83e5e3d03e7a27f9433dd73f1d7"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TP4R6UZyQkX3h3Qcj63ZrmkKRtzC2B5Q5M"
+        },
+        {
+            "coin": "usdc",
+            "network": "BASE",
+            "address": "0x1c1e8c31f0fac83e5e3d03e7a27f9433dd73f1d7"
+        },
+        {
+            "coin": "usdc",
+            "network": "solana",
+            "address": "BHsjkeE9iUUkNUQaJq6jxz7tt8FPxKJzyirCqq25c3Cr"
+        },
+        {
+            "coin": "TRX",
+            "network": "TRC20",
+            "address": "TP4R6UZyQkX3h3Qcj63ZrmkKRtzC2B5Q5M"
+        }
+    ],
+    "webapi.growtrivo.org": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1pa908mcr99zwq8flgvycdhcu5gtgkkulr96klk8fvprlkvd0taseqnvxvw2"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": " 0xb87Ae0780307EB51f03E509079708e5489bD698C"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": " 0x36e7F721748f0BC60389d2E48Cd86C86383a1138"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TGepFKHHwn7Xtg85MHhJ5nfirHVDiZrWE4"
+        },
+        {
+            "coin": "USDT",
+            "network": "Solana",
+            "address": "AMAtYNBN5X4KBjzYWb3jhi3nVKJ9KsdK7F4btx1UKpjq"
+        },
+        {
+            "coin": "USDT",
+            "network": "Base",
+            "address": "0x36e7F721748f0BC60389d2E48Cd86C86383a1138"
+        },
+        {
+            "coin": "usdc",
+            "network": "ERC20",
+            "address": "0x36e7F721748f0BC60389d2E48Cd86C86383a1138"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TGepFKHHwn7Xtg85MHhJ5nfirHVDiZrWE4"
+        },
+        {
+            "coin": "usdc",
+            "network": "Solana",
+            "address": "AMAtYNBN5X4KBjzYWb3jhi3nVKJ9KsdK7F4btx1UKpjq"
+        },
+        {
+            "coin": "usdc",
+            "network": "Base",
+            "address": "0x36e7F721748f0BC60389d2E48Cd86C86383a1138"
+        },
+        {
+            "coin": "DOGE",
+            "network": "Dogecoin",
+            "address": "DMDm6ELwdz9AUHd2kGG6MZgTMapWfpj22y"
+        }
+    ],
+    "webapi.worldinvest.org": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1qp084z67uu4qat654zvlgchz55cwf6h430a3r92"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x904a7361441886d8deb1a3089d8be5377fb00337"
+        },
+        {
+            "coin": "ETH",
+            "network": "Base",
+            "address": "0x904a7361441886d8deb1a3089d8be5377fb00337"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x904a7361441886d8deb1a3089d8be5377fb00337"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TTsmHmZ6stWBWMigLzQ1bxpHqWdR7mKGpg"
+        },
+        {
+            "coin": "USDT",
+            "network": "Base",
+            "address": "0x904a7361441886d8deb1a3089d8be5377fb00337"
+        },
+        {
+            "coin": "USDT",
+            "network": "Solana",
+            "address": "8QzYLrANVwXrjXDvJBWSHUFg1F9JtVz6LGGeSCQLwma9"
+        },
+        {
+            "coin": "usdc",
+            "network": "ERC20",
+            "address": "0x904a7361441886d8deb1a3089d8be5377fb00337"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TTsmHmZ6stWBWMigLzQ1bxpHqWdR7mKGpg"
+        },
+        {
+            "coin": "usdc",
+            "network": "Base",
+            "address": "0x904a7361441886d8deb1a3089d8be5377fb00337"
+        },
+        {
+            "coin": "usdc",
+            "network": "Solana",
+            "address": "8QzYLrANVwXrjXDvJBWSHUFg1F9JtVz6LGGeSCQLwma9"
+        },
+        {
+            "coin": "DOGE",
+            "network": "Dogecoin",
+            "address": "DNVMNV1CJ681chwu3CH4fT4A65XYoXP4n4"
+        }
+    ]
+}
