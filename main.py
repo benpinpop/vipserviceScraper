@@ -2,7 +2,7 @@ import csv
 import json
 import time
 import uuid
-from settings import configuration
+from ENV import configuration
 import requests
 import coinaddrvalidator
 from threading import Thread
