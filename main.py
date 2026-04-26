@@ -2,16 +2,21 @@ import csv
 import json
 import time
 import uuid
-from ENV import configuration
+import os
 import requests
 import coinaddrvalidator
 from threading import Thread
 
+from dotenv import load_dotenv
+load_dotenv()
+
 SCAMBUSTERS_REPORTED_ENDPOINT = "https://scambuster.intelligenceforgood.org/api/check"
 URLSCAN_API_ENDPOINT = "https://urlscan.io/api/v1/result/"
 
-SCAM_BUSTERS_API_KEY = configuration['SCAM_BUSTERS_API_KEY']
-URL_SCAN_API_KEY = configuration['URL_SCAN_API_KEY']
+SCAM_BUSTERS_API_KEY = os.getenv('SCAM_BUSTERS_API_KEY')
+URL_SCAN_API_KEY = os.getenv('URL_SCAN_API_KEY')
+
+print('SCAM_BUSTERS_API_KEY:', SCAM_BUSTERS_API_KEY, URL_SCAN_API_KEY)
 
 def is_site_reported(site_url: str):
   headers = {"Authorization": f"Bearer {SCAM_BUSTERS_API_KEY}"}
@@ -244,6 +249,8 @@ def validate_wallets_from_full_extraction():
             full_data["web-apis"][api_domain]["wallets"] = validated_wallets
     
         return full_data
-                
+"""
 with open('logs/full_extraction_data_with_validations.json', mode='w', encoding='utf-8') as file:    
     json.dump(validate_wallets_from_full_extraction(), file, indent=4)
+
+"""           

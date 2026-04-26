@@ -1,13 +1,16 @@
 import json
-from ENV import configuration
 import os
 import time
 import requests
 
+from dotenv import load_dotenv
+load_dotenv()
+
 full_data = {}
 
 API_URL = "https://scambuster.intelligenceforgood.org/api/submit"
-API_KEY = os.environ["SCAMBUSTERS_API_KEY"]
+API_KEY = os.getenv("SCAMBUSTERS_API_KEY")
+
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
     "Content-Type": "application/json",
