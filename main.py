@@ -7,10 +7,9 @@ import requests
 import coinaddrvalidator
 from threading import Thread
 
-from wallet_validator import identifyWalletType
-
 SCAMBUSTERS_REPORTED_ENDPOINT = "https://scambuster.intelligenceforgood.org/api/check"
 URLSCAN_API_ENDPOINT = "https://urlscan.io/api/v1/result/"
+
 SCAM_BUSTERS_API_KEY = configuration['SCAM_BUSTERS_API_KEY']
 URL_SCAN_API_KEY = configuration['URL_SCAN_API_KEY']
 
