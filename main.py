@@ -4,7 +4,10 @@ import time
 import uuid
 from settings import configuration
 import requests
+import coinaddrvalidator
 from threading import Thread
+
+from wallet_validator import identifyWalletType
 
 SCAMBUSTERS_REPORTED_ENDPOINT = "https://scambuster.intelligenceforgood.org/api/check"
 URLSCAN_API_ENDPOINT = "https://urlscan.io/api/v1/result/"
@@ -180,22 +183,68 @@ def scrape_wallets_from_api(api_domain: str):
 
     return table
    
-api_to_wallet_table = {}
+def scrape_wallets_from_all_apis():
+    api_to_wallet_table = {}
 
-def main(api_domain):
     wallets = scrape_wallets_from_api(api_domain)
     api_to_wallet_table[api_domain] = wallets
-
-with open('logs/api_to_site.json', mode='r', encoding='utf-8') as file:
-    api_to_site = json.load(file)
-    threads = []
-    for api_domain, sites in api_to_site.items():
-        t = Thread(target=main, args=(api_domain,))
-        t.start()
-        threads.append(t)
-
-    for t in threads:
-        t.join()
         
-with open('logs/api_to_wallet_table.json', mode='w', encoding='utf-8') as file:
-        json.dump(api_to_wallet_table, file, indent=4)
+    with open('logs/api_to_site.json', mode='r', encoding='utf-8') as file:
+        api_to_site = json.load(file)
+        threads = []
+        for api_domain, sites in api_to_site.items():
+            t = Thread(target=main, args=(api_domain,))
+            t.start()
+            threads.append(t)
+
+        for t in threads:
+            t.join()
+            
+    with open('logs/api_to_wallet_table.json', mode='w', encoding='utf-8') as file:
+            json.dump(api_to_wallet_table, file, indent=4)
+
+wallet_whitelist = [
+"bc1pxu4ycqxslk0j3uxeeqhts3wme70gyrkvn5xv5xwmxzjhljlmxgvswt7r04", "bc1pa908mcr99zwq8flgvycdhcu5gtgkkulr96klk8fvprlkvd0taseqnvxvw2", "bc1pa908mcr99zwq8flgvycdhcu5gtgkkulr96klk8fvprlkvd0taseqnvxvw2", "0xb87Ae0780307EB51f03E509079708e5489bD698C", "0x36e7F721748f0BC60389d2E48Cd86C86383a1138"
+]
+
+def validate_wallets_from_full_extraction():
+    with open('logs/full_extraction_data.json', mode='r', encoding='utf-8') as file:
+        full_data = json.load(file)
+        web_apis = full_data.get("web-apis", {})
+        for api_domain, api_data in web_apis.items():
+            wallets = list(api_data.get("wallets", []))
+            validated_wallets = []
+
+            for wallet in wallets:
+                wallet_is_valid = False
+                wallet_is_supported = True
+                address = (wallet.get("address") or "").strip()
+                currency_name = (wallet.get("network") or "").lower()
+
+                if currency_name in ("solana", "ripple", "base", "xaut", "paxg"):
+                    wallet_is_supported = False
+
+                if address in wallet_whitelist:
+                    print('Skipping known valid address:', address)
+                    wallet_is_valid = True
+
+                if address and currency_name and not wallet_is_valid and wallet_is_supported:
+                    validation_result = coinaddrvalidator.validate(currency_name, address)
+                    wallet_is_valid = validation_result.valid
+                    print(f"Validating wallet address: {address} on network: {currency_name} - Result: {validation_result.valid}")
+
+                validated_wallets.append(
+                    {
+                        "address": address,
+                        "blockchain": wallet.get("coin"),
+                        "network": currency_name,
+                        "is_valid": wallet_is_valid,
+                        "is_supported": wallet_is_supported
+                    })
+
+            full_data["web-apis"][api_domain]["wallets"] = validated_wallets
+    
+        return full_data
+                
+with open('logs/full_extraction_data_with_validations.json', mode='w', encoding='utf-8') as file:    
+    json.dump(validate_wallets_from_full_extraction(), file, indent=4)
