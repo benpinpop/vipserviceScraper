@@ -16,6 +16,8 @@ URLSCAN_API_ENDPOINT = "https://urlscan.io/api/v1/result/"
 SCAM_BUSTERS_API_KEY = os.getenv('SCAM_BUSTERS_API_KEY')
 URL_SCAN_API_KEY = os.getenv('URL_SCAN_API_KEY')
 
+api_to_wallet_table = {}
+
 print('SCAM_BUSTERS_API_KEY:', SCAM_BUSTERS_API_KEY, URL_SCAN_API_KEY)
 
 def is_site_reported(site_url: str):
@@ -31,17 +33,17 @@ def is_site_reported(site_url: str):
      return True
   else:
      return False
-  
+    
 def extract_unique_domains(domainFileName: str, outputFileName: str):
    domainList = []
 
-   with open(domainFileName, mode='r', newline='', encoding='utf-8') as file:
+   with open("logs/urlscan_part2.csv", mode='r', newline='', encoding='utf-8') as file:
     reader = csv.reader(file)
     for row in reader:
-        if row[10] not in domainList:
-            domainList.append(row[10])
+        if row[1] not in domainList:
+            domainList.append(row[1])
             continue
-        print('Duplicate site:', row[10])
+        print('Duplicate site:', row[1])
 
     domainList.pop(0)
     print(len(domainList),domainList)
@@ -50,7 +52,7 @@ def extract_unique_domains(domainFileName: str, outputFileName: str):
         for site in domainList:
             file.write(site + '\n')
 
-def check_sites_reported_bulk(siteFileName: str, outputFileName: str):
+def check_sites_reported_bulk():
     isReported = []
     isUnreported = []
 
@@ -84,10 +86,10 @@ def get_unreported_sites():
         return [line.strip() for line in file]
     
 def get_uuid_from_unreported_site(site_url: str):
-    with open('logs/siteinfo.csv', mode='r', newline='', encoding='utf-8') as file:
+    with open('logs/urlscan.csv', mode='r', newline='', encoding='utf-8') as file:
         reader = csv.reader(file)
         for row in reader:
-            if row[10] == site_url:
+            if row[1] == site_url:
                 url = row[0]
                 url = url.replace("https://urlscan.io/result/", "")
                 return url
@@ -185,19 +187,16 @@ def scrape_wallets_from_api(api_domain: str):
                     "address": symbol_address
                 })
 
+    api_to_wallet_table[api_domain] = table
+
     return table
    
 def scrape_wallets_from_all_apis():
-    api_to_wallet_table = {}
-
-    wallets = scrape_wallets_from_api(api_domain)
-    api_to_wallet_table[api_domain] = wallets
-        
     with open('logs/api_to_site.json', mode='r', encoding='utf-8') as file:
         api_to_site = json.load(file)
         threads = []
-        for api_domain, sites in api_to_site.items():
-            t = Thread(target=main, args=(api_domain,))
+        for api_domain, _sites in api_to_site.items():
+            t = Thread(target=scrape_wallets_from_api, args=(api_domain,))
             t.start()
             threads.append(t)
 
@@ -221,12 +220,12 @@ def validate_wallets_from_full_extraction():
 
             for wallet in wallets:
                 wallet_is_valid = False
-                wallet_is_supported = True
+                wallet_is_supported = False
                 address = (wallet.get("address") or "").strip()
                 currency_name = (wallet.get("network") or "").lower()
 
-                if currency_name in ("solana", "ripple", "base", "xaut", "paxg"):
-                    wallet_is_supported = False
+                if currency_name in ('ada', 'arb', 'avax', 'bch', 'bsc', 'btc', 'dash', 'doge', 'eth', 'ltc', 'matic', 'op', 'trx'):
+                    wallet_is_supported = True
 
                 if address in wallet_whitelist:
                     print('Skipping known valid address:', address)
@@ -248,9 +247,93 @@ def validate_wallets_from_full_extraction():
 
             full_data["web-apis"][api_domain]["wallets"] = validated_wallets
     
-        return full_data
-"""
-with open('logs/full_extraction_data_with_validations.json', mode='w', encoding='utf-8') as file:    
-    json.dump(validate_wallets_from_full_extraction(), file, indent=4)
+    with open('logs/submit_data.json', mode='w', encoding='utf-8') as file:    
+        json.dump(full_data, file, indent=4)
 
-"""           
+def create_full_extraction_data():
+    api_to_wallet_table = {}
+    api_to_site = {}
+
+    # Full Schema
+    """
+    webapi = {
+        "correlated-sites:" {
+            "sitename": {
+                "uuid":"unique identifier",
+            }
+        },
+        "wallets": {},
+    },
+    unidentified-apis: {
+        web-api: []
+    }
+    """
+
+    web_apis = {}
+    unidentified_apis = []
+
+    with open("logs/api_to_wallet_table.json") as file:
+        api_to_wallet_table = json.load(file)
+
+    with open("logs/api_to_site.json") as file:
+        api_to_site = json.load(file)
+
+    for api, wallets in api_to_wallet_table.items():
+        web_apis[api] = {
+            "correlated-sites": api_to_site.get(api, {}),
+            "wallets": wallets
+        }
+
+    for api, site_data in api_to_site.items():
+        if api not in web_apis:
+            web_apis[api] = {
+                "correlated-sites": site_data,
+                "wallets": {},
+                "unidentified-api": True
+            }
+
+            unidentified_apis.append(api)
+
+    full_data = {
+        "web-apis": web_apis,
+        "unidentified-apis": unidentified_apis
+    }
+
+    with open("logs/full_extraction_data.json", "w") as file:
+        json.dump(full_data, file, indent=4)
+
+def filter_site_duplicates():
+    old_site_to_api = {}
+    with open('logs/_run1/2a_unreported.txt', mode='r', newline='', encoding='utf-8') as file:
+        old_site_to_api = file.read().splitlines()
+
+
+    genuine_new_sites = []
+
+    with open('logs/unreported.txt', mode='r', newline='', encoding='utf-8') as file:
+        new_unreported_sites = file.read().splitlines()
+
+        for line in new_unreported_sites:
+            if line not in old_site_to_api:
+                genuine_new_sites.append(line)
+                print('New unreported site:', line)
+            else:
+                print('Duplicate unreported site:', line)
+
+    with open('logs/genuine_new_unreported.txt', mode='w', encoding='utf-8') as file:
+        for site in genuine_new_sites:
+            file.write(site + '\n')
+
+
+def main():
+    # extract_unique_domains('logs/urlscan.csv', 'logs/filteredDomains.txt')
+    # check_sites_reported_bulk()
+    # get_webapi_from_site()
+    # create_json_of_web_apis_to_sites()
+    # scrape_wallets_from_all_apis()
+    # create_full_extraction_data()
+    validate_wallets_from_full_extraction()
+
+
+
+main()

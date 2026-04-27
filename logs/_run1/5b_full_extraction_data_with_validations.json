@@ -8,14 +8,14 @@
                 {
                     "address": "bc1pwjmeh3jfuheladkgh6dhn476cd36kfl7qnxr9vwuhafqlztdjv7s6s4rzm",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x0b933B7C3004C284eDCBD4EEe23DAE5bacB166a4",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -65,14 +65,14 @@
                 {
                     "address": "bc1qd84mvjtle02l2ch5xpzk3xvnl04ddud0xgnj3n",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x99d1A3e3Cf432CE23bBA5dF198ae67651b18AD5F",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -100,7 +100,7 @@
                 {
                     "address": "3Nuo12ABHdQ859YsSvpLGwZ4iBSJ6DK1MP",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -151,14 +151,14 @@
                 {
                     "address": "1JJ9qA69kQsEStEUuP3AfUEnUwgfUai4YV",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0xE766A5b094E6A2A07c0953f4c8DDfAD55dAa437b",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -179,7 +179,7 @@
                 {
                     "address": "0xE766A5b094E6A2A07c0953f4c8DDfAD55dAa437b",
                     "blockchain": "usdc",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -204,14 +204,14 @@
                 {
                     "address": "36GvxShv5WZhEuAzw52bNpm19sgmpquN2H",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0xa6F80E7B4eC48c64Dd2124deCB58753ae678C879",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -232,7 +232,7 @@
                 {
                     "address": "0xa6F80E7B4eC48c64Dd2124deCB58753ae678C879",
                     "blockchain": "usdc",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -272,21 +272,21 @@
                 {
                     "address": "bc1pxu4ycqxslk0j3uxeeqhts3wme70gyrkvn5xv5xwmxzjhljlmxgvswt7r04",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x025685aD636c9FbaD585b1B7e2612883c25DB55A",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x025685aD636c9FbaD585b1B7e2612883c25DB55A",
                     "blockchain": "usdc",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -323,14 +323,14 @@
                 {
                     "address": "3CJWSJXt4eoFnposJ1wb7h9Y1eMXFNdRza",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -358,7 +358,7 @@
                 {
                     "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19",
                     "blockchain": "PAXG",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 }
@@ -372,14 +372,14 @@
                 {
                     "address": "bc1qqzzp2z08kuff4fmumy9n67qcf0dg02vqrtsnzz",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0xE758230e112898C411F63A839800E34cB6919830",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -407,7 +407,7 @@
                 {
                     "address": "0xE758230e112898C411F63A839800E34cB6919830",
                     "blockchain": "usdc",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -428,7 +428,7 @@
                 {
                     "address": "123",
                     "blockchain": "DOGE",
-                    "network": "dogecoin",
+                    "network": "doge",
                     "is_valid": false,
                     "is_supported": true
                 }
@@ -442,14 +442,14 @@
                 {
                     "address": "17Zox3nVxVJxHZ31sG6jgaq5QvBvrqDJCj",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0xdA08b5a2a53f75a79155bBDABEB47A8C424fa2b3",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -477,14 +477,14 @@
                 {
                     "address": "DEWpghu5fN3FZxG31WbZFxXEj7MJcSxXLr",
                     "blockchain": "DOGE",
-                    "network": "dogecoin",
+                    "network": "doge",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x980aeEfa75Aa0D65089bc9dfBEfD262a0fC50a1C",
                     "blockchain": "BNB",
-                    "network": "bnb chain",
+                    "network": "bsc",
                     "is_valid": true,
                     "is_supported": true
                 }
@@ -513,14 +513,14 @@
                 {
                     "address": "3ARcWAMYzfbDq3VauMaLebQQzgq89gzNP2",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -541,7 +541,7 @@
                 {
                     "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767",
                     "blockchain": "usdc",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 }
@@ -558,14 +558,14 @@
                 {
                     "address": "17Zox3nVxVJxHZ31sG6jgaq5QvBvrqDJCj",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0xdA08b5a2a53f75a79155bBDABEB47A8C424fa2b3",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -593,14 +593,14 @@
                 {
                     "address": "DEWpghu5fN3FZxG31WbZFxXEj7MJcSxXLr",
                     "blockchain": "DOGE",
-                    "network": "dogecoin",
+                    "network": "doge",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x980aeEfa75Aa0D65089bc9dfBEfD262a0fC50a1C",
                     "blockchain": "BNB",
-                    "network": "bnb chain",
+                    "network": "bsc",
                     "is_valid": true,
                     "is_supported": true
                 }
@@ -616,14 +616,14 @@
                 {
                     "address": "bc1qk94f93zl53ak40nfwwkr25xflft9ccd3ql4lgf",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x7713D1DE4a11729fA4B9b80952Cd144720D7a98d",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -658,7 +658,7 @@
                 {
                     "address": "0x7713D1DE4a11729fA4B9b80952Cd144720D7a98d",
                     "blockchain": "usdc",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -743,14 +743,14 @@
                 {
                     "address": "36NyKBzgimoLbGmG5xnx3NCVnveBY5r4FY",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0xf5Ef421eA8775DA961d28e8f25785F29e1439d0b",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -776,14 +776,14 @@
                 {
                     "address": "123123",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": false,
                     "is_supported": true
                 },
                 {
                     "address": "123123",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": false,
                     "is_supported": true
                 },
@@ -804,7 +804,7 @@
                 {
                     "address": "123123",
                     "blockchain": "usdc",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": false,
                     "is_supported": true
                 },
@@ -818,7 +818,7 @@
                 {
                     "address": "123",
                     "blockchain": "DOGE",
-                    "network": "dogecoin",
+                    "network": "doge",
                     "is_valid": false,
                     "is_supported": true
                 }
@@ -832,14 +832,14 @@
                 {
                     "address": "bc1qzyvhc84kjpel3p67w3ddh64wvw67pn76weqk2s",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0xdC2C2B82B67365703c38c96a906237E3AaB4C761",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -874,7 +874,7 @@
                 {
                     "address": "0xdC2C2B82B67365703c38c96a906237E3AaB4C761",
                     "blockchain": "usdc",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -911,14 +911,14 @@
                 {
                     "address": "1KaCXSHeoabm3hPfgVa25ABxCg3CyqGUAv",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -946,7 +946,7 @@
                 {
                     "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64",
                     "blockchain": "usdc",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -967,7 +967,7 @@
                 {
                     "address": "DMDm6ELwdz9AUHd2kGG6MZgTMapWfpj22y",
                     "blockchain": "DOGE",
-                    "network": "dogecoin",
+                    "network": "doge",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -996,14 +996,14 @@
                 {
                     "address": "bc1qcx9rnvzcfdvrqqcrylpdemujlw832vm6y0tn9k",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0xefb4e04c1a1ae2e002a5f15c6a1444b1eee4d83b",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -1115,14 +1115,14 @@
                 {
                     "address": "3LyeZSXeTJs8CiXUNBBmHnAydUrysEKeUF",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x70f5C49ac171CfC93C09070b0D1D7fd364F5e884",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -1136,7 +1136,7 @@
                 {
                     "address": "0x70f5C49ac171CfC93C09070b0D1D7fd364F5e884",
                     "blockchain": "usdc",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -1157,7 +1157,7 @@
                 {
                     "address": "DT9WHuYViU7dc12oRFVmgif4UGZG8sGycm",
                     "blockchain": "DOGE",
-                    "network": "dogecoin",
+                    "network": "doge",
                     "is_valid": true,
                     "is_supported": true
                 }
@@ -1172,14 +1172,14 @@
                 {
                     "address": "bc1qkx0fr8svkav5kx3jj9pvyjr4fk54gxfknlraqd",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x0ef6e9b846a066a1a371a2cb3f1f02acdbb22b89",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -1221,7 +1221,7 @@
                 {
                     "address": "0x0ef6e9b846a066a1a371a2cb3f1f02acdbb22b89",
                     "blockchain": "usdc",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -1362,14 +1362,14 @@
                 {
                     "address": "bc1pa908mcr99zwq8flgvycdhcu5gtgkkulr96klk8fvprlkvd0taseqnvxvw2",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0xb87Ae0780307EB51f03E509079708e5489bD698C",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -1432,7 +1432,7 @@
                 {
                     "address": "DMDm6ELwdz9AUHd2kGG6MZgTMapWfpj22y",
                     "blockchain": "DOGE",
-                    "network": "dogecoin",
+                    "network": "doge",
                     "is_valid": true,
                     "is_supported": true
                 }
@@ -1450,14 +1450,14 @@
                 {
                     "address": "bc1qp084z67uu4qat654zvlgchz55cwf6h430a3r92",
                     "blockchain": "BTC",
-                    "network": "bitcoin",
+                    "network": "btc",
                     "is_valid": true,
                     "is_supported": true
                 },
                 {
                     "address": "0x904a7361441886d8deb1a3089d8be5377fb00337",
                     "blockchain": "ETH",
-                    "network": "ethereum",
+                    "network": "eth",
                     "is_valid": true,
                     "is_supported": true
                 },
@@ -1527,7 +1527,7 @@
                 {
                     "address": "DNVMNV1CJ681chwu3CH4fT4A65XYoXP4n4",
                     "blockchain": "DOGE",
-                    "network": "dogecoin",
+                    "network": "doge",
                     "is_valid": true,
                     "is_supported": true
                 }

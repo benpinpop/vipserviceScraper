@@ -1,0 +1,348 @@
+{
+    "webapi.elleves138ta.com": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1pnjzvz03epwjnpfqljgmxl6nk7ht8x08qttk2k9vraged07r97a6sglxg7m"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x13Bc485EFf2268307F50C2E21D02d65Ba12B9071"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TDKh3rk45L7WcVQJpYKu6QR9qPKck2coUj"
+        }
+    ],
+    "webapi.atomany.vip": [
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x025685aD636c9FbaD585b1B7e2612883c25DB55A"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TDVewoDu4btrMvqHH12MFagMcaQ9uQ9xSs"
+        },
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1pxu4ycqxslk0j3uxeeqhts3wme70gyrkvn5xv5xwmxzjhljlmxgvswt7r04"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x025685aD636c9FbaD585b1B7e2612883c25DB55A"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0x025685aD636c9FbaD585b1B7e2612883c25DB55A"
+        },
+        {
+            "coin": "usdc",
+            "network": "trc20",
+            "address": "TDVewoDu4btrMvqHH12MFagMcaQ9uQ9xSs"
+        },
+        {
+            "coin": "XRP",
+            "network": "Ripple\uff08XRP\uff09",
+            "address": "rHSq1w1dGyBv8c4HeMh6X1JuUgzagGHCSk"
+        },
+        {
+            "coin": "SOL",
+            "network": "Solana\uff08SOL\uff09",
+            "address": "Fe6L9KzKemzmiHfFuFXDt7GQuwEiH3RHeBYeVSWDrhyc"
+        }
+    ],
+    "webapi.were137wolfs.com": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "19uffSR5cfKNecLKSw7xNKLUYfqxUn6ghF"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x559DE2119D1841fcC209021780859c60c65871af"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x559DE2119D1841fcC209021780859c60c65871af"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TNyiYV7qDh4kpTGoFSoGYmsnkxV1QyV6bZ"
+        },
+        {
+            "coin": "USDT",
+            "network": "solana",
+            "address": "BvrX3YqTqpjAhNg5n3e4EYox4Lt44ej9pVAGgyMxwv4r"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0x559DE2119D1841fcC209021780859c60c65871af"
+        },
+        {
+            "coin": "usdc",
+            "network": "solana",
+            "address": "BvrX3YqTqpjAhNg5n3e4EYox4Lt44ej9pVAGgyMxwv4r"
+        },
+        {
+            "coin": "SOL",
+            "network": "Solana",
+            "address": "BvrX3YqTqpjAhNg5n3e4EYox4Lt44ej9pVAGgyMxwv4r"
+        }
+    ],
+    "webapi.rh2873k.vip": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "bc1qqzzp2z08kuff4fmumy9n67qcf0dg02vqrtsnzz"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xE758230e112898C411F63A839800E34cB6919830"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0xE758230e112898C411F63A839800E34cB6919830"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TXokyRLGTMhfTh7BMBXiNg9Tahc4gFgF4m"
+        },
+        {
+            "coin": "USDT",
+            "network": "solana",
+            "address": "N9JF6KmWhXn6LgjFCJ7jMHnXbS4fJMyZ5w2vjgipLF4"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0xE758230e112898C411F63A839800E34cB6919830"
+        },
+        {
+            "coin": "usdc",
+            "network": "TRC20",
+            "address": "TXokyRLGTMhfTh7BMBXiNg9Tahc4gFgF4m"
+        },
+        {
+            "coin": "usdc",
+            "network": "solana",
+            "address": "N9JF6KmWhXn6LgjFCJ7jMHnXbS4fJMyZ5w2vjgipLF4"
+        },
+        {
+            "coin": "SOL",
+            "network": "Solana",
+            "address": "N9JF6KmWhXn6LgjFCJ7jMHnXbS4fJMyZ5w2vjgipLF4"
+        },
+        {
+            "coin": "DOGE",
+            "network": "Dogecoin",
+            "address": "123"
+        },
+        {
+            "coin": "XRP",
+            "network": "Ripple",
+            "address": "123123"
+        }
+    ],
+    "webapi.goldocket1688.vip": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "17Zox3nVxVJxHZ31sG6jgaq5QvBvrqDJCj"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xdA08b5a2a53f75a79155bBDABEB47A8C424fa2b3"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TSCh6haAG7SJViQ4myMyTsGufLUDNZ79Zo"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x971D07E192fD0B40FE735A645dbbDdAc4Da74Db8"
+        },
+        {
+            "coin": "usdc",
+            "network": "ERC20",
+            "address": "0x10c88e56748C67b3Eed6B27deb6DF37Aaf546c70"
+        },
+        {
+            "coin": "SOL",
+            "network": "Solana",
+            "address": "9mHBdzfpY6HcFXX8sB8o5Q9tZVFvGMQFK1ujaR36SWSf"
+        },
+        {
+            "coin": "DOGE",
+            "network": "Dogecoin",
+            "address": "DEWpghu5fN3FZxG31WbZFxXEj7MJcSxXLr"
+        },
+        {
+            "coin": "XRP",
+            "network": "Ripple",
+            "address": "rEzpxXf6GDx4axpQsTJ8tSs28cCkUtz3hV"
+        },
+        {
+            "coin": "BNB",
+            "network": "BNB Chain",
+            "address": "0x980aeEfa75Aa0D65089bc9dfBEfD262a0fC50a1C"
+        }
+    ],
+    "webapi.rocketinvest.com": [
+        {
+            "coin": "XRP",
+            "network": "Ripple",
+            "address": "rn6EbY3n3zQWgvgg8NtRcEF4o3oj7u2npq"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TPcCfAb42XxBRyMfECDVsdpnyYtvXaR2E2"
+        },
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "3ARcWAMYzfbDq3VauMaLebQQzgq89gzNP2"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767"
+        },
+        {
+            "coin": "ETH",
+            "network": "Base",
+            "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767"
+        },
+        {
+            "coin": "usdc",
+            "network": "Base",
+            "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767"
+        },
+        {
+            "coin": "usdc",
+            "network": "Ethereum",
+            "address": "0x53dBd0d862D826c408d26cE1310D7F5F980c2767"
+        },
+        {
+            "coin": "SOL",
+            "network": "Solana",
+            "address": "7LsK6hSHVi8kD6BZATJckPyn49BzHrofGS9eeYC3B2Kn"
+        }
+    ],
+    "webapi.goldpocket.com": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "17Zox3nVxVJxHZ31sG6jgaq5QvBvrqDJCj"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xdA08b5a2a53f75a79155bBDABEB47A8C424fa2b3"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TSCh6haAG7SJViQ4myMyTsGufLUDNZ79Zo"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0x971D07E192fD0B40FE735A645dbbDdAc4Da74Db8"
+        },
+        {
+            "coin": "usdc",
+            "network": "ERC20",
+            "address": "0x10c88e56748C67b3Eed6B27deb6DF37Aaf546c70"
+        },
+        {
+            "coin": "SOL",
+            "network": "Solana",
+            "address": "9mHBdzfpY6HcFXX8sB8o5Q9tZVFvGMQFK1ujaR36SWSf"
+        },
+        {
+            "coin": "DOGE",
+            "network": "Dogecoin",
+            "address": "DEWpghu5fN3FZxG31WbZFxXEj7MJcSxXLr"
+        },
+        {
+            "coin": "XRP",
+            "network": "Ripple",
+            "address": "rEzpxXf6GDx4axpQsTJ8tSs28cCkUtz3hV"
+        },
+        {
+            "coin": "BNB",
+            "network": "BNB Chain",
+            "address": "0x980aeEfa75Aa0D65089bc9dfBEfD262a0fC50a1C"
+        }
+    ],
+    "webapi.keeta.bz": [
+        {
+            "coin": "BTC",
+            "network": "BitCoin",
+            "address": "3CJWSJXt4eoFnposJ1wb7h9Y1eMXFNdRza"
+        },
+        {
+            "coin": "ETH",
+            "network": "Ethereum",
+            "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19"
+        },
+        {
+            "coin": "USDT",
+            "network": "ERC20",
+            "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19"
+        },
+        {
+            "coin": "USDT",
+            "network": "TRC20",
+            "address": "TYpHobemhvsgKNBEx2Lud5bzw2dzkfdALB"
+        },
+        {
+            "coin": "USDC",
+            "network": "ERC20",
+            "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19"
+        },
+        {
+            "coin": "USDC",
+            "network": "BASE",
+            "address": "1"
+        },
+        {
+            "coin": "SOL",
+            "network": "Solana",
+            "address": "HDW8HrjtLMYAAeZWwEfMcqHvPmv2Hk1cE5u45ymLfdzL"
+        },
+        {
+            "coin": "PAXG",
+            "network": "Ethereum",
+            "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19"
+        },
+        {
+            "coin": "XRP",
+            "network": "Ripple",
+            "address": "rp71TmGkv2UvXVJC1M2BWvBjwaEgNimT5d"
+        }
+    ]
+}
