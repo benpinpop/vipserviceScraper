@@ -1,5 +1,34 @@
 {
     "web-apis": {
+        "webapi.elleves138ta.com": {
+            "correlated-sites": {
+                "ellevesta.org": "019ca607-7646-7530-8358-fa5b335e7ae8/",
+                "ellevesta.net": "019ca604-91a1-747a-9f3d-a2e44589e1f5/"
+            },
+            "wallets": [
+                {
+                    "address": "bc1pnjzvz03epwjnpfqljgmxl6nk7ht8x08qttk2k9vraged07r97a6sglxg7m",
+                    "blockchain": "BTC",
+                    "network": "btc",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "0x13Bc485EFf2268307F50C2E21D02d65Ba12B9071",
+                    "blockchain": "ETH",
+                    "network": "eth",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "TDKh3rk45L7WcVQJpYKu6QR9qPKck2coUj",
+                    "blockchain": "USDT",
+                    "network": "trx",
+                    "is_valid": true,
+                    "is_supported": true
+                }
+            ]
+        },
         "webapi.atomany.vip": {
             "correlated-sites": {
                 "atomany.xyz": "0198480d-cca9-71a8-ba8c-3f2b9de14d0d/",

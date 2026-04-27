@@ -10,7 +10,7 @@
                     "address": "bc1pnjzvz03epwjnpfqljgmxl6nk7ht8x08qttk2k9vraged07r97a6sglxg7m",
                     "blockchain": "BTC",
                     "network": "btc",
-                    "is_valid": false,
+                    "is_valid": true,
                     "is_supported": true
                 },
                 {
