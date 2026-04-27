@@ -326,14 +326,12 @@ def filter_site_duplicates():
 
 
 def main():
-    # extract_unique_domains('logs/urlscan.csv', 'logs/filteredDomains.txt')
-    # check_sites_reported_bulk()
-    # get_webapi_from_site()
-    # create_json_of_web_apis_to_sites()
-    # scrape_wallets_from_all_apis()
-    # create_full_extraction_data()
+    extract_unique_domains('logs/urlscan.csv', 'logs/filteredDomains.txt')
+    check_sites_reported_bulk()
+    get_webapi_from_site()
+    create_json_of_web_apis_to_sites()
+    scrape_wallets_from_all_apis()
+    create_full_extraction_data()
     validate_wallets_from_full_extraction()
-
-
 
 main()
