@@ -1,3 +1,3 @@
 import main
 
-main.is_site_reported("ellevesta.org")
+main.scrape_wallets_from_api("api.bitzeo.sbs")

@@ -12,6 +12,7 @@ load_dotenv()
 
 SCAMBUSTERS_REPORTED_ENDPOINT = "https://scambuster.intelligenceforgood.org/api/check"
 URLSCAN_API_ENDPOINT = "https://urlscan.io/api/v1/result/"
+URLSCAN_SCAN_ENDPOINT = "https://urlscan.io/api/v1/scan/"
 
 SCAM_BUSTERS_API_KEY = os.getenv('SCAM_BUSTERS_API_KEY')
 URL_SCAN_API_KEY = os.getenv('URL_SCAN_API_KEY')
@@ -40,10 +41,11 @@ def extract_unique_domains(domainFileName: str, outputFileName: str):
    with open("logs/urlscan.csv", mode='r', newline='', encoding='utf-8') as file:
     reader = csv.reader(file)
     for row in reader:
-        if row[1] not in domainList:
-            domainList.append(row[1])
+        print(row)
+        if row[21] not in domainList:
+            domainList.append(row[21])
             continue
-        print('Duplicate site:', row[1])
+        print('Duplicate site:', row[21])
 
     domainList.pop(0)
     print(len(domainList),domainList)
@@ -81,6 +83,15 @@ def get_urlscan_result(uuid: str):
     response.raise_for_status()
     return response.json()
 
+def scan_website_with_urlscan(site_url: str):
+    payload = {
+        "url": site_url,
+        "public": "on"
+    }
+    response = requests.post(URLSCAN_SCAN_ENDPOINT, json=payload, headers={"api-key": URL_SCAN_API_KEY}, timeout=30)
+    response.raise_for_status()
+    return response.json()
+
 def get_unreported_sites():
     with open('logs/unreported.txt', mode='r', newline='', encoding='utf-8') as file:
         return [line.strip() for line in file]
@@ -89,8 +100,8 @@ def get_uuid_from_unreported_site(site_url: str):
     with open('logs/urlscan.csv', mode='r', newline='', encoding='utf-8') as file:
         reader = csv.reader(file)
         for row in reader:
-            if row[1] == site_url:
-                url = row[0]
+            if row[21] == site_url:
+                url = row[8]
                 url = url.replace("https://urlscan.io/result/", "")
                 return url
 
@@ -140,6 +151,10 @@ def create_json_of_web_apis_to_sites():
         json.dump(api_to_site, file, indent=4)
 
 def scrape_wallets_from_api(api_domain: str):
+    if api_domain == "UNKNOWN":
+        print('Skipping UNKNOWN API domain')
+        return
+
     API_URL = "https://" + api_domain + "/api/common/getAssetList"
 
     """
@@ -279,6 +294,18 @@ def create_full_extraction_data():
         api_to_site = json.load(file)
 
     for api, wallets in api_to_wallet_table.items():
+        for wallet in wallets:
+            if wallet.get("network").lower() == "bitcoin":
+                wallet["network"] = "btc"
+            elif wallet.get("network").lower() == "ethereum" or wallet.get("network").lower() == "erc20":
+                wallet["network"] = "eth"
+            elif wallet.get("network").lower() == "bnb chain":
+                wallet["network"] = "bsc"
+            elif wallet.get("network").lower() == "trc20":
+                wallet["network"] = "trx"
+            elif wallet.get("network").lower() == "dogecoin":
+                wallet["network"] = "doge"
+
         web_apis[api] = {
             "correlated-sites": api_to_site.get(api, {}),
             "wallets": wallets
@@ -333,3 +360,5 @@ def main():
     scrape_wallets_from_all_apis()
     create_full_extraction_data()
     validate_wallets_from_full_extraction()
+
+main()

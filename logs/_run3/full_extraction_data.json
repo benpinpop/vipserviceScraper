@@ -1,0 +1,104 @@
+{
+    "web-apis": {
+        "webapi.taostinworks.com": {
+            "correlated-sites": {
+                "cmepc.art": "019dd19a-3faa-72af-aa5c-afd9ce0e3e7c/"
+            },
+            "wallets": [
+                {
+                    "coin": "BTC",
+                    "network": "btc",
+                    "address": "bc1q2k78sss9gygnexrqutwkaa3cjdhggyjy0907aa"
+                },
+                {
+                    "coin": "ETH",
+                    "network": "eth",
+                    "address": "0x3980A5708C15D75F258A65Da783f49329C1917D2"
+                },
+                {
+                    "coin": "USDT",
+                    "network": "eth",
+                    "address": "0x84402cd9b6F55471a6501FbF9D43997cb3E6e40A"
+                },
+                {
+                    "coin": "USDC",
+                    "network": "eth",
+                    "address": "0x0f25C716d4bEFAE6394E0507901dF0dE7771A793"
+                },
+                {
+                    "coin": "SOL",
+                    "network": "Solana",
+                    "address": "4iKeRS6NxdLDbaq2CmZGSATQwLgB1d3CwVzxBuyY7P3z"
+                },
+                {
+                    "coin": "XRP",
+                    "network": "Ripple",
+                    "address": "rBBgqPE2VJRSe5riJ1uLibfGa3BscHmEs9"
+                }
+            ]
+        },
+        "webapi.gchain1688fi.com": {
+            "correlated-sites": {
+                "lambvdx.com": "019dd198-41b6-736d-9e90-cf1b0d33577e/"
+            },
+            "wallets": [
+                {
+                    "coin": "BTC",
+                    "network": "btc",
+                    "address": "bc1q3nthpl68v60v0gzp7hl67pfeurcpqlpzed5tm2"
+                },
+                {
+                    "coin": "ETH",
+                    "network": "eth",
+                    "address": "0x33cff79D8E70232B040eC1c597115df21aa7015a"
+                },
+                {
+                    "coin": "USDT",
+                    "network": "eth",
+                    "address": "0x33cff79D8E70232B040eC1c597115df21aa7015a"
+                },
+                {
+                    "coin": "USDT",
+                    "network": "trx",
+                    "address": "TEjmTqrjc7rVF2BKepQJfajxq4RMjtg9u3"
+                },
+                {
+                    "coin": "USDT",
+                    "network": "solana",
+                    "address": "6rzF487aJCziBdLxgbtsjaKWpFtpTrKLHkGAgivQE3Nt"
+                },
+                {
+                    "coin": "usdc",
+                    "network": "eth",
+                    "address": "0x33cff79D8E70232B040eC1c597115df21aa7015a"
+                },
+                {
+                    "coin": "usdc",
+                    "network": "solana",
+                    "address": "6rzF487aJCziBdLxgbtsjaKWpFtpTrKLHkGAgivQE3Nt"
+                },
+                {
+                    "coin": "SOL",
+                    "network": "solana",
+                    "address": "6rzF487aJCziBdLxgbtsjaKWpFtpTrKLHkGAgivQE3Nt"
+                },
+                {
+                    "coin": "TRX",
+                    "network": "trx",
+                    "address": "TEjmTqrjc7rVF2BKepQJfajxq4RMjtg9u3"
+                }
+            ]
+        },
+        "UNKNOWN": {
+            "correlated-sites": {
+                "vantage-tw.com": "019dd198-470e-71c9-b361-0a6eb8359a37/",
+                "lmaxproys.com": "019dd198-4be9-736c-a127-941ab061c566/"
+            },
+            "wallets": {},
+            "unidentified-api": true
+        }
+    },
+    "unidentified-apis": [
+        "UNKNOWN"
+    ]
+}

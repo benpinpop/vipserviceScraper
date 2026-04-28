@@ -1,0 +1,134 @@
+{
+    "web-apis": {
+        "webapi.taostinworks.com": {
+            "correlated-sites": {
+                "cmepc.art": "019dd19a-3faa-72af-aa5c-afd9ce0e3e7c/"
+            },
+            "wallets": [
+                {
+                    "address": "bc1q2k78sss9gygnexrqutwkaa3cjdhggyjy0907aa",
+                    "blockchain": "BTC",
+                    "network": "btc",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "0x3980A5708C15D75F258A65Da783f49329C1917D2",
+                    "blockchain": "ETH",
+                    "network": "eth",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "0x84402cd9b6F55471a6501FbF9D43997cb3E6e40A",
+                    "blockchain": "USDT",
+                    "network": "eth",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "0x0f25C716d4bEFAE6394E0507901dF0dE7771A793",
+                    "blockchain": "USDC",
+                    "network": "eth",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "4iKeRS6NxdLDbaq2CmZGSATQwLgB1d3CwVzxBuyY7P3z",
+                    "blockchain": "SOL",
+                    "network": "solana",
+                    "is_valid": false,
+                    "is_supported": false
+                },
+                {
+                    "address": "rBBgqPE2VJRSe5riJ1uLibfGa3BscHmEs9",
+                    "blockchain": "XRP",
+                    "network": "ripple",
+                    "is_valid": false,
+                    "is_supported": false
+                }
+            ]
+        },
+        "webapi.gchain1688fi.com": {
+            "correlated-sites": {
+                "lambvdx.com": "019dd198-41b6-736d-9e90-cf1b0d33577e/"
+            },
+            "wallets": [
+                {
+                    "address": "bc1q3nthpl68v60v0gzp7hl67pfeurcpqlpzed5tm2",
+                    "blockchain": "BTC",
+                    "network": "btc",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "0x33cff79D8E70232B040eC1c597115df21aa7015a",
+                    "blockchain": "ETH",
+                    "network": "eth",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "0x33cff79D8E70232B040eC1c597115df21aa7015a",
+                    "blockchain": "USDT",
+                    "network": "eth",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "TEjmTqrjc7rVF2BKepQJfajxq4RMjtg9u3",
+                    "blockchain": "USDT",
+                    "network": "trx",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "6rzF487aJCziBdLxgbtsjaKWpFtpTrKLHkGAgivQE3Nt",
+                    "blockchain": "USDT",
+                    "network": "solana",
+                    "is_valid": false,
+                    "is_supported": false
+                },
+                {
+                    "address": "0x33cff79D8E70232B040eC1c597115df21aa7015a",
+                    "blockchain": "usdc",
+                    "network": "eth",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "6rzF487aJCziBdLxgbtsjaKWpFtpTrKLHkGAgivQE3Nt",
+                    "blockchain": "usdc",
+                    "network": "solana",
+                    "is_valid": false,
+                    "is_supported": false
+                },
+                {
+                    "address": "6rzF487aJCziBdLxgbtsjaKWpFtpTrKLHkGAgivQE3Nt",
+                    "blockchain": "SOL",
+                    "network": "solana",
+                    "is_valid": false,
+                    "is_supported": false
+                },
+                {
+                    "address": "TEjmTqrjc7rVF2BKepQJfajxq4RMjtg9u3",
+                    "blockchain": "TRX",
+                    "network": "trx",
+                    "is_valid": true,
+                    "is_supported": true
+                }
+            ]
+        },
+        "UNKNOWN": {
+            "correlated-sites": {
+                "vantage-tw.com": "019dd198-470e-71c9-b361-0a6eb8359a37/",
+                "lmaxproys.com": "019dd198-4be9-736c-a127-941ab061c566/"
+            },
+            "wallets": [],
+            "unidentified-api": true
+        }
+    },
+    "unidentified-apis": [
+        "UNKNOWN"
+    ]
+}

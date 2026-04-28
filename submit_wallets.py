@@ -100,7 +100,7 @@ def submitAllSitesForApi(api,table):
         
 
 def main():
-    with open("logs/_run1/5c_submit_data.json", mode='r', encoding='utf-8') as file:
+    with open("logs/submit_data.json", mode='r', encoding='utf-8') as file:
         full_data = json.load(file)
         
     for category, table in full_data.items():
