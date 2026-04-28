@@ -1,5 +1,40 @@
 {
     "web-apis": {
+        "webapi.world138id.com": {
+            "correlated-sites": {
+                "worldid.asia": "019c1847-bcf0-7423-b481-5af6b9685504/"
+            },
+            "wallets": [
+                {
+                    "address": "bc1pwjmeh3jfuheladkgh6dhn476cd36kfl7qnxr9vwuhafqlztdjv7s6s4rzm",
+                    "blockchain": "BTC",
+                    "network": "btc",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "0x0b933B7C3004C284eDCBD4EEe23DAE5bacB166a4",
+                    "blockchain": "ETH",
+                    "network": "eth",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "0x0b933B7C3004C284eDCBD4EEe23DAE5bacB166a4",
+                    "blockchain": "USDT",
+                    "network": "eth",
+                    "is_valid": true,
+                    "is_supported": true
+                },
+                {
+                    "address": "TBNQPtcQozZB2cJWtzWFK5wx6Sdfw7vP79",
+                    "blockchain": "USDT",
+                    "network": "trx",
+                    "is_valid": true,
+                    "is_supported": true
+                }
+            ]
+        },
         "webapi.fin1328.cc": {
             "correlated-sites": {
                 "finanisweb3.org": "019c9058-6c4f-779f-93bf-81ce4d0d2f49/",

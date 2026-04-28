@@ -37,7 +37,7 @@ def is_site_reported(site_url: str):
 def extract_unique_domains(domainFileName: str, outputFileName: str):
    domainList = []
 
-   with open("logs/urlscan_part2.csv", mode='r', newline='', encoding='utf-8') as file:
+   with open("logs/urlscan.csv", mode='r', newline='', encoding='utf-8') as file:
     reader = csv.reader(file)
     for row in reader:
         if row[1] not in domainList:
@@ -333,5 +333,3 @@ def main():
     scrape_wallets_from_all_apis()
     create_full_extraction_data()
     validate_wallets_from_full_extraction()
-
-main()
