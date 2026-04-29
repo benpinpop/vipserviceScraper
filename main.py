@@ -221,46 +221,43 @@ def scrape_wallets_from_all_apis():
     with open('logs/api_to_wallet_table.json', mode='w', encoding='utf-8') as file:
             json.dump(api_to_wallet_table, file, indent=4)
 
-wallet_whitelist = [
-"bc1pxu4ycqxslk0j3uxeeqhts3wme70gyrkvn5xv5xwmxzjhljlmxgvswt7r04", "bc1pa908mcr99zwq8flgvycdhcu5gtgkkulr96klk8fvprlkvd0taseqnvxvw2", "bc1pa908mcr99zwq8flgvycdhcu5gtgkkulr96klk8fvprlkvd0taseqnvxvw2", "0xb87Ae0780307EB51f03E509079708e5489bD698C", "0x36e7F721748f0BC60389d2E48Cd86C86383a1138"
-]
+import re
 
 def validate_wallets_from_full_extraction():
+    full_data = {}
+
     with open('logs/full_extraction_data.json', mode='r', encoding='utf-8') as file:
         full_data = json.load(file)
-        web_apis = full_data.get("web-apis", {})
-        for api_domain, api_data in web_apis.items():
-            wallets = list(api_data.get("wallets", []))
-            validated_wallets = []
+        
+    web_apis = full_data.get("web-apis", {})
+    for api_domain, api_data in web_apis.items():
+        wallets = list(api_data.get("wallets", []))
+        validated_wallets = []
 
-            for wallet in wallets:
-                wallet_is_valid = False
-                wallet_is_supported = False
-                address = (wallet.get("address") or "").strip()
-                currency_name = (wallet.get("network") or "").lower()
+        for wallet in wallets:
+            wallet_is_valid = False
+            wallet_is_supported = False
+            address = (wallet.get("address") or "").strip()
+            currency_name = (wallet.get("network") or "").lower()
 
-                if currency_name in ('ada', 'arb', 'avax', 'bch', 'bsc', 'btc', 'dash', 'doge', 'eth', 'ltc', 'matic', 'op', 'trx'):
-                    wallet_is_supported = True
+            if currency_name in ('ada', 'arb', 'avax', 'bch', 'bsc', 'btc', 'dash', 'doge', 'eth', 'ltc', 'matic', 'op', 'trx'):
+                wallet_is_supported = True
 
-                if address in wallet_whitelist:
-                    print('Skipping known valid address:', address)
-                    wallet_is_valid = True
+            if address and currency_name and not wallet_is_valid and wallet_is_supported:
+                validation_result = coinaddrvalidator.validate(currency_name, address)
+                wallet_is_valid = validation_result.valid
+                print(f"Validating wallet address: {address} on network: {currency_name} - Result: {validation_result.valid}")
 
-                if address and currency_name and not wallet_is_valid and wallet_is_supported:
-                    validation_result = coinaddrvalidator.validate(currency_name, address)
-                    wallet_is_valid = validation_result.valid
-                    print(f"Validating wallet address: {address} on network: {currency_name} - Result: {validation_result.valid}")
+            validated_wallets.append(
+                {
+                    "address": address,
+                    "blockchain": wallet.get("coin"),
+                    "network": currency_name,
+                    "is_valid": wallet_is_valid,
+                    "is_supported": wallet_is_supported
+                })
 
-                validated_wallets.append(
-                    {
-                        "address": address,
-                        "blockchain": wallet.get("coin"),
-                        "network": currency_name,
-                        "is_valid": wallet_is_valid,
-                        "is_supported": wallet_is_supported
-                    })
-
-            full_data["web-apis"][api_domain]["wallets"] = validated_wallets
+        full_data["web-apis"][api_domain]["wallets"] = validated_wallets
     
     with open('logs/submit_data.json', mode='w', encoding='utf-8') as file:    
         json.dump(full_data, file, indent=4)

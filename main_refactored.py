@@ -1,8 +1,8 @@
 import csv
 import json
+import re
 import socket
 import time
-import uuid
 import os
 import requests
 import coinaddrvalidator
@@ -388,9 +388,11 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
                 wallet["network"] = "bsc"
             elif "trc" in wallet.get("network").lower() or "tron" in wallet.get("network").lower() or "usdt-trc" in wallet.get("network").lower() or "trc20" in wallet.get("network").lower():
                 wallet["network"] = "trx"
-            elif wallet.get("network").lower() == "dogecoin":
+            elif "doge" in wallet.get("network").lower() or wallet.get("network").lower() == "dogecoin":
                 wallet["network"] = "doge"
-
+            
+            if "usdt" or "usdc" in wallet.get("network").lower():
+                wallet["network"] = identify_wallet_address(wallet.get("address", ""))[0] if identify_wallet_address(wallet.get("address", "")) else wallet.get("network", "").lower()
 
     print('Finished scraping wallets for API URL:', api_url, 'Scraped wallets:', returnWallets)
     walletData[api_url] = {
@@ -429,6 +431,41 @@ def _extract_network_key(network: str, blockchain: str) -> str:
 
     return raw
 
+def identify_wallet_address(address: str) -> list[str]:
+    """
+    Identify which cryptocurrency network(s) a wallet address could belong to.
+    Supports: btc, eth, trx, doge.
+    """
+
+    patterns: dict[str, list[re.Pattern]] = {
+        # Bitcoin: Legacy (1...), SegWit P2SH (3...), Native SegWit (bc1q/bc1p)
+        "btc": [
+            re.compile(r"^1[a-km-zA-HJ-NP-Z1-9]{25,34}$"),
+            re.compile(r"^3[a-km-zA-HJ-NP-Z1-9]{25,34}$"),
+            re.compile(r"^bc1q[a-z0-9]{38,58}$"),
+            re.compile(r"^bc1p[a-z0-9]{58}$"),
+        ],
+        # Ethereum: 0x prefix, 40 hex characters
+        "eth": [
+            re.compile(r"^0x[0-9a-fA-F]{40}$"),
+        ],
+        # Tron: starts with T, 34 chars, Base58
+        "trx": [
+            re.compile(r"^T[a-km-zA-HJ-NP-Z1-9]{33}$"),
+        ],
+        # Dogecoin: starts with D or A (multisig)
+        "doge": [
+            re.compile(r"^D[5-9A-HJ-NP-U][a-km-zA-HJ-NP-Z1-9]{24,33}$"),
+            re.compile(r"^A[a-km-zA-HJ-NP-Z1-9]{25,34}$"),
+        ],
+    }
+
+    address = address.strip()
+    return [
+        chain
+        for chain, regexes in patterns.items()
+        if any(regex.match(address) for regex in regexes)
+    ]
 
 def validate_wallet_data(inputFileName: str, outputFileName: str):
     with open(inputFileName, mode="r", encoding="utf-8") as file:
@@ -480,4 +517,6 @@ def main():
     """
     submit_wallets_bulk("logs/validated_wallets.json")
 
-main()
+print(identify_wallet_address("bc1qkj40fclj226qs5fv4gaccvyx6lhtas8eya844r"))
+
+# main()
