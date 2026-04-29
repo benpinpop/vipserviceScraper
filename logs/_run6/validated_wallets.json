@@ -1,0 +1,732 @@
+{
+    "api.cexchanga.com": {
+        "wallets": [
+            {
+                "address": "bc1p6wqq9rw5klg0p3lqtc0qrn75e9500kglwvvdud3u63wzx24c7dvsajful4",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "TXAEmw7Uq9TBo4h7fLyP1CcnW1NxG3HmrS",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "cexchanga.com"
+        ]
+    },
+    "api.setmsail.cc": {
+        "wallets": [
+            {
+                "address": "1M83qMpigeMGKGVXicfLQ9C58WcYZeAcNC",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x0c33B038D3a4e3B36d8101B186241c8f471FDA0A",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x0c33B038D3a4e3B36d8101B186241c8f471FDA0A",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x0c33B038D3a4e3B36d8101B186241c8f471FDA0A",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TPibNFCKf3DWgNeoUoD3zeFxteqUYYbPpH",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "setmsail.cc"
+        ]
+    },
+    "api.cexchsg.com": {
+        "wallets": [
+            {
+                "address": "bc1qdvng6tfwu4q0tne9cnkxm5evd50ke8fjnhvla6",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xf75f36949c0d120c09557dd637fa8afcdff8ace2",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xf75f36949c0d120c09557dd637fa8afcdff8ace2",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xf75f36949c0d120c09557dd637fa8afcdff8ace2",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TUYDPWuF7hhqNzumEXLQ1MFMHyeBQfD4v5",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "cexchsg.com"
+        ]
+    },
+    "api.scalping.site": {
+        "wallets": [
+            {
+                "address": "TQd1riJ1xeV9ekix7ks2JYsMcnikhDAMzz",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x449247F1fDd1cc1a0aa284d6855f8B9DB4e3aF49",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x449247F1fDd1cc1a0aa284d6855f8B9DB4e3aF49",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "bc1qkj40fclj226qs5fv4gaccvyx6lhtas8eya844r",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "rhxv52Skbmh541aF42w7A7t6SVPVb3fmmc",
+                "blockchain": "xrp",
+                "network": "xrp",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "sscalping.com"
+        ]
+    },
+    "api.cexchangs.com": {
+        "wallets": [
+            {
+                "address": "bc1p6wqq9rw5klg0p3lqtc0qrn75e9500kglwvvdud3u63wzx24c7dvsajful4",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": false,
+                "is_supported": true
+            },
+            {
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TXAEmw7Uq9TBo4h7fLyP1CcnW1NxG3HmrS",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "cexchangs.com"
+        ]
+    },
+    "webapi.coincheckjp.com": {
+        "wallets": [
+            {
+                "address": "THL8TkvTvCE2wbiWj1fmsii3Fcq1DLnUk5",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x4B1c222cb698967B5f26F6814F96a4ba7DD12758",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x25800664aE7e7661E27f0B5D652ddD9166F111111111",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": false,
+                "is_supported": true
+            },
+            {
+                "address": "39mXNZRoDPUFjBJoK2M2PuuzYBWCv41111111",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": false,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "coincheckjp.com"
+        ]
+    },
+    "webapi.coin-trustwallet.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "trustswalletcoin.com"
+        ]
+    },
+    "webapi.pytonums.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "pytonums.com"
+        ]
+    },
+    "webapi.kjdng20.com": {
+        "wallets": [
+            {
+                "address": "TVCerVfys49SUtNfLbDGXEnsotG9WCkm3t",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x3B58A33899E8755eF40dF02D7E95229B264A5F25",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x3B58A33899E8755eF40dF02D7E95229B264A5F25",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "bc1qyl0qp5l22zctv8p3h2pk95znxaswkkeh3lr09u",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x3B58A33899E8755eF40dF02D7E95229B264A5F25",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "cryptowedsx3vip.com"
+        ]
+    },
+    "webapi.igvct.com": {
+        "wallets": [
+            {
+                "address": "TAmPobju1exdRJv9GQGiicvFsYXcsQWWmh",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x41127a32372Fd0A4dBF70e0a0Da0396Bf313B81B",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x41127a32372Fd0A4dBF70e0a0Da0396Bf313B81B",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "35mGR5LtgwMdciusK7xCZ7irP2vQSf5c7C",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "ftgoldfxso.com"
+        ]
+    },
+    "api.mexcues.com": {
+        "wallets": [
+            {
+                "address": "TW5ivDwxa6GgWgKV9jvniRMQQLFXSGy7ks",
+                "blockchain": "usdt",
+                "network": "usdt",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "mexcuehs.com",
+            "mexcues.com"
+        ]
+    },
+    "webapi.elbmalive.com": {
+        "wallets": [
+            {
+                "address": "TXkff1LSaUwpby2wwKjHM4NdHUWEGFoZaE",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xbB30E383599Ce767a1D13CFE7831b61b6B8C1Ec7",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xbB30E383599Ce767a1D13CFE7831b61b6B8C1Ec7",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "3PVneyhT7RN7Ghy9PVgvjz2oYzbg91BweQ",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "elbmalive.com",
+            "elbma.live",
+            "lbma.live",
+            "ylivestat.com",
+            "mabodex.live",
+            "gfxxlive.com",
+            "forexxlive.com",
+            "glivestar.com",
+            "lbmaxau.vip",
+            "xauulive.com",
+            "uniilive.com"
+        ]
+    },
+    "webapi.imtoka.com": {
+        "wallets": [
+            {
+                "address": "TK4wJXkkqsR3rqRHHqY2WJuYh1Asy4PifG",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x9451c1195f643bfed58ca80f495070fc9175afeb",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x9451c1195f643bfed58ca80f495070fc9175afeb",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "bc1p370hj4694yycnyp0ectewnnfyyep0gspxt8nlx6g4wwlqrnj0eqqtu7qnu",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": false,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "imtoneth.com"
+        ]
+    },
+    "webapi.isczrf.com": {
+        "wallets": [
+            {
+                "address": "TC533PEUKnq1KT6sb9LyEBqJsaoAC6dwsE",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "jqpyxz.com"
+        ]
+    },
+    "api.webhk.vip": {
+        "wallets": [
+            {
+                "address": "TJbkjyZbYuwkss8UsUVBBbg4STKtnXGRp9",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xE485072e7e5CB819293a0c03689751F05Bc26E59",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xE485072e7e5CB819293a0c03689751F05Bc26E59",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "1E67qb28ZTRtDMWkMPNLMrsBge7qHee7hu",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "web-3hk.com"
+        ]
+    },
+    "webapi.fxvri.com": {
+        "wallets": [
+            {
+                "address": "bc1p2m9a4gwj6rlegzssr6tlnjg2tgaljcpfg3vfu6l3jghdetkf6z0sjcc5yf",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": false,
+                "is_supported": true
+            },
+            {
+                "address": "0xbD50df297029e84F03741B2Ca2798F9C1c7DAfD4",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xbD50df297029e84F03741B2Ca2798F9C1c7DAfD4",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TJoinYFmiaX81AiLLpwhUio21B9sWDZHDL",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "nbmz168.com"
+        ]
+    },
+    "api.mintcustomcoins.com": {
+        "wallets": [
+            {
+                "address": "1sV52Syf8Qq52FG1oJeQ7HFh8FsAvSAJk",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x3249eE0d318c4ff0D2Ac4F8C6A4DA91799805839",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x3249eE0d318c4ff0D2Ac4F8C6A4DA91799805839",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x3249eE0d318c4ff0D2Ac4F8C6A4DA91799805839",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "EMyF7NSJWQtT6mWXNgZwM3oRhhoBUTCYVk5mf4kMwhRJ",
+                "blockchain": "sol",
+                "network": "usdc-sol",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "rNp3rk5NGVknNjnmbeS465gZDfiiEwzANt",
+                "blockchain": "xrp",
+                "network": "xrp",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "DA9sYcGmhtERnCCqE2PUZn7ik8cTGt8RKD",
+                "blockchain": "doge",
+                "network": "doge",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "EMyF7NSJWQtT6mWXNgZwM3oRhhoBUTCYVk5mf4kMwhRJ",
+                "blockchain": "sol",
+                "network": "sol",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "TPJNZBAGuxXSDKKQiZCnNo36jFM3stKB5U",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "coinmexi.com"
+        ]
+    },
+    "webapi.robinhoodopro.com": {
+        "wallets": [
+            {
+                "address": "TR3Ye41oLPwLiDQcNPfVpcdDxF39pmw823",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x31b801c8E6b62ddBd417C35c5DB364a4640a0BB6",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x31b801c8E6b62ddBd417C35c5DB364a4640a0BB6",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "bc1pwl0yrp7s4qt47swaw9mawqklul00hh0zdp8m9843p70jpg59s72qklxe33",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": false,
+                "is_supported": true
+            },
+            {
+                "address": "6XzoHXjRkjJLwXiQJHdYKahL6yCRTCz4AHgZd93mhd6Q",
+                "blockchain": "usdc",
+                "network": "sol",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "robinhoodopro.com"
+        ]
+    },
+    "api.indextradepro.com": {
+        "wallets": [
+            {
+                "address": "bc1pg5j592cxch5frrtp43lp097ej23qqm8g5h5535u40wz64hndpjlsnxa77a",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x838c1a2b7a9928303d386e7b0f21d4ba59100478",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x838c1a2b7a9928303d386e7b0f21d4ba59100478",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "7L4sDEpvXPhAP9t1LoH5kiBJWAj8LRHyGhnZqDux3Pys",
+                "blockchain": "sol",
+                "network": "sol",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "0x838c1a2b7a9928303d386e7b0f21d4ba59100478",
+                "blockchain": "doge",
+                "network": "doge",
+                "is_valid": false,
+                "is_supported": true
+            },
+            {
+                "address": "TBRZSAsNzpSUFXNT7SxKL9ExbNWXDNJgXu",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TFquP6QCwXzpBdNRrooXR39TyLUXsRR2FG",
+                "blockchain": "trx",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TFquP6QCwXzpBdNRrooXR39TyLUXsRR2FG",
+                "blockchain": "trx",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "indextradepro.com"
+        ]
+    },
+    "webapi.oksst.com": {
+        "wallets": [
+            {
+                "address": "1",
+                "blockchain": "usdt",
+                "network": "usdt",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "oksst.com"
+        ]
+    },
+    "webapi.ok-en.com": {
+        "wallets": [
+            {
+                "address": "1",
+                "blockchain": "usdt",
+                "network": "usdt",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "ok-en.com"
+        ]
+    },
+    "webapi.okm3.com": {
+        "wallets": [
+            {
+                "address": "1",
+                "blockchain": "usdt",
+                "network": "usdt",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "okm3.com"
+        ]
+    }
+}

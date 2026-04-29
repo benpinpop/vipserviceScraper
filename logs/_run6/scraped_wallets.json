@@ -1,0 +1,959 @@
+{
+    "null": {
+        "wallets": [],
+        "correlated-sites": [
+            "gtcfxtrade.top",
+            "cobirnnn.com",
+            "dqwhuhijivivnv.cc",
+            "gtcfxsecure.top",
+            "muyxus1.com",
+            "cexcmss.vip",
+            "gtamiinn.com",
+            "imtokentrade.com",
+            "gshortterm.com",
+            "supermarketwa.com",
+            "krakenotc.com",
+            "gmocryptocurrency.com",
+            "cryptocsstt.com",
+            "cryptocsscud.com",
+            "argos-stores.cc"
+        ]
+    },
+    "webapi.btcexjtus.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "btcexjtus.com"
+        ]
+    },
+    "webapi.xexbestpro.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "xexbestpro.com"
+        ]
+    },
+    "webapi.coinhako.site": {
+        "wallets": [],
+        "correlated-sites": [
+            "coinhako.site"
+        ]
+    },
+    "webapi.cryptosgss.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "cryptosgss.com"
+        ]
+    },
+    "api.crypto-bing.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "crypto-bing.com"
+        ]
+    },
+    "webapi.hashkxjt.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "hashkxjt.com"
+        ]
+    },
+    "webapi.biteth-exchange.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "biteth-exchange.com"
+        ]
+    },
+    "api.cexmex.online": {
+        "wallets": [],
+        "correlated-sites": [
+            "cexmex.online"
+        ]
+    },
+    "webapi.btcexus.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "btcexus.com"
+        ]
+    },
+    "api.cexchsg.online": {
+        "wallets": [],
+        "correlated-sites": [
+            "cexchsg.online"
+        ]
+    },
+    "webapi.btcus-exchange.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "btcus-exchange.com"
+        ]
+    },
+    "webapi.bitfinex.bio": {
+        "wallets": [],
+        "correlated-sites": [
+            "bitfinex.bio"
+        ]
+    },
+    "api.bitfinexx.cc": {
+        "wallets": [],
+        "correlated-sites": [
+            "bitfinexx.cc"
+        ]
+    },
+    "webapi.cryexbtc.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "cryexbtc.com"
+        ]
+    },
+    "webapi.btcexjt.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "btcexjt.com"
+        ]
+    },
+    "webapi.kokwx.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "kokwx.com"
+        ]
+    },
+    "api.crypto-big.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "crypto-big.com"
+        ]
+    },
+    "api.intlsbtc.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "THchgwdpFxPr2N28k7dGTH3uZ899999999"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x1ECC2E9efb16ec554f685dC125A1e3b0d95d6937"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x1ECC2E9efb16ec554f685dC125A1e3b0d95d6937"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1p093rryptm9kpfry79sfg8a9p3fcjsvpskqh9dw9m570up9wy7vkqxx7mzx"
+            }
+        ],
+        "correlated-sites": [
+            "intlsbtc.com"
+        ]
+    },
+    "api.cexchanga.com": {
+        "wallets": [
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1p6wqq9rw5klg0p3lqtc0qrn75e9500kglwvvdud3u63wzx24c7dvsajful4"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5"
+            },
+            {
+                "coin": "usdt",
+                "network": "USDC",
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TXAEmw7Uq9TBo4h7fLyP1CcnW1NxG3HmrS"
+            }
+        ],
+        "correlated-sites": [
+            "cexchanga.com"
+        ]
+    },
+    "api.setmsail.cc": {
+        "wallets": [
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "1M83qMpigeMGKGVXicfLQ9C58WcYZeAcNC"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x0c33B038D3a4e3B36d8101B186241c8f471FDA0A"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x0c33B038D3a4e3B36d8101B186241c8f471FDA0A"
+            },
+            {
+                "coin": "usdt",
+                "network": "USDC",
+                "address": "0x0c33B038D3a4e3B36d8101B186241c8f471FDA0A"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TPibNFCKf3DWgNeoUoD3zeFxteqUYYbPpH"
+            }
+        ],
+        "correlated-sites": [
+            "setmsail.cc"
+        ]
+    },
+    "api.cexchsg.com": {
+        "wallets": [
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1qdvng6tfwu4q0tne9cnkxm5evd50ke8fjnhvla6"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0xf75f36949c0d120c09557dd637fa8afcdff8ace2"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xf75f36949c0d120c09557dd637fa8afcdff8ace2"
+            },
+            {
+                "coin": "usdt",
+                "network": "USDC",
+                "address": "0xf75f36949c0d120c09557dd637fa8afcdff8ace2"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TUYDPWuF7hhqNzumEXLQ1MFMHyeBQfD4v5"
+            }
+        ],
+        "correlated-sites": [
+            "cexchsg.com"
+        ]
+    },
+    "api.scalping.site": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TQd1riJ1xeV9ekix7ks2JYsMcnikhDAMzz"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x449247F1fDd1cc1a0aa284d6855f8B9DB4e3aF49"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x449247F1fDd1cc1a0aa284d6855f8B9DB4e3aF49"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1qkj40fclj226qs5fv4gaccvyx6lhtas8eya844r"
+            },
+            {
+                "coin": "xrp",
+                "network": "XRP",
+                "address": "rhxv52Skbmh541aF42w7A7t6SVPVb3fmmc"
+            }
+        ],
+        "correlated-sites": [
+            "sscalping.com"
+        ]
+    },
+    "api.cexchangs.com": {
+        "wallets": [
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1p6wqq9rw5klg0p3lqtc0qrn75e9500kglwvvdud3u63wzx24c7dvsajful4"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5"
+            },
+            {
+                "coin": "usdt",
+                "network": "USDC",
+                "address": "0xAbBc80dDC85Ca76f18105c31fC705D95709A22e5"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TXAEmw7Uq9TBo4h7fLyP1CcnW1NxG3HmrS"
+            }
+        ],
+        "correlated-sites": [
+            "cexchangs.com"
+        ]
+    },
+    "webapi.coincheckjp.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "THL8TkvTvCE2wbiWj1fmsii3Fcq1DLnUk5"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x4B1c222cb698967B5f26F6814F96a4ba7DD12758"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x25800664aE7e7661E27f0B5D652ddD9166F111111111"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "39mXNZRoDPUFjBJoK2M2PuuzYBWCv41111111"
+            }
+        ],
+        "correlated-sites": [
+            "coincheckjp.com"
+        ]
+    },
+    "webapi.coin-trustwallet.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "trustswalletcoin.com"
+        ]
+    },
+    "webapi.pytonums.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "pytonums.com"
+        ]
+    },
+    "webapi.kjdng20.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TVCerVfys49SUtNfLbDGXEnsotG9WCkm3t"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x3B58A33899E8755eF40dF02D7E95229B264A5F25"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x3B58A33899E8755eF40dF02D7E95229B264A5F25"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1qyl0qp5l22zctv8p3h2pk95znxaswkkeh3lr09u"
+            },
+            {
+                "coin": "usdc",
+                "network": "USDC",
+                "address": "0x3B58A33899E8755eF40dF02D7E95229B264A5F25"
+            }
+        ],
+        "correlated-sites": [
+            "cryptowedsx3vip.com"
+        ]
+    },
+    "webapi.igvct.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TAmPobju1exdRJv9GQGiicvFsYXcsQWWmh"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x41127a32372Fd0A4dBF70e0a0Da0396Bf313B81B"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x41127a32372Fd0A4dBF70e0a0Da0396Bf313B81B"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "35mGR5LtgwMdciusK7xCZ7irP2vQSf5c7C"
+            }
+        ],
+        "correlated-sites": [
+            "ftgoldfxso.com"
+        ]
+    },
+    "api.mexcues.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "USDT",
+                "address": "TW5ivDwxa6GgWgKV9jvniRMQQLFXSGy7ks"
+            }
+        ],
+        "correlated-sites": [
+            "mexcuehs.com",
+            "mexcues.com"
+        ]
+    },
+    "webapi.elbmalive.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TXkff1LSaUwpby2wwKjHM4NdHUWEGFoZaE"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0xbB30E383599Ce767a1D13CFE7831b61b6B8C1Ec7"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xbB30E383599Ce767a1D13CFE7831b61b6B8C1Ec7"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "3PVneyhT7RN7Ghy9PVgvjz2oYzbg91BweQ"
+            }
+        ],
+        "correlated-sites": [
+            "elbmalive.com",
+            "elbma.live",
+            "lbma.live",
+            "ylivestat.com",
+            "mabodex.live",
+            "gfxxlive.com",
+            "forexxlive.com",
+            "glivestar.com",
+            "lbmaxau.vip",
+            "xauulive.com",
+            "uniilive.com"
+        ]
+    },
+    "webapi.138swqse.cc": {
+        "wallets": [],
+        "correlated-sites": [
+            "revolo68.cc",
+            "revowebs.cc"
+        ]
+    },
+    "webapi.imtoka.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TK4wJXkkqsR3rqRHHqY2WJuYh1Asy4PifG"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x9451c1195f643bfed58ca80f495070fc9175afeb"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x9451c1195f643bfed58ca80f495070fc9175afeb"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1p370hj4694yycnyp0ectewnnfyyep0gspxt8nlx6g4wwlqrnj0eqqtu7qnu"
+            }
+        ],
+        "correlated-sites": [
+            "imtoneth.com"
+        ]
+    },
+    "webapi.isczrf.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TC533PEUKnq1KT6sb9LyEBqJsaoAC6dwsE"
+            }
+        ],
+        "correlated-sites": [
+            "jqpyxz.com"
+        ]
+    },
+    "webapi.sce123.biz": {
+        "wallets": [],
+        "correlated-sites": [
+            "chainbit.net"
+        ]
+    },
+    "api.webhk.vip": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TJbkjyZbYuwkss8UsUVBBbg4STKtnXGRp9"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0xE485072e7e5CB819293a0c03689751F05Bc26E59"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xE485072e7e5CB819293a0c03689751F05Bc26E59"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "1E67qb28ZTRtDMWkMPNLMrsBge7qHee7hu"
+            }
+        ],
+        "correlated-sites": [
+            "web-3hk.com"
+        ]
+    },
+    "webapi.fxvri.com": {
+        "wallets": [
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1p2m9a4gwj6rlegzssr6tlnjg2tgaljcpfg3vfu6l3jghdetkf6z0sjcc5yf"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0xbD50df297029e84F03741B2Ca2798F9C1c7DAfD4"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xbD50df297029e84F03741B2Ca2798F9C1c7DAfD4"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TJoinYFmiaX81AiLLpwhUio21B9sWDZHDL"
+            }
+        ],
+        "correlated-sites": [
+            "nbmz168.com"
+        ]
+    },
+    "api.mintcustomcoins.com": {
+        "wallets": [
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "1sV52Syf8Qq52FG1oJeQ7HFh8FsAvSAJk"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x3249eE0d318c4ff0D2Ac4F8C6A4DA91799805839"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x3249eE0d318c4ff0D2Ac4F8C6A4DA91799805839"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x3249eE0d318c4ff0D2Ac4F8C6A4DA91799805839"
+            },
+            {
+                "coin": "sol",
+                "network": "USDC-SOL",
+                "address": "EMyF7NSJWQtT6mWXNgZwM3oRhhoBUTCYVk5mf4kMwhRJ"
+            },
+            {
+                "coin": "xrp",
+                "network": "XRP",
+                "address": "rNp3rk5NGVknNjnmbeS465gZDfiiEwzANt"
+            },
+            {
+                "coin": "doge",
+                "network": "DOGE",
+                "address": "DA9sYcGmhtERnCCqE2PUZn7ik8cTGt8RKD"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "EMyF7NSJWQtT6mWXNgZwM3oRhhoBUTCYVk5mf4kMwhRJ"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TPJNZBAGuxXSDKKQiZCnNo36jFM3stKB5U"
+            }
+        ],
+        "correlated-sites": [
+            "coinmexi.com"
+        ]
+    },
+    "webapi.robinhoodopro.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TR3Ye41oLPwLiDQcNPfVpcdDxF39pmw823"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x31b801c8E6b62ddBd417C35c5DB364a4640a0BB6"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x31b801c8E6b62ddBd417C35c5DB364a4640a0BB6"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1pwl0yrp7s4qt47swaw9mawqklul00hh0zdp8m9843p70jpg59s72qklxe33"
+            },
+            {
+                "coin": "usdc",
+                "network": "SOL",
+                "address": "6XzoHXjRkjJLwXiQJHdYKahL6yCRTCz4AHgZd93mhd6Q"
+            }
+        ],
+        "correlated-sites": [
+            "robinhoodopro.com"
+        ]
+    },
+    "webapi.btcs-exchange.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TLc5FFZyJtNqCXweuiRhjDfGYDhvud2c93"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0xb6f2E7f424f2469194abbF6Fe04D831c9C26FA78"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xb6f2E7f424f2469194abbF6Fe04D831c9C26FA78"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "1REaTk2A2tH4hVVvvdZtUTZxSkRinkg5S"
+            }
+        ],
+        "correlated-sites": [
+            "btcs-exchange.com"
+        ]
+    },
+    "api.cblapi.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TYJKLuwiPKxN3sPr4xxiuPULotnPpEj7JS"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x905615080F457eaeff9C76664e7BB3E35588EB53"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x905615080F457eaeff9C76664e7BB3E35588EB53"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "3CpE8MWxrPTTAJqKTnN9iCvxi95BiMyq7i"
+            }
+        ],
+        "correlated-sites": [
+            "tagomiaiai.com",
+            "tagomiaii.com",
+            "tagomia.com"
+        ]
+    },
+    "api.djksiokstest.cc": {
+        "wallets": [
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x7ef2beae2c5fad9d83bf855f2f00058becce14df"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1q5yd0nrz6zahhkszrnk8ctv9505yfueh49ychm2"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TPRpRLtiYGVuohgcdLCMwRZm7dMNzicLez"
+            }
+        ],
+        "correlated-sites": [
+            "aitokenbyte.com",
+            "aibytetoken.com"
+        ]
+    },
+    "webapi.tcpcredit.vip": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TDh3wDbJzzsuaAttYv2hZv8ZaFyVzj8tUj"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x3FA0db8e797C95D3f3dFC4575d1fE3020EB636d1"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xD35d840c65B0fA031662bc7bC0FfB925F847eBA5"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1pwrhwctngpr7jwyn4wwrcfqnsuad30ugl6ax2hcnqjn5cyg77qsfszlwrwp"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x26A3CCc97818e3398823B3E636AA12337177aafd"
+            }
+        ],
+        "correlated-sites": [
+            "tcpcredit.org"
+        ]
+    },
+    "webapi.blockexio.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "fwawdawdawdawd"
+            },
+            {
+                "coin": "trx",
+                "network": "trx",
+                "address": "6575765765"
+            }
+        ],
+        "correlated-sites": [
+            "blockexio.com"
+        ]
+    },
+    "api.coinhakoz.com": {
+        "wallets": [
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "1D1jhnGA5dJGB1UaoQK5Muqo8j7HpSzNCF"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x0816bf541190917b40a7d5c2ec1abf39396b77a6"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x28055030c775af597d5551f2a8722629b78cfed5"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TG26Ase3qfFSwtxBvngRrGFyHMem3vxSvo"
+            },
+            {
+                "coin": "usdt",
+                "network": "USDC",
+                "address": "0x0e1098634bbf7a8a527d8ddf30223a0b6911a8c3"
+            }
+        ],
+        "correlated-sites": [
+            "coinhakoz.com"
+        ]
+    },
+    "api.crypto-bing.shop": {
+        "wallets": [],
+        "correlated-sites": [
+            "crypto-bingx.com",
+            "crypto-bing.shop",
+            "crypto-bingx.cc"
+        ]
+    },
+    "api.indextradepro.com": {
+        "wallets": [
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1pg5j592cxch5frrtp43lp097ej23qqm8g5h5535u40wz64hndpjlsnxa77a"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x838c1a2b7a9928303d386e7b0f21d4ba59100478"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x838c1a2b7a9928303d386e7b0f21d4ba59100478"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "7L4sDEpvXPhAP9t1LoH5kiBJWAj8LRHyGhnZqDux3Pys"
+            },
+            {
+                "coin": "doge",
+                "network": "DOGE",
+                "address": "0x838c1a2b7a9928303d386e7b0f21d4ba59100478"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TBRZSAsNzpSUFXNT7SxKL9ExbNWXDNJgXu"
+            },
+            {
+                "coin": "trx",
+                "network": "TRX",
+                "address": "TFquP6QCwXzpBdNRrooXR39TyLUXsRR2FG"
+            },
+            {
+                "coin": "trx",
+                "network": "trx",
+                "address": "TFquP6QCwXzpBdNRrooXR39TyLUXsRR2FG"
+            }
+        ],
+        "correlated-sites": [
+            "indextradepro.com"
+        ]
+    },
+    "webapi.oksst.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "USDT",
+                "address": "1"
+            }
+        ],
+        "correlated-sites": [
+            "oksst.com"
+        ]
+    },
+    "webapi.ok-en.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "USDT",
+                "address": "1"
+            }
+        ],
+        "correlated-sites": [
+            "ok-en.com"
+        ]
+    },
+    "webapi.okm3.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "USDT",
+                "address": "1"
+            }
+        ],
+        "correlated-sites": [
+            "okm3.com"
+        ]
+    },
+    "webapi.ptyser.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TK59SZBYNUdhc1wa2Tuhc3kQPhAbXGrNjf"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "0x86b63E8157d88713aBeF916a5DEc15622BB07f93"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x86b63E8157d88713aBeF916a5DEc15622BB07f93"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "bc1qrt8a7rnwvlxwrmjdxq82l2y4qx307hfd963xpy"
+            }
+        ],
+        "correlated-sites": [
+            "ptyser.com"
+        ]
+    },
+    "webapi.secxpress.cc": {
+        "wallets": [],
+        "correlated-sites": [
+            "secxpress.cc"
+        ]
+    },
+    "webapi.nexhubitgyg.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "1q05.my",
+            "1q03.my",
+            "1q04.my"
+        ]
+    },
+    "api.metawalletvip.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "metawallethub.com"
+        ]
+    },
+    "webapi.exblix.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "exblix.com"
+        ]
+    },
+    "api.kucoinvs.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "uk.cc"
+        ]
+    }
+}

@@ -94,8 +94,19 @@ def get_urlscan_result_from_uuid(uuid: str) -> dict:
 
 # SCAMBUSTERS API FUNCTIONS
 
+def is_site_reported_from_all_sites_txt(site_url: str, allSitesFileName: str) -> bool:
+    with open(allSitesFileName, mode='r', newline='', encoding='utf-8') as file:
+        for line in file:
+            if line.strip() == site_url:
+                print(f"Site {site_url} found in all sites text file, treating as reported")
+                return True
+    return False
+
 # Returns True if the site has already been reported to ScamBusters API, False otherwise
 def is_site_reported(site_url: str) -> bool:
+    if is_site_reported_from_all_sites_txt(site_url, "logs/all_reported_sites.txt"):
+        return True
+
     headers = {"Authorization": f"Bearer {SCAM_BUSTERS_API_KEY}"}
     params = {"site_url": site_url}
 
@@ -134,6 +145,9 @@ def format_wallets_for_submission(wallets: list) -> list:
     formatted_wallets = []
 
     for wallet in wallets:
+        if not wallet.get("is_valid") or not wallet.get("is_supported"):
+            continue
+
         formatted_wallets.append({
             "address": wallet.get("address", ""),
             "chain": wallet.get("network", "")
@@ -352,11 +366,13 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
                 "rechargeNum": 1000,
                 "rechargeMax": 10000000,
                 "rechargeMin": 1
-            },
-
+        },
         """
 
         for wallet in walletList:
+            if not wallet.get("coinAddress"):
+                continue
+
             returnWallets.append({
                 "coin": wallet.get("coin", ""),
                 "network": wallet.get("coinName", ""),
@@ -454,14 +470,14 @@ def validate_wallet_data(inputFileName: str, outputFileName: str):
         json.dump(full_data, file, indent=4)
 
 def main():
-    # extract_unique_domains("logs/urlscan.csv", "logs/unique_sites.json")
-    # check_sites_reported_bulk("logs/unique_sites.json", "logs/reported_unreported_sites.json")
-    # get_webapi_from_all_sites("logs/reported_unreported_sites.json", "logs/sites_webapi_with_uuids.json")
-    # compile_all_sites_into_webapi_json("logs/sites_webapi_with_uuids.json", "logs/webapi_final.json")
-    # scrape_all_wallets("getAllSetting", "logs/webapi_final.json", "logs/scraped_wallets.json")
-    # validate_wallet_data("logs/scraped_wallets.json", "logs/validated_wallets.json")
-
+    """
+     extract_unique_domains("logs/urlscan.csv", "logs/unique_sites.json")
+    check_sites_reported_bulk("logs/unique_sites.json", "logs/reported_unreported_sites.json")
+    get_webapi_from_all_sites("logs/reported_unreported_sites.json", "logs/sites_webapi_with_uuids.json")
+    compile_all_sites_into_webapi_json("logs/sites_webapi_with_uuids.json", "logs/webapi_final.json")
+    scrape_all_wallets("getAllSetting", "logs/webapi_final.json", "logs/scraped_wallets.json")
+    validate_wallet_data("logs/scraped_wallets.json", "logs/validated_wallets.json")
+    """
     submit_wallets_bulk("logs/validated_wallets.json")
-
 
 main()
