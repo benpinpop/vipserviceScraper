@@ -1,0 +1,162 @@
+{
+    "mexcpro.shop": {
+        "api_url": "webapi.mexcpro.shop",
+        "uuid": "019dbb17-2654-726a-a1dc-48d33eacdef5"
+    },
+    "uasmexc.shop": {
+        "api_url": "webapi.uasmexc.shop",
+        "uuid": "019db64b-44a7-7261-9719-45828d0dd957"
+    },
+    "japamexc.one": {
+        "api_url": "webapi.japamexc.one",
+        "uuid": "019db64a-89ba-7018-a26f-2a3e44f47b95"
+    },
+    "gnamexc.cyou": {
+        "api_url": "webapi.gnamexc.cyou",
+        "uuid": "019db64a-7a0e-75e9-8519-74719e897a81"
+    },
+    "japamexc.cyou": {
+        "api_url": "webapi.japamexc.cyou",
+        "uuid": "019db649-9592-735a-aab7-7a3cb957f43b"
+    },
+    "pokmexc.one": {
+        "api_url": "webapi.pokmexc.one",
+        "uuid": "019db648-f04a-76cf-a75f-b6de083ff390"
+    },
+    "asamexc.one": {
+        "api_url": "webapi.asamexc.one",
+        "uuid": "019db3ab-4e89-778e-90e8-76099b96ccf3"
+    },
+    "tlymexc.shop": {
+        "api_url": "webapi.tlymexc.shop",
+        "uuid": "019db3ab-1b6f-7110-9b3f-3b04fe789337"
+    },
+    "kkgwmexc.one": {
+        "api_url": "webapi.kkgwmexc.one",
+        "uuid": "019db2dc-eccf-756c-8a2b-ceb244c2c9ba"
+    },
+    "jmrmexc.cyou": {
+        "api_url": null,
+        "uuid": "019db375-7845-740e-b930-097038b966c8"
+    },
+    "jmrmexc.one": {
+        "api_url": "webapi.jmrmexc.one",
+        "uuid": "019db375-9c87-7189-9602-e692fb14861d"
+    },
+    "xibumexc.icu": {
+        "api_url": "webapi.xibumexc.icu",
+        "uuid": "019d7756-433e-7187-a17e-24f3aff70af9"
+    },
+    "yobsmexc.cyou": {
+        "api_url": "webapi.yobsmexc.cyou",
+        "uuid": "019d7756-414b-77d8-a2e9-00f51b27caa0"
+    },
+    "chainbridsgt.cc": {
+        "api_url": null,
+        "uuid": "019d36ad-a203-72da-ab4e-468a6d2920b1"
+    },
+    "searmexc.cyou": {
+        "api_url": "webapi.searmexc.cyou",
+        "uuid": "019d07ad-e8ee-739b-949b-0d2c3d314787"
+    },
+    "bemexc.cyou": {
+        "api_url": "webapi.bemexc.cyou",
+        "uuid": "019cf386-6f9b-7018-9353-41dd98e390d8"
+    },
+    "outmexc.cyou": {
+        "api_url": "webapi.outmexc.cyou",
+        "uuid": "019cf25b-7917-775e-a05e-65027404852b"
+    },
+    "tlymexc.cyou": {
+        "api_url": "webapi.tlymexc.cyou",
+        "uuid": "019ce744-57b6-75fd-be6d-3d2771486cff"
+    },
+    "gbmexc.cyou": {
+        "api_url": "webapi.gbmexc.cyou",
+        "uuid": "019ce424-4e4c-7274-8dcc-bad1e9923fb3"
+    },
+    "inmexc.cyou": {
+        "api_url": "webapi.inmexc.cyou",
+        "uuid": "019ce268-53a9-7152-9906-dfe8cf61ea16"
+    },
+    "asamexc.cyou": {
+        "api_url": "webapi.asamexc.cyou",
+        "uuid": "019cd327-500c-753c-aa04-44905ddc4fe2"
+    },
+    "hkmexc.cyou": {
+        "api_url": "webapi.hkmexc.cyou",
+        "uuid": "019cd327-3590-7561-92bd-be854d2752a1"
+    },
+    "hkmexc.one": {
+        "api_url": "webapi.hkmexc.one",
+        "uuid": "019cd31d-9d71-7641-b9b0-8ba7e66f8d42"
+    },
+    "camexc.bar": {
+        "api_url": "webapi.camexc.bar",
+        "uuid": "019cce3b-ad8f-71af-bbdd-482c3a9e309d"
+    },
+    "mexccn.one": {
+        "api_url": "webapi.mexccn.one",
+        "uuid": "019c9050-f972-71de-a317-90749965bab8"
+    },
+    "mexcshop.one": {
+        "api_url": "webapi.mexcshop.one",
+        "uuid": "019c5928-ce81-710a-a521-cf34d2ba9e48"
+    },
+    "mexcnet.icu": {
+        "api_url": "webapi.mexcnet.icu",
+        "uuid": "019c5928-8107-75f7-a4ff-cd7b2696c18e"
+    },
+    "mexccn.cyou": {
+        "api_url": "webapi.mexccn.cyou",
+        "uuid": "019c5928-32e9-7679-961f-3c83c5847ef9"
+    },
+    "mexcxcx.xin": {
+        "api_url": "webapi.mexcxcx.xin",
+        "uuid": "019c17cb-72fa-71a3-b0ae-c48c1c651c68"
+    },
+    "mexcoig.top": {
+        "api_url": "webapi.mexcoig.top",
+        "uuid": "019c17ca-2580-762e-ac10-bd42497ef00c"
+    },
+    "mexcxcx.art": {
+        "api_url": "webapi.mexcxcx.art",
+        "uuid": "019bf228-6d62-769b-bd53-335cdd6a1e5e"
+    },
+    "mexcs.cyou": {
+        "api_url": "webapi.mexcs.cyou",
+        "uuid": "019b4838-366f-70cb-8c66-057fd1d9bbba"
+    },
+    "mexcs.cloud": {
+        "api_url": "webapi.mexcs.cloud",
+        "uuid": "019b4838-0fa3-75bc-b0be-780aeef10237"
+    },
+    "mexc.plus": {
+        "api_url": "webapi.mexc.plus",
+        "uuid": "019a659c-52e0-762e-9a85-d6867a393c86"
+    },
+    "mexc.pizza": {
+        "api_url": "webapi.mexc.pizza",
+        "uuid": "019a659c-2a3a-72fb-8ffe-ed647ab1183b"
+    },
+    "mexc.news": {
+        "api_url": "webapi.mexc.news",
+        "uuid": "019a659c-03dd-74e7-ab36-89241fb605b7"
+    },
+    "mexc.house": {
+        "api_url": "webapi.mexc.house",
+        "uuid": "019a5102-7d5c-74c8-89a3-e48a99df6075"
+    },
+    "mexc.fitness": {
+        "api_url": "webapi.mexc.fitness",
+        "uuid": "019a5102-573c-7369-82b7-ddf0d5ccb08a"
+    },
+    "mexc.energy": {
+        "api_url": "webapi.mexc.energy",
+        "uuid": "019a5102-0971-7561-8333-e8e24081750e"
+    },
+    "mexc.download": {
+        "api_url": "webapi.mexc.download",
+        "uuid": "019a5101-e2aa-703c-ad9d-b82babcc79ff"
+    }
+}

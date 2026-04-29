@@ -1,0 +1,522 @@
+{
+    "xibumexc.icu": {
+        "api_url": "webapi.xibumexc.icu",
+        "uuid": "019d7756-433e-7187-a17e-24f3aff70af9"
+    },
+    "yobsmexc.cyou": {
+        "api_url": "webapi.yobsmexc.cyou",
+        "uuid": "019d7756-414b-77d8-a2e9-00f51b27caa0"
+    },
+    "onchain-prime.com": {
+        "api_url": "webapi.jthyzs.com",
+        "uuid": "019d4524-664d-70de-8447-118424d73df0"
+    },
+    "bsvvcoin.com": {
+        "api_url": null,
+        "uuid": "019d3a63-d3d3-704f-9e96-dcb7cff7dac4"
+    },
+    "btcexeu.com": {
+        "api_url": "webapi.btcexeu.com",
+        "uuid": "019d36a9-15db-71bd-9633-a98b1dc6e0e3"
+    },
+    "nsddqpro.com": {
+        "api_url": "webapi.nsddqpro.com",
+        "uuid": "019d340f-4f8f-75fd-8a5e-c7315618b95b"
+    },
+    "chainbridsgt.cc": {
+        "api_url": "webapi.chainbridsgt.cc",
+        "uuid": "019d2e8b-8094-70d1-8090-d7aa131e062e"
+    },
+    "searmexc.cyou": {
+        "api_url": "webapi.searmexc.cyou",
+        "uuid": "019d07ad-e8ee-739b-949b-0d2c3d314787"
+    },
+    "bemexc.cyou": {
+        "api_url": "webapi.bemexc.cyou",
+        "uuid": "019cf386-6f9b-7018-9353-41dd98e390d8"
+    },
+    "outmexc.cyou": {
+        "api_url": "webapi.outmexc.cyou",
+        "uuid": "019cf25b-7917-775e-a05e-65027404852b"
+    },
+    "tlymexc.cyou": {
+        "api_url": "webapi.tlymexc.cyou",
+        "uuid": "019ce744-57b6-75fd-be6d-3d2771486cff"
+    },
+    "gbmexc.cyou": {
+        "api_url": "webapi.gbmexc.cyou",
+        "uuid": "019ce424-4e4c-7274-8dcc-bad1e9923fb3"
+    },
+    "inmexc.cyou": {
+        "api_url": "webapi.inmexc.cyou",
+        "uuid": "019ce268-53a9-7152-9906-dfe8cf61ea16"
+    },
+    "asamexc.cyou": {
+        "api_url": "webapi.asamexc.cyou",
+        "uuid": "019cd327-500c-753c-aa04-44905ddc4fe2"
+    },
+    "hkmexc.cyou": {
+        "api_url": "webapi.hkmexc.cyou",
+        "uuid": "019cd327-3590-7561-92bd-be854d2752a1"
+    },
+    "hkmexc.one": {
+        "api_url": "webapi.hkmexc.one",
+        "uuid": "019cd31d-9d71-7641-b9b0-8ba7e66f8d42"
+    },
+    "camexc.bar": {
+        "api_url": "webapi.camexc.bar",
+        "uuid": "019cce3b-ad8f-71af-bbdd-482c3a9e309d"
+    },
+    "us123.us": {
+        "api_url": "h5-api.usa123.vip",
+        "uuid": "019ca456-9791-74bb-9bb6-38fa8a393b08"
+    },
+    "mexccn.one": {
+        "api_url": "webapi.mexccn.one",
+        "uuid": "019c9050-f972-71de-a317-90749965bab8"
+    },
+    "mexcshop.one": {
+        "api_url": "webapi.mexcshop.one",
+        "uuid": "019c5928-ce81-710a-a521-cf34d2ba9e48"
+    },
+    "mexcnet.icu": {
+        "api_url": "webapi.mexcnet.icu",
+        "uuid": "019c5928-8107-75f7-a4ff-cd7b2696c18e"
+    },
+    "mexccn.cyou": {
+        "api_url": "webapi.mexccn.cyou",
+        "uuid": "019c5928-32e9-7679-961f-3c83c5847ef9"
+    },
+    "mexcoig.top": {
+        "api_url": "webapi.mexcoig.top",
+        "uuid": "019c17ca-2580-762e-ac10-bd42497ef00c"
+    },
+    "mexcxcx.xin": {
+        "api_url": "webapi.mexcxcx.xin",
+        "uuid": "019c16e6-abc2-750d-8579-e0bd7d867233"
+    },
+    "mexcxcx.art": {
+        "api_url": "webapi.mexcxcx.art",
+        "uuid": "019bf228-6d62-769b-bd53-335cdd6a1e5e"
+    },
+    "mexcs.cyou": {
+        "api_url": "webapi.mexcs.cyou",
+        "uuid": "019b4838-366f-70cb-8c66-057fd1d9bbba"
+    },
+    "mexcs.cloud": {
+        "api_url": "webapi.mexcs.cloud",
+        "uuid": "019b4838-0fa3-75bc-b0be-780aeef10237"
+    },
+    "mexc.plus": {
+        "api_url": "webapi.mexc.plus",
+        "uuid": "019a659c-52e0-762e-9a85-d6867a393c86"
+    },
+    "mexc.pizza": {
+        "api_url": "webapi.mexc.pizza",
+        "uuid": "019a659c-2a3a-72fb-8ffe-ed647ab1183b"
+    },
+    "mexc.news": {
+        "api_url": "webapi.mexc.news",
+        "uuid": "019a659c-03dd-74e7-ab36-89241fb605b7"
+    },
+    "mexc.house": {
+        "api_url": "webapi.mexc.house",
+        "uuid": "019a5102-7d5c-74c8-89a3-e48a99df6075"
+    },
+    "mexc.fitness": {
+        "api_url": "webapi.mexc.fitness",
+        "uuid": "019a5102-573c-7369-82b7-ddf0d5ccb08a"
+    },
+    "mexc.energy": {
+        "api_url": "webapi.mexc.energy",
+        "uuid": "019a5102-0971-7561-8333-e8e24081750e"
+    },
+    "mexc.download": {
+        "api_url": "webapi.mexc.download",
+        "uuid": "019a5101-e2aa-703c-ad9d-b82babcc79ff"
+    },
+    "trust-walletea.com": {
+        "api_url": "webapi.trust-walletea.com",
+        "uuid": "019a11f6-41de-713b-bbf5-6446f6896ac9"
+    },
+    "mexc.stream": {
+        "api_url": null,
+        "uuid": "01992fa4-39a4-72e8-a43b-5ffe81e6ffd1"
+    },
+    "mexc.monster": {
+        "api_url": null,
+        "uuid": "01992fa3-c6fe-712a-b35c-5cadb24729b6"
+    },
+    "mexc.bet": {
+        "api_url": null,
+        "uuid": "01992fa2-9735-7262-b81f-002f72395c46"
+    },
+    "hkex84.vip": {
+        "api_url": "api.x284api.icu",
+        "uuid": "01990332-1ae8-74db-8edb-2991a1415fee"
+    },
+    "hk-ex.top": {
+        "api_url": "api.x284api.icu",
+        "uuid": "019902cb-debd-755f-9d3e-1e4cac31d552"
+    },
+    "ethcoin.biz": {
+        "api_url": "h5-api.ethcoin.biz",
+        "uuid": "0198e71e-c8aa-73df-a58f-c34152c06acc"
+    },
+    "hkex-vn.vip": {
+        "api_url": "api.x284api.icu",
+        "uuid": "0198e100-6cb6-7173-8546-b8a7ebf8ebfd"
+    },
+    "coinbaseeth.com": {
+        "api_url": "h5-api.ethcoin.biz",
+        "uuid": "0198df6c-21c6-718c-b7c4-07445d6a0c31"
+    },
+    "ethusa.net": {
+        "api_url": "h5-api.ethcoin.biz",
+        "uuid": "0198dccf-c3d8-7309-8b1f-0c8a45a95457"
+    },
+    "bfcwallet.top": {
+        "api_url": "webapi.bfcwallet.top",
+        "uuid": "0198bdc9-8bdc-74e2-89ff-e6bc29318a03"
+    },
+    "ethus.us": {
+        "api_url": "h5-api.ethusa.net",
+        "uuid": "019896ba-4bdf-755a-8a5d-032e8a37cf99"
+    },
+    "ethusdt.us": {
+        "api_url": "h5-api.ethusa.net",
+        "uuid": "0198917a-af3c-729b-9d5b-0d140f9d1555"
+    },
+    "ethusa.us": {
+        "api_url": "h5-api.ethusa.net",
+        "uuid": "0198917a-abbc-75ee-8366-0d6acd5c1127"
+    },
+    "usabtc.us": {
+        "api_url": "h5-api.ethusa.net",
+        "uuid": "0198917a-a923-7590-b256-6df95cd1be2d"
+    },
+    "etheth.us": {
+        "api_url": "h5-api.ethusa.net",
+        "uuid": "0198917a-9949-718f-af0a-71486fcb266d"
+    },
+    "asx-asiajapan.net": {
+        "api_url": "new-api.meiqia.com",
+        "uuid": "019889ca-ec41-7118-9168-1813d0414a66"
+    },
+    "qmimaxx.life": {
+        "api_url": "api.qmimaxx.life",
+        "uuid": "019885c5-0c2b-7171-b8f7-8631d3db6045"
+    },
+    "ethusa.vip": {
+        "api_url": "h5-api.ethusa.net",
+        "uuid": "01987bda-653d-7730-8ac7-0b1ec75c4f0c"
+    },
+    "useth.us": {
+        "api_url": "h5-api.ethusa.net",
+        "uuid": "019877f6-3c6f-74ff-b408-fa41aee5c303"
+    },
+    "asx-blockchain.com": {
+        "api_url": "new-api.meiqia.com",
+        "uuid": "0198591d-7f4c-75bd-9ad1-88b7bfde9535"
+    },
+    "us-lsegg.com": {
+        "api_url": "webapi.us-lsegg.com",
+        "uuid": "01984754-e002-71b8-a044-28de19bf16a0"
+    },
+    "uk-lsegg.com": {
+        "api_url": "webapi.uk-lsegg.com",
+        "uuid": "01984366-bb71-71cf-9441-34fb47bae62a"
+    },
+    "gate-com-cn.xyz": {
+        "api_url": "api.gate-com-cn.xyz",
+        "uuid": "019831aa-8023-76ce-b07a-1d09c8bbaeb1"
+    },
+    "futuresbaw.com": {
+        "api_url": "api.nnbfutures.com",
+        "uuid": "01983180-625f-7269-a43e-73ca574b76a8"
+    },
+    "gate-cn.cc": {
+        "api_url": "api.gate-cn.cc",
+        "uuid": "01982bf3-4e1b-739e-8b24-fa19418b80ef"
+    },
+    "hbjiakao.com": {
+        "api_url": "testapi.28api.top",
+        "uuid": "0197dc47-6196-7779-9abf-11c8498e322a"
+    },
+    "coinlocallyhk.com": {
+        "api_url": "webapi.coinlocallyhk.com",
+        "uuid": "0197c9e1-b1af-71bd-bbb8-676b464b3be2"
+    },
+    "coinbasera.com": {
+        "api_url": null,
+        "uuid": "0197ad6d-c8a5-70ad-bef6-dfce961d96cf"
+    },
+    "gate-ioi.xyz": {
+        "api_url": "api.gate-ioi.xyz",
+        "uuid": "0197a746-6e08-76ae-9a98-1f549363af53"
+    },
+    "nnbfutures.com": {
+        "api_url": "api.nnbfutures.com",
+        "uuid": "0197979f-371f-7111-825c-0cf5fe0f324d"
+    },
+    "coinbaw.vip": {
+        "api_url": "api.nnbfutures.com",
+        "uuid": "01979494-7fa7-7138-8307-5ca246c59afc"
+    },
+    "geteia.wiki": {
+        "api_url": "api.geteia.wiki",
+        "uuid": "0197916f-a345-712c-bd66-fb606c879a95"
+    },
+    "nsddb.cc": {
+        "api_url": "webapi.nsddb.cc",
+        "uuid": "01978c19-b2e4-73eb-8c42-b85fca0fd8d2"
+    },
+    "goldmansachs-ssvip.vip": {
+        "api_url": "webapi.goldmansachs-ssvip.vip",
+        "uuid": "01975500-a219-7178-9eaa-fbed9b1c963e"
+    },
+    "get-trumpcoin.com": {
+        "api_url": "webapi.get-trumpcoin.com",
+        "uuid": "019744f1-4469-704c-a8e9-42b79eb997f4"
+    },
+    "idn13.cn": {
+        "api_url": null,
+        "uuid": "019723ce-b8d5-77e2-a7b2-c8e91f227ddf"
+    },
+    "jdh22.cn": {
+        "api_url": null,
+        "uuid": "0197238c-d393-767f-a58c-68a4c81ab405"
+    },
+    "axexoal.com": {
+        "api_url": "webapi.axexoal.com",
+        "uuid": "01971c8c-c8cf-75be-9bed-673dc900fc7d"
+    },
+    "goldmansachs-ssvip.top": {
+        "api_url": "webapi.goldmansachs-ssvip.top",
+        "uuid": "01971c86-f72e-7178-a899-56a684f279af"
+    },
+    "newmonttew.com": {
+        "api_url": "api.1189189.com",
+        "uuid": "01970871-1e82-71ec-b1c4-fc8d83e4594a"
+    },
+    "mexc.college": {
+        "api_url": null,
+        "uuid": "0196fbed-b6c7-7465-916e-4a9832565a73"
+    },
+    "mexc.futbol": {
+        "api_url": null,
+        "uuid": "0196fb61-9a9d-73ef-a92a-06a2ccea5614"
+    },
+    "mexc.gdn": {
+        "api_url": null,
+        "uuid": "0196fa2b-4b78-7342-9d03-57beff33dd1b"
+    },
+    "goldmansachs-ssvip.com": {
+        "api_url": null,
+        "uuid": "0196dcdf-213a-73ff-9308-b0f1d08c943d"
+    },
+    "hfm-us.com": {
+        "api_url": "h5-api.hfm-us.com",
+        "uuid": "0196dcb4-2143-743c-98f0-4875141be51e"
+    },
+    "bitonomy.vip": {
+        "api_url": "webapi.bitonomy.vip",
+        "uuid": "0196dca5-ba97-7456-a0f5-5ff33513851e"
+    },
+    "cryex.cc": {
+        "api_url": "webapi.cryex.cc",
+        "uuid": "0196dc9e-274f-77d4-baae-25815c9ded5c"
+    },
+    "yzjyu.cn": {
+        "api_url": null,
+        "uuid": "0196d3a7-6ccb-7317-b342-5c6b18613214"
+    },
+    "ekjhw.cn": {
+        "api_url": null,
+        "uuid": "0196d3a2-ec6d-7571-aedf-35d8b1dd14c8"
+    },
+    "xbkjj.cn": {
+        "api_url": null,
+        "uuid": "0196d3a0-13c1-73af-9840-3d95b893d405"
+    },
+    "hztyh.cn": {
+        "api_url": null,
+        "uuid": "0196d39f-c929-74be-b03f-877375c307d8"
+    },
+    "fylpay.com": {
+        "api_url": null,
+        "uuid": "019692c9-a16b-744b-a5c0-1e9202891a3e"
+    },
+    "mexc.cyou": {
+        "api_url": null,
+        "uuid": "019686a4-1bd7-74d6-bc8f-a541f0fec538"
+    },
+    "mexc.beer": {
+        "api_url": null,
+        "uuid": "019674b4-c8b1-7694-80bd-8b2eaee54ccc"
+    },
+    "mtrade-bit.pw": {
+        "api_url": "webapi.mtrade-bit.cc",
+        "uuid": "01964aab-ba1e-7476-97be-8667c8637215"
+    },
+    "mtrade-bit.cc": {
+        "api_url": "webapi.mtrade-bit.cc",
+        "uuid": "019649d9-79a4-7478-b9cb-83e552a6facf"
+    },
+    "goldmansachs-svip.com": {
+        "api_url": null,
+        "uuid": "01963961-8b6c-7372-8177-2394f6811e8b"
+    },
+    "mapaa.top": {
+        "api_url": "webapi.mapaa.top",
+        "uuid": "0196395f-5f44-7648-8693-d028507b8ca9"
+    },
+    "pramerica-vip8.net": {
+        "api_url": "webapi.pramerica-vip8.net",
+        "uuid": "019598d2-fe64-7000-b7ac-f0e490a3be84"
+    },
+    "dappwifc.com": {
+        "api_url": "webapi.dappwifc.com",
+        "uuid": "01959148-6291-7001-b20e-782dfde6512a"
+    },
+    "bitexen-asia.com": {
+        "api_url": "webapi.bitexen-asia.com",
+        "uuid": "0195839b-c6d4-7000-a889-661ed3000a7a"
+    },
+    "gate-web3.site": {
+        "api_url": "appapi.dev.byte.exchange",
+        "uuid": "01956771-3e60-700c-a895-a11adfbf105a"
+    },
+    "ethereumcoin.me": {
+        "api_url": "webapi.ethereumcoin.me",
+        "uuid": "e3a539dd-b2ae-4a8d-aeb5-568f0bbe8a40"
+    },
+    "mbit-vip.com": {
+        "api_url": "api.salesmartly.com",
+        "uuid": "de5eb56c-2fd3-4959-b9f8-7343fcb90f18"
+    },
+    "goldmansachs-vip.net": {
+        "api_url": null,
+        "uuid": "92e9027e-3d74-4a7c-a956-19c9661dc89f"
+    },
+    "goldmansachs-vip.com": {
+        "api_url": null,
+        "uuid": "4b0af085-12be-4c55-8eff-af6db14b9d38"
+    },
+    "ethkeybit.com": {
+        "api_url": "webapi.ethkeybit.com",
+        "uuid": "3ee006e0-5fb0-416a-93f6-0dd073ae52f9"
+    },
+    "hfmfafafa.top": {
+        "api_url": "h5-api.hfmfafafa.top",
+        "uuid": "c76ee275-9d45-4348-8245-0fee746c88f5"
+    },
+    "bosspi.cfd": {
+        "api_url": "webapi.bosspi.cfd",
+        "uuid": "8c0bee8a-4ad9-4780-b093-269527e8ceb6"
+    },
+    "gymax.pro": {
+        "api_url": "webapi.gymax.pro",
+        "uuid": "7ce5000c-0005-4f47-a3bf-e2163092a0c3"
+    },
+    "cryptoweb.vip": {
+        "api_url": "webapi.cryptoweb.vip",
+        "uuid": "cea84da8-048c-4917-966c-fb0cb38d354f"
+    },
+    "coinbaseus.com": {
+        "api_url": "h5-api.usabtc.us",
+        "uuid": "5865c9e2-7949-407d-b4de-5226956da456"
+    },
+    "trust-web3.vip": {
+        "api_url": "webapi.symboltrade.top",
+        "uuid": "7dbf3000-3871-40c7-ae67-cfa687091595"
+    },
+    "okbigx.xyz": {
+        "api_url": "webapi.okbigx.xyz",
+        "uuid": "ce19c0d0-325c-42a6-a4d5-0948e85d3c78"
+    },
+    "cryptowed3-vip.com": {
+        "api_url": "webapi.xiangshangwed3vip.com",
+        "uuid": "9e21d896-8e63-4cc2-8b7e-9fd5f832a991"
+    },
+    "ghqsx.cn": {
+        "api_url": "api.wueh.cn",
+        "uuid": "cb37c5a7-c43b-44bc-a3b0-5911ab742b1c"
+    },
+    "askd1.icu": {
+        "api_url": "h5-api.usabtc.us",
+        "uuid": "0d1fb13a-98b7-44ed-a45e-4186465714d5"
+    },
+    "mbit-eth.cfd": {
+        "api_url": null,
+        "uuid": "04f64554-10b1-4209-8e07-91e2e1652919"
+    },
+    "coinbase-america.com": {
+        "api_url": "h5-api.coinbase-america.com",
+        "uuid": "549f6b9e-c2a2-4079-8642-f6e0eccf8c57"
+    },
+    "crypto-otc.info": {
+        "api_url": null,
+        "uuid": "405808f4-fa4a-401f-8666-1b6f1dbab5b2"
+    },
+    "leabonc.com": {
+        "api_url": "webapi.leabonc.com",
+        "uuid": "bab627db-ed06-4c7c-b55e-28f13907aa1a"
+    },
+    "coinbaseo.com": {
+        "api_url": "api.coinbasex.pro",
+        "uuid": "695139fc-68d1-4e36-9aeb-1942d9089595"
+    },
+    "hfmm.net": {
+        "api_url": "api.hfmm.net",
+        "uuid": "2ddba704-6e29-4a86-afe3-062099867133"
+    },
+    "hfmm.tv": {
+        "api_url": "api.hfmm.tv",
+        "uuid": "dd0a1ad0-7efc-4491-b7bf-af68d7fdf5db"
+    },
+    "otc-coinbase.org": {
+        "api_url": null,
+        "uuid": "4c9a9136-8aaf-4e59-89e9-b8d1ffc085f3"
+    },
+    "coinbasex.pro": {
+        "api_url": "api.coinbasex.pro",
+        "uuid": "de900cec-9f84-4048-a8db-43088c17940d"
+    },
+    "cme-group.site": {
+        "api_url": "webapi.cme-group.site",
+        "uuid": "f2d3169d-dec5-42f2-b340-ba46fd6b320b"
+    },
+    "yandex1888.com": {
+        "api_url": null,
+        "uuid": "eca79468-1f43-45ec-8b44-5d253dfdaafc"
+    },
+    "bitslax.com": {
+        "api_url": "api.bitslax.com",
+        "uuid": "5d06c1df-1efa-4c7a-8008-4d0a084c651b"
+    },
+    "bitslax.net": {
+        "api_url": "api.bitslax.net",
+        "uuid": "42851968-459e-4fa4-a585-7a4492d95a78"
+    },
+    "hfmarkets-fx.icu": {
+        "api_url": "api.hfmarkets-fx.icu",
+        "uuid": "a3fa19ff-1272-4ab3-b8b7-aa593eeb0c30"
+    },
+    "oexhskt.xyz": {
+        "api_url": "api.oexhskt.xyz",
+        "uuid": "d2ef5d18-bffb-45a8-9303-e436d2ae7fa6"
+    },
+    "coincental.xyz": {
+        "api_url": "api.coincental.xyz",
+        "uuid": "0563e7bd-8bc2-4f30-a400-af00108d09df"
+    },
+    "gomhskt.top": {
+        "api_url": "api.gomhskt.top",
+        "uuid": "a5685932-2c88-4d9f-9314-ecd62f5bd138"
+    },
+    "hfmarkets-fx.top": {
+        "api_url": "api.hfmarkets-fx.top",
+        "uuid": "f2a7dbd6-4e3b-47cd-9ade-5a7bde933393"
+    }
+}

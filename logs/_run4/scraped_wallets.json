@@ -1,0 +1,342 @@
+{
+    "null": {
+        "wallets": [],
+        "correlated-sites": [
+            "jmrmexc.cyou",
+            "chainbridsgt.cc"
+        ]
+    },
+    "webapi.asamexc.one": {
+        "wallets": [],
+        "correlated-sites": [
+            "asamexc.one"
+        ]
+    },
+    "webapi.pokmexc.one": {
+        "wallets": [],
+        "correlated-sites": [
+            "pokmexc.one"
+        ]
+    },
+    "webapi.xibumexc.icu": {
+        "wallets": [],
+        "correlated-sites": [
+            "xibumexc.icu"
+        ]
+    },
+    "webapi.japamexc.one": {
+        "wallets": [],
+        "correlated-sites": [
+            "japamexc.one"
+        ]
+    },
+    "webapi.gnamexc.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "gnamexc.cyou"
+        ]
+    },
+    "webapi.searmexc.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "searmexc.cyou"
+        ]
+    },
+    "webapi.japamexc.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "japamexc.cyou"
+        ]
+    },
+    "webapi.inmexc.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "inmexc.cyou"
+        ]
+    },
+    "webapi.mexccn.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexccn.cyou"
+        ]
+    },
+    "webapi.hkmexc.one": {
+        "wallets": [],
+        "correlated-sites": [
+            "hkmexc.one"
+        ]
+    },
+    "webapi.mexcs.cloud": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexcs.cloud"
+        ]
+    },
+    "webapi.mexc.news": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexc.news"
+        ]
+    },
+    "webapi.yobsmexc.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "yobsmexc.cyou"
+        ]
+    },
+    "webapi.mexc.pizza": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexc.pizza"
+        ]
+    },
+    "webapi.mexcnet.icu": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexcnet.icu"
+        ]
+    },
+    "webapi.mexc.fitness": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexc.fitness"
+        ]
+    },
+    "webapi.mexcxcx.xin": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexcxcx.xin"
+        ]
+    },
+    "webapi.hkmexc.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "hkmexc.cyou"
+        ]
+    },
+    "webapi.mexc.energy": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexc.energy"
+        ]
+    },
+    "webapi.mexcs.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexcs.cyou"
+        ]
+    },
+    "webapi.outmexc.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "outmexc.cyou"
+        ]
+    },
+    "webapi.bemexc.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "bemexc.cyou"
+        ]
+    },
+    "webapi.tlymexc.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "tlymexc.cyou"
+        ]
+    },
+    "webapi.gbmexc.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "gbmexc.cyou"
+        ]
+    },
+    "webapi.mexcxcx.art": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexcxcx.art"
+        ]
+    },
+    "webapi.asamexc.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "asamexc.cyou"
+        ]
+    },
+    "webapi.camexc.bar": {
+        "wallets": [],
+        "correlated-sites": [
+            "camexc.bar"
+        ]
+    },
+    "webapi.mexcpro.shop": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TYsan5xmCs399BcZGfjonM1Tp2fwsMGYqk"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xB080b458342eb008279C9FE047E8420230ee42F8"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xB080b458342eb008279C9FE047E8420230ee42F8"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "33p8EvPqCg1PwtU3GvMM98HZ9ND6MpUyXt"
+            }
+        ],
+        "correlated-sites": [
+            "mexcpro.shop"
+        ]
+    },
+    "webapi.kkgwmexc.one": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TYsan5xmCs399BcZGfjonM1Tp2fwsMGYqk"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xB080b458342eb008279C9FE047E8420230ee42F8"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xB080b458342eb008279C9FE047E8420230ee42F8"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "33p8EvPqCg1PwtU3GvMM98HZ9ND6MpUyXt"
+            }
+        ],
+        "correlated-sites": [
+            "kkgwmexc.one"
+        ]
+    },
+    "webapi.jmrmexc.one": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TYsan5xmCs399BcZGfjonM1Tp2fwsMGYqk"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xB080b458342eb008279C9FE047E8420230ee42F8"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xB080b458342eb008279C9FE047E8420230ee42F8"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "33p8EvPqCg1PwtU3GvMM98HZ9ND6MpUyXt"
+            }
+        ],
+        "correlated-sites": [
+            "jmrmexc.one"
+        ]
+    },
+    "webapi.uasmexc.shop": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TYsan5xmCs399BcZGfjonM1Tp2fwsMGYqk"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xB080b458342eb008279C9FE047E8420230ee42F8"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xB080b458342eb008279C9FE047E8420230ee42F8"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "33p8EvPqCg1PwtU3GvMM98HZ9ND6MpUyXt"
+            }
+        ],
+        "correlated-sites": [
+            "uasmexc.shop"
+        ]
+    },
+    "webapi.tlymexc.shop": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TYsan5xmCs399BcZGfjonM1Tp2fwsMGYqk"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xB080b458342eb008279C9FE047E8420230ee42F8"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xB080b458342eb008279C9FE047E8420230ee42F8"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "33p8EvPqCg1PwtU3GvMM98HZ9ND6MpUyXt"
+            }
+        ],
+        "correlated-sites": [
+            "tlymexc.shop"
+        ]
+    },
+    "webapi.mexccn.one": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexccn.one"
+        ]
+    },
+    "webapi.mexcoig.top": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexcoig.top"
+        ]
+    },
+    "webapi.mexcshop.one": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexcshop.one"
+        ]
+    },
+    "webapi.mexc.download": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexc.download"
+        ]
+    },
+    "webapi.mexc.house": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexc.house"
+        ]
+    },
+    "webapi.mexc.plus": {
+        "wallets": [],
+        "correlated-sites": [
+            "mexc.plus"
+        ]
+    }
+}

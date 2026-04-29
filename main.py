@@ -301,7 +301,7 @@ def create_full_extraction_data():
                 wallet["network"] = "eth"
             elif wallet.get("network").lower() == "bnb chain":
                 wallet["network"] = "bsc"
-            elif wallet.get("network").lower() == "trc20":
+            elif wallet.get("network").lower() == "trc20" or wallet.get("network").lower() == "tron" or wallet.get("network").lower() == "usdt-trc":
                 wallet["network"] = "trx"
             elif wallet.get("network").lower() == "dogecoin":
                 wallet["network"] = "doge"
