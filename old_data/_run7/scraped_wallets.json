@@ -1,0 +1,495 @@
+{
+    "null": {
+        "wallets": [],
+        "correlated-sites": [
+            "asianext.top",
+            "bestcoin.sbs",
+            "bestcoin.top",
+            "bicotoinn.com",
+            "bitcoxweb.com",
+            "bitfinexxs.com",
+            "blockchainbyte.cc",
+            "bywst.top",
+            "coinbonit.com",
+            "coinchainbyte.cc",
+            "cryptosup.sbs",
+            "cryptowallter.com",
+            "dhauihdiash.sbs",
+            "edxm-exchange.com",
+            "geminis-pro.com",
+            "geminispro.com",
+            "gtcfxmarket.top",
+            "ibitcoindf.top",
+            "ibitcoinec.top",
+            "ibitcoines.top",
+            "ibitcoinez.top",
+            "kraken-h5.pages.dev",
+            "mexc-wallet.com",
+            "mexccoins.com",
+            "nodexcoin.com",
+            "rebolutlo.top",
+            "sstachioe.top",
+            "tidex.me",
+            "trustxau.top",
+            "webaceo.com",
+            "webaceoa.com",
+            "yiosbngo.top"
+        ]
+    },
+    "api.bitfinexza.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "bitfinexza.com"
+        ]
+    },
+    "webapi.bitc-exchange.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "bitc-exchange.com"
+        ]
+    },
+    "api.bitfinexz.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "bitfinexz.com"
+        ]
+    },
+    "api.bitgetpros.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "bitgetpros.com"
+        ]
+    },
+    "webapi.exodusix.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "exodusix.com"
+        ]
+    },
+    "webapi.exodusiotech.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "exodusiotech.com"
+        ]
+    },
+    "api.intlsbtc.vip": {
+        "wallets": [],
+        "correlated-sites": [
+            "intlsbtc.vip"
+        ]
+    },
+    "webapi.tmgmh.cc": {
+        "wallets": [],
+        "correlated-sites": [
+            "research-vip.com"
+        ]
+    },
+    "api.coinbaseaai.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "baseeai.com",
+            "coinbaseaai.com"
+        ]
+    },
+    "webapi.tradoxpro.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "tradoxpro.com"
+        ]
+    },
+    "webapi.tradoxmax.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "tradoxmax.com"
+        ]
+    },
+    "webapi.ifctru.top": {
+        "wallets": [],
+        "correlated-sites": [
+            "ifctru.top"
+        ]
+    },
+    "api.exchagms.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "exchagms.com"
+        ]
+    },
+    "glapi.183511.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "z2vque.cn"
+        ]
+    },
+    "api.exchagm.online": {
+        "wallets": [],
+        "correlated-sites": [
+            "exchagm.online"
+        ]
+    },
+    "api.galaxycyptoonlinesg.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "galaxycyptoonlinesg.com"
+        ]
+    },
+    "api.galajxydigeitaseercyptosg.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "galajxydigeitaseercyptosg.com"
+        ]
+    },
+    "api.trustvault.sbs": {
+        "wallets": [],
+        "correlated-sites": [
+            "trustvault.sbs"
+        ]
+    },
+    "webapi.mjcq.org": {
+        "wallets": [],
+        "correlated-sites": [
+            "mjcq.org"
+        ]
+    },
+    "api.trustmss.cc": {
+        "wallets": [],
+        "correlated-sites": [
+            "trustmss.cc"
+        ]
+    },
+    "api.scalping.site": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TQd1riJ1xeV9ekix7ks2JYsMcnikhDAMzz"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x449247F1fDd1cc1a0aa284d6855f8B9DB4e3aF49"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x449247F1fDd1cc1a0aa284d6855f8B9DB4e3aF49"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "bc1qkj40fclj226qs5fv4gaccvyx6lhtas8eya844r"
+            },
+            {
+                "coin": "xrp",
+                "network": "XRP",
+                "address": "rhxv52Skbmh541aF42w7A7t6SVPVb3fmmc"
+            }
+        ],
+        "correlated-sites": [
+            "binanceus.cc",
+            "sscalping.cc",
+            "sscalping.vip"
+        ]
+    },
+    "api.x-mpro.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "x-mpro.com"
+        ]
+    },
+    "webapi.coin-trustwallet.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "trustwalletres.com"
+        ]
+    },
+    "webapi.311httpoer.cc": {
+        "wallets": [],
+        "correlated-sites": [
+            "rereoou.cc"
+        ]
+    },
+    "webapi.tmgmexchanges.cc": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TKWvLSoDmhErWR1MsU3Q3hbs829ytXCBem"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xf19Bab6a701E46965C039Db039919C0CF49c74F2"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "bc1p2eyp4c42748wepflf7c839vj5akys9pmkpgk3m6q0wp3yju5aauqwfwy0v"
+            }
+        ],
+        "correlated-sites": [
+            "tmgmexchanges.top",
+            "tmgmexchanges.vip"
+        ]
+    },
+    "webapi.bgevent.net": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TKTAYtjEDD6fug2rHG25T3BEyBAq7Lup6n"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x1Fa6bb44893B22799D056F8fDf0F6E3875C3534E"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x1Fa6bb44893B22799D056F8fDf0F6E3875C3534E"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "bc1pls6umf3xqrt5ya6auunrsereq7fczrd77l52svm5gesz0rd54jdq84kryp"
+            }
+        ],
+        "correlated-sites": [
+            "bgevent.cn",
+            "bgevent.hk"
+        ]
+    },
+    "webapi.ifcbul.top": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TMspjHgnd9WZhEZKE3feKWybQRXRFUDEY7"
+            },
+            {
+                "coin": "eth",
+                "network": "ETH",
+                "address": "Please contact online customer service for the latest address"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "Please contact online customer service for the latest address"
+            },
+            {
+                "coin": "btc",
+                "network": "BTC",
+                "address": "Please contact online customer service for the latest address"
+            }
+        ],
+        "correlated-sites": [
+            "ifcbul.top"
+        ]
+    },
+    "webapi.tcpcredit.vip": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TDh3wDbJzzsuaAttYv2hZv8ZaFyVzj8tUj"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x3FA0db8e797C95D3f3dFC4575d1fE3020EB636d1"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xD35d840c65B0fA031662bc7bC0FfB925F847eBA5"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "bc1pwrhwctngpr7jwyn4wwrcfqnsuad30ugl6ax2hcnqjn5cyg77qsfszlwrwp"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x26A3CCc97818e3398823B3E636AA12337177aafd"
+            }
+        ],
+        "correlated-sites": [
+            "h5-tcpcredit.com",
+            "h5-tcpcredit.vip",
+            "tcpcredit.top"
+        ]
+    },
+    "api.indextradepro.vip": {
+        "wallets": [
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "bc1pg5j592cxch5frrtp43lp097ej23qqm8g5h5535u40wz64hndpjlsnxa77a"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x838c1a2b7a9928303d386e7b0f21d4ba59100478"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x838c1a2b7a9928303d386e7b0f21d4ba59100478"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "7L4sDEpvXPhAP9t1LoH5kiBJWAj8LRHyGhnZqDux3Pys"
+            },
+            {
+                "coin": "doge",
+                "network": "eth",
+                "address": "0x838c1a2b7a9928303d386e7b0f21d4ba59100478"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TBRZSAsNzpSUFXNT7SxKL9ExbNWXDNJgXu"
+            },
+            {
+                "coin": "trx",
+                "network": "trx",
+                "address": "TFquP6QCwXzpBdNRrooXR39TyLUXsRR2FG"
+            },
+            {
+                "coin": "trx",
+                "network": "trx",
+                "address": "TFquP6QCwXzpBdNRrooXR39TyLUXsRR2FG"
+            }
+        ],
+        "correlated-sites": [
+            "indextradepro.vip"
+        ]
+    },
+    "api.coinhakox.org": {
+        "wallets": [
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "1D1jhnGA5dJGB1UaoQK5Muqo8j7HpSzNCF"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x0816bf541190917b40a7d5c2ec1abf39396b77a6"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x28055030c775af597d5551f2a8722629b78cfed5"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TG26Ase3qfFSwtxBvngRrGFyHMem3vxSvo"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x0e1098634bbf7a8a527d8ddf30223a0b6911a8c3"
+            }
+        ],
+        "correlated-sites": [
+            "coinhakox.org"
+        ]
+    },
+    "api.bitfinexz.top": {
+        "wallets": [],
+        "correlated-sites": [
+            "bitfinexz.top"
+        ]
+    },
+    "webapi.bcvrsg.xyz": {
+        "wallets": [],
+        "correlated-sites": [
+            "coinbaseieo.com"
+        ]
+    },
+    "webapi.trade-mbit-api.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "trade-mbitm.com"
+        ]
+    },
+    "webapi.nexhubitgyg.cyou": {
+        "wallets": [],
+        "correlated-sites": [
+            "qknprbcdnd.yoga"
+        ]
+    },
+    "webapi.ebay9874.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "ebay9874.com"
+        ]
+    },
+    "webapi.hbnka.cn": {
+        "wallets": [],
+        "correlated-sites": [
+            "euronextsim.com"
+        ]
+    },
+    "webapi.vitaxim.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "vitaxims.com"
+        ]
+    },
+    "api.bithx-api.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "bithx.cc",
+            "bithx.net",
+            "bithxx.com"
+        ]
+    },
+    "webapi.omniclaim.io": {
+        "wallets": [],
+        "correlated-sites": [
+            "omniclaim.io"
+        ]
+    },
+    "api.exzczanm.top": {
+        "wallets": [],
+        "correlated-sites": [
+            "exzczanm.top"
+        ]
+    },
+    "webapi.blockchain-cash.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "blockchain-cash.com"
+        ]
+    },
+    "api.sdzafnexz.top": {
+        "wallets": [],
+        "correlated-sites": [
+            "sdzafnexz.top"
+        ]
+    },
+    "api.exchagm.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "exchagm.com"
+        ]
+    },
+    "api.exzczanm.vip": {
+        "wallets": [],
+        "correlated-sites": [
+            "exzczanm.vip"
+        ]
+    },
+    "api.kucoinvs.com": {
+        "wallets": [],
+        "correlated-sites": [
+            "kucoins.xin"
+        ]
+    }
+}

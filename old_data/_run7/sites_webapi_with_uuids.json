@@ -1,0 +1,402 @@
+{
+    "apaceapacee.com": {
+        "api_url": "api.zhixiaoshiguang.com",
+        "uuid": "019c905f-ee31-759b-be80-106b264e067d"
+    },
+    "appleaaa.com": {
+        "api_url": "webapi.ebaydsjhgf.xyz",
+        "uuid": "019b6be5-63a7-7518-9ec1-d843c040f4dc"
+    },
+    "appleaapplea.com": {
+        "api_url": "webapi.ebaydsjhgf.xyz",
+        "uuid": "019b6b1b-39fa-7609-a353-092f97c873fe"
+    },
+    "asianext.top": {
+        "api_url": null,
+        "uuid": "019cf492-4a76-756f-8c60-bb073526a379"
+    },
+    "baseeai.com": {
+        "api_url": "api.coinbaseaai.com",
+        "uuid": "019c8084-f64f-74a8-82de-822467571ef5"
+    },
+    "bestcoin.sbs": {
+        "api_url": null,
+        "uuid": "019b5993-6d99-759a-a717-0e7b116daaf9"
+    },
+    "bestcoin.top": {
+        "api_url": null,
+        "uuid": "019cf492-2ad4-75f1-912a-a36c76a3c801"
+    },
+    "bgevent.cn": {
+        "api_url": "webapi.bgevent.net",
+        "uuid": "019c2470-7f7f-7089-aa70-31df73e06984"
+    },
+    "bgevent.hk": {
+        "api_url": "webapi.bgevent.net",
+        "uuid": "019c5774-47ba-7784-ad79-f3a2637986e6"
+    },
+    "bicotoinn.com": {
+        "api_url": null,
+        "uuid": "019cf6fe-065e-7392-b5a9-c06b7f64effd"
+    },
+    "binanceus.cc": {
+        "api_url": "api.scalping.site",
+        "uuid": "019d21e0-4863-762a-902e-e9ba663fc586"
+    },
+    "bitc-exchange.com": {
+        "api_url": "webapi.bitc-exchange.com",
+        "uuid": "019caed7-fad6-729c-bf74-4ffd37d180a8"
+    },
+    "bitcoxweb.com": {
+        "api_url": null,
+        "uuid": "019c737d-c4f1-7726-b28f-0db80f795b20"
+    },
+    "bitfinexxs.com": {
+        "api_url": null,
+        "uuid": "019c89dc-6b31-73a9-90e9-d50afac1d95d"
+    },
+    "bitfinexz.com": {
+        "api_url": "api.bitfinexz.com",
+        "uuid": "019b5d8e-cd2c-71d8-bd38-d06eb0ff82f9"
+    },
+    "bitfinexz.top": {
+        "api_url": "api.bitfinexz.top",
+        "uuid": "019bb962-609e-7219-9195-e0b6e7c3d27f"
+    },
+    "bitfinexza.com": {
+        "api_url": "api.bitfinexza.com",
+        "uuid": "019b8262-a946-765e-960e-49dadf39b805"
+    },
+    "bitgetpros.com": {
+        "api_url": "api.bitgetpros.com",
+        "uuid": "019c16b7-e5e2-77cc-b85b-66ae791105f0"
+    },
+    "bithx.cc": {
+        "api_url": "api.bithx-api.com",
+        "uuid": "019c9416-b12c-73c5-b4cc-8bc465fe83e5"
+    },
+    "bithx.net": {
+        "api_url": "api.bithx-api.com",
+        "uuid": "019c9417-632d-743c-bec7-a8dde2e32445"
+    },
+    "bithxx.com": {
+        "api_url": "api.bithx-api.com",
+        "uuid": "019c9052-49a8-76f1-a7d8-3de311870d0c"
+    },
+    "blockchain-cash.com": {
+        "api_url": "webapi.blockchain-cash.com",
+        "uuid": "019cfcc0-0219-730c-a912-307e8771cf8b"
+    },
+    "blockchainbyte.cc": {
+        "api_url": null,
+        "uuid": "019cc1ad-df2c-77db-9bb8-2d9b38cdc9f8"
+    },
+    "broksote.com": {
+        "api_url": "webapi.broksote.com",
+        "uuid": "019cf269-ea71-74fb-ae04-68e1109abbeb"
+    },
+    "bywst.top": {
+        "api_url": null,
+        "uuid": "019c9412-c9c8-70ec-acfa-7003ba3f297e"
+    },
+    "cex.tw": {
+        "api_url": "api.cex.tw",
+        "uuid": "019cef1d-9216-777e-962d-b63ad9bcce60"
+    },
+    "cohcepto.com": {
+        "api_url": "webapi.cohcepto.com",
+        "uuid": "019d07a6-56f1-7663-9246-0eefefe9cef6"
+    },
+    "coinbaseaai.com": {
+        "api_url": "api.coinbaseaai.com",
+        "uuid": "019cd5ed-5c03-77c1-9c76-531a90c5ab61"
+    },
+    "coinbaseieo.com": {
+        "api_url": "webapi.bcvrsg.xyz",
+        "uuid": "019cbe83-1ca4-75b1-aa49-a667a5821464"
+    },
+    "coinbonit.com": {
+        "api_url": null,
+        "uuid": "019c9050-8c69-7471-b33e-8ee990f48ff3"
+    },
+    "coinchainbyte.cc": {
+        "api_url": null,
+        "uuid": "019bfb46-b321-74bf-8244-f35d37d3ecb2"
+    },
+    "coinhakox.org": {
+        "api_url": "api.coinhakox.org",
+        "uuid": "019cb9ea-d3d6-73ec-aac3-2133a426fed0"
+    },
+    "cryptosup.sbs": {
+        "api_url": null,
+        "uuid": "019b4df4-a402-7303-8dc0-9e806cda4fc4"
+    },
+    "cryptowallter.com": {
+        "api_url": null,
+        "uuid": "019c8a27-fe9d-7760-87e2-6bcaf13b5eb6"
+    },
+    "dhauihdiash.sbs": {
+        "api_url": null,
+        "uuid": "019b50c4-9d79-765d-a4a4-131db825bd4b"
+    },
+    "ebay9874.com": {
+        "api_url": "webapi.ebay9874.com",
+        "uuid": "019d0b04-aae2-767e-ae02-cade04a755d9"
+    },
+    "edxm-exchange.com": {
+        "api_url": null,
+        "uuid": "019c1389-59dd-7400-bdb1-4a5ac30bf434"
+    },
+    "eth-defi.world": {
+        "api_url": "webapi.eth-defi.world",
+        "uuid": "019c4964-d6b1-725c-90b8-71e31d254543"
+    },
+    "euronextsim.com": {
+        "api_url": "webapi.hbnka.cn",
+        "uuid": "019c942c-0fd1-762c-b6c7-6840e53049ab"
+    },
+    "exchagm.com": {
+        "api_url": "api.exchagm.com",
+        "uuid": "019ba73e-7780-707f-a62a-d0c5e0629434"
+    },
+    "exchagm.online": {
+        "api_url": "api.exchagm.online",
+        "uuid": "019bb6d2-3a8f-705d-80aa-fa49730c1ab3"
+    },
+    "exchagms.com": {
+        "api_url": "api.exchagms.com",
+        "uuid": "019bdbe3-dffa-7084-9fd2-b2211567c701"
+    },
+    "exchagms.vip": {
+        "api_url": "api.exchagms.vip",
+        "uuid": "019b9f8c-e7c5-71fe-aeef-9054bc1f289b"
+    },
+    "exodusiotech.com": {
+        "api_url": "webapi.exodusiotech.com",
+        "uuid": "019c6c8c-19d7-71c2-8bba-8e28db887bdf"
+    },
+    "exodusix.com": {
+        "api_url": "webapi.exodusix.com",
+        "uuid": "019c24b4-c102-72e1-95f9-2f94277b331c"
+    },
+    "exzczanm.top": {
+        "api_url": "api.exzczanm.top",
+        "uuid": "019bb342-6f55-75b9-879e-d97bf62d64c7"
+    },
+    "exzczanm.vip": {
+        "api_url": "api.exzczanm.vip",
+        "uuid": "019b9cad-fb4c-71df-a5c4-b11cd9c4fffd"
+    },
+    "galajxydigeitaseercyptosg.com": {
+        "api_url": "api.galajxydigeitaseercyptosg.com",
+        "uuid": "019d2025-9c48-7295-84ef-d43c46546708"
+    },
+    "galaxycyptoonlinesg.com": {
+        "api_url": "api.galaxycyptoonlinesg.com",
+        "uuid": "019b5a6f-97c0-770e-ac71-b9a8c37369ff"
+    },
+    "galaxysdigitasecryptosg.com": {
+        "api_url": "api.galaxysdigitasecryptosg.com",
+        "uuid": "019bc157-8f51-74eb-98a7-b615c0b116fa"
+    },
+    "geminis-pro.com": {
+        "api_url": null,
+        "uuid": "019c9052-cd6f-771f-ace6-1c8646b045e7"
+    },
+    "geminispro.com": {
+        "api_url": null,
+        "uuid": "019c232c-bac7-713b-b8fb-02793fb73738"
+    },
+    "gtcfxmarket.top": {
+        "api_url": null,
+        "uuid": "019cf492-30b0-719c-9365-666a0bb0489f"
+    },
+    "h5-tcpcredit.com": {
+        "api_url": "webapi.tcpcredit.vip",
+        "uuid": "019bb302-d4d6-734a-8695-069eaef9dd6e"
+    },
+    "h5-tcpcredit.vip": {
+        "api_url": "webapi.tcpcredit.vip",
+        "uuid": "019bb36a-8a9d-779a-bd76-20629250da96"
+    },
+    "ibitcoindf.top": {
+        "api_url": null,
+        "uuid": "019caa38-313c-7359-8401-455ffd44e643"
+    },
+    "ibitcoinec.top": {
+        "api_url": null,
+        "uuid": "019c89d2-cc33-76f5-a1e1-7a527fc6477c"
+    },
+    "ibitcoines.top": {
+        "api_url": null,
+        "uuid": "019c89d1-521b-73be-9b46-fcf4c22d7ead"
+    },
+    "ibitcoinez.top": {
+        "api_url": null,
+        "uuid": "019c89d0-9557-7274-923b-93e0ae4d40c6"
+    },
+    "ifcbul.top": {
+        "api_url": "webapi.ifcbul.top",
+        "uuid": "019c6cff-55b7-74bd-95f1-1ec3ffedf166"
+    },
+    "ifctru.top": {
+        "api_url": "webapi.ifctru.top",
+        "uuid": "019d1b38-598a-730e-844e-7a6893772f82"
+    },
+    "indextradepro.vip": {
+        "api_url": "api.indextradepro.vip",
+        "uuid": "019bdcbe-44b7-7603-bb29-75b922392a9f"
+    },
+    "infurablockg.vip": {
+        "api_url": "api.infurablockg.vip",
+        "uuid": "019ba08e-78d2-702f-9a9b-bde0e50beaee"
+    },
+    "intlsbtc.vip": {
+        "api_url": "api.intlsbtc.vip",
+        "uuid": "019bf1e8-404b-70cf-9c60-f0a690c0773c"
+    },
+    "kraken-h5.pages.dev": {
+        "api_url": null,
+        "uuid": "019c41b0-19c5-71ca-8779-103dfb52f235"
+    },
+    "kshkshnew.com": {
+        "api_url": "twhoutaiapi.xyz",
+        "uuid": "019b91ab-11ab-70ee-8990-c5eab95f5a8b"
+    },
+    "kucoins.xin": {
+        "api_url": "api.kucoinvs.com",
+        "uuid": "019ba85a-9820-75b8-8b55-2378223efdcc"
+    },
+    "mexc-wallet.com": {
+        "api_url": null,
+        "uuid": "019b72de-9cfb-724a-b0ef-55c9dfe191ea"
+    },
+    "mexccoins.com": {
+        "api_url": null,
+        "uuid": "019b2fed-c9ba-75f8-9f2e-9b70ecffd351"
+    },
+    "mjcq.org": {
+        "api_url": "webapi.mjcq.org",
+        "uuid": "019b67a0-b390-71ba-bcdb-ba9ff290ea45"
+    },
+    "nodexcoin.com": {
+        "api_url": null,
+        "uuid": "019b8e84-5d5a-72aa-8be5-4075eb41c34c"
+    },
+    "omniclaim.io": {
+        "api_url": "webapi.omniclaim.io",
+        "uuid": "019cbd17-4e72-77e2-9a4e-472e15948b35"
+    },
+    "qknprbcdnd.yoga": {
+        "api_url": "webapi.nexhubitgyg.cyou",
+        "uuid": "019d07b2-dd07-7464-9487-bbdda0810a19"
+    },
+    "rebolutlo.top": {
+        "api_url": null,
+        "uuid": "019ca804-a99a-755b-8a59-a2f34e442837"
+    },
+    "rereoou.cc": {
+        "api_url": "webapi.311httpoer.cc",
+        "uuid": "019cffc7-bb68-72de-b095-daf66eb186fc"
+    },
+    "research-vip.com": {
+        "api_url": "webapi.tmgmh.cc",
+        "uuid": "019b4326-30e6-761e-b40d-e7a0ced67ec5"
+    },
+    "royal-capital-ex.vip": {
+        "api_url": "api.royal-capital-ex.vip",
+        "uuid": "019ce8aa-7479-73da-b765-c4d893f9e8ae"
+    },
+    "sdzafnexz.top": {
+        "api_url": "api.sdzafnexz.top",
+        "uuid": "019b9343-d32a-700e-99ce-f9aa029406f3"
+    },
+    "sscalping.cc": {
+        "api_url": "api.scalping.site",
+        "uuid": "019cfe52-57ad-722b-9815-59746d6e01ac"
+    },
+    "sscalping.vip": {
+        "api_url": "api.scalping.site",
+        "uuid": "019cf720-1de3-75eb-817c-a138e598c730"
+    },
+    "sstachioe.top": {
+        "api_url": null,
+        "uuid": "019c6521-3efb-71dd-84cc-23026fa89439"
+    },
+    "tcpcredit.top": {
+        "api_url": "webapi.tcpcredit.vip",
+        "uuid": "019bb288-aa07-76ed-88c4-2d8e88280c8d"
+    },
+    "tidex.me": {
+        "api_url": null,
+        "uuid": "019c6f49-dfbe-71c8-bdb7-088b2dd18213"
+    },
+    "tmgmexchanges.top": {
+        "api_url": "webapi.tmgmexchanges.cc",
+        "uuid": "019cf6ff-10e6-704b-ae2a-82d1409e2a78"
+    },
+    "tmgmexchanges.vip": {
+        "api_url": "webapi.tmgmexchanges.cc",
+        "uuid": "019cf701-7017-7702-b20f-7d60723dd2b1"
+    },
+    "trade-mbitm.com": {
+        "api_url": "webapi.trade-mbit-api.com",
+        "uuid": "019bb3a9-7912-710f-9051-71de054f882a"
+    },
+    "tradoxmax.com": {
+        "api_url": "webapi.tradoxmax.com",
+        "uuid": "019c228b-ca8a-7664-9986-68d8a5980235"
+    },
+    "tradoxpro.com": {
+        "api_url": "webapi.tradoxpro.com",
+        "uuid": "019d032a-d58e-777d-9529-6f1a9e9446f2"
+    },
+    "trustmss.cc": {
+        "api_url": "api.trustmss.cc",
+        "uuid": "019b234a-1a0a-705a-a3a6-8865619949ba"
+    },
+    "trustvault.sbs": {
+        "api_url": "api.trustvault.sbs",
+        "uuid": "019b632e-d037-7047-b5d6-eaee497d4eda"
+    },
+    "trustwalletres.com": {
+        "api_url": "webapi.coin-trustwallet.com",
+        "uuid": "019c4d4a-0488-724b-88a3-992c44d915b9"
+    },
+    "trustxau.top": {
+        "api_url": null,
+        "uuid": "019bb199-d2ec-720e-8b3c-7ffd7d3e6956"
+    },
+    "vitaxims.com": {
+        "api_url": "webapi.vitaxim.com",
+        "uuid": "019c57ba-191f-76f3-aedc-876e98cd81e2"
+    },
+    "webaceo.com": {
+        "api_url": null,
+        "uuid": "019c56a1-9ee8-75ae-81ac-e27ed43cc8ff"
+    },
+    "webaceoa.com": {
+        "api_url": null,
+        "uuid": "019c5673-6b70-73a5-8ed0-875e0a0c8f31"
+    },
+    "wstinian.com": {
+        "api_url": "webapi.wstinian.com",
+        "uuid": "019ba143-79da-7299-bd64-b381f46564ee"
+    },
+    "x-mpro.com": {
+        "api_url": "api.x-mpro.com",
+        "uuid": "019c7090-bf3e-75dc-86bb-ec4241850abc"
+    },
+    "yiosbngo.top": {
+        "api_url": null,
+        "uuid": "019c6cb4-c149-72cc-81ab-d7ee29627817"
+    },
+    "z2vque.cn": {
+        "api_url": "glapi.183511.com",
+        "uuid": "019c218b-4293-734d-b62f-790362abdc4c"
+    },
+    "zetagl0bal.com": {
+        "api_url": "api.zetagl0bal.com",
+        "uuid": "019c9057-f9f8-7177-97b7-d49b3893e11a"
+    }
+}

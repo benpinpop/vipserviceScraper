@@ -106,17 +106,29 @@ def is_site_reported_from_all_sites_txt(site_url: str, allSitesFileName: str) ->
 def is_site_reported(site_url: str) -> bool:
     if is_site_reported_from_all_sites_txt(site_url, "logs/all_reported_sites.txt"):
         return True
+    
+    if site_url == "":
+        print("Empty site URL, treating as unreported")
+        return False
 
     headers = {"Authorization": f"Bearer {SCAM_BUSTERS_API_KEY}"}
     params = {"site_url": site_url}
 
-    response = requests.get(
-        SCAMBUSTERS_REPORTED_ENDPOINT,
-        headers=headers,
-        params=params,
-        timeout=30,
-    )
-    response.raise_for_status()
+    try:
+        response = requests.get(
+            SCAMBUSTERS_REPORTED_ENDPOINT,
+            headers=headers,
+            params=params,
+            timeout=30,
+        )
+        response.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Error checking if site {site_url} is reported: {e}, treating as unreported")
+        time.sleep(2)
+        return False
+
+    time.sleep(2)
+
     return response.json().get("has_wallets", False)
     
 def submit_wallets(site_url: str, wallets: list):
@@ -146,6 +158,15 @@ def format_wallets_for_submission(wallets: list) -> list:
 
     for wallet in wallets:
         if not wallet.get("is_valid") or not wallet.get("is_supported"):
+            continue
+
+        duplicate = False
+        for formatted_wallet in formatted_wallets:
+            if wallet.get("address") == formatted_wallet.get("address"):
+                duplicate = True
+                break
+                
+        if duplicate:
             continue
 
         formatted_wallets.append({
@@ -207,13 +228,16 @@ def check_sites_reported_bulk(inputFileName: str, outputFileName: str):
         for line in file:
             line = line.strip()
 
+            if line == "":
+                print("Empty line in unique sites file, skipping")
+                continue
+
             if is_site_reported(line):
                 print('Reported:', line)
                 isReported.append(line)
             else:
                 print('Unreported:', line)
                 isUnreported.append(line)
-            time.sleep(2)
 
     outputFile = {
         "reported": isReported,
@@ -262,7 +286,7 @@ def get_webapi_from_all_sites(unreported_file_name: str, outputFileName: str):
         fallback_api = None
         if preferred_api is None:
             fallback_api = next(
-            (d for d in domains if "api." in d.lower()),
+            (d for d in domains if any(s in d.lower() for s in ("api.", "pc.", "api1", "api"))),
             None,
             )
 
@@ -335,9 +359,8 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
             return
 
         data = response.json()
-
-        if data["code"] != 200:
-            print(f"API request failed with code {data['code']}: {data['msg']}")
+        if data.get("code") != 200:
+            print(f"API request failed {data} for URL: {api_url}")
             walletData[api_url] = {
                 "wallets": returnWallets,
                 "correlated-sites": sites
@@ -380,19 +403,25 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
             })
 
         for wallet in returnWallets:
-            if wallet.get("network").lower() == "bitcoin":
-                wallet["network"] = "btc"
-            elif "ethereum" in wallet.get("network").lower() or "erc" in wallet.get("network").lower() or "usdt-erc" in wallet.get("network").lower():
-                wallet["network"] = "eth"
-            elif wallet.get("network").lower() == "bnb chain":
-                wallet["network"] = "bsc"
-            elif "trc" in wallet.get("network").lower() or "tron" in wallet.get("network").lower() or "usdt-trc" in wallet.get("network").lower() or "trc20" in wallet.get("network").lower():
-                wallet["network"] = "trx"
-            elif "doge" in wallet.get("network").lower() or wallet.get("network").lower() == "dogecoin":
-                wallet["network"] = "doge"
+            network_lower = wallet.get("network", "").lower()
+            
+            # Network mapping with keywords
+            network_mapping = {
+                "btc": ["bitcoin"],
+                "eth": ["ethereum", "erc", "usdt-erc"],
+                "bsc": ["bnb chain"],
+                "trx": ["trc", "tron", "usdt-trc", "trc20"],
+                "doge": ["doge", "dogecoin"]
+            }
+            
+            for network_code, keywords in network_mapping.items():
+                if any(keyword in network_lower for keyword in keywords):
+                    wallet["network"] = network_code
+                    break
             
             if "usdt" or "usdc" in wallet.get("network").lower():
-                wallet["network"] = identify_wallet_address(wallet.get("address", ""))[0] if identify_wallet_address(wallet.get("address", "")) else wallet.get("network", "").lower()
+                identified_networks = identify_wallet_address(wallet.get("address", ""))
+                wallet["network"] = identified_networks[0] if identified_networks else wallet["network"]
 
     print('Finished scraping wallets for API URL:', api_url, 'Scraped wallets:', returnWallets)
     walletData[api_url] = {
@@ -485,7 +514,13 @@ def validate_wallet_data(inputFileName: str, outputFileName: str):
 
             if address and is_supported:
                 try:
-                    is_valid = coinaddrvalidator.validate(network_key, address).valid
+                    if network_key == "btc" or network_key == "doge" or network_key == "trx" or network_key == "eth":
+                        # For Bitcoin and Dogecoin, we can use the identify_wallet_address function to check if the address matches the expected format for the identified network
+                        is_valid = network_key in identify_wallet_address(address)
+                    else:
+                        is_valid = coinaddrvalidator.validate(network_key, address).valid
+
+
                 except Exception:
                     is_valid = False
 
@@ -506,17 +541,32 @@ def validate_wallet_data(inputFileName: str, outputFileName: str):
     with open(outputFileName, mode="w", encoding="utf-8") as file:
         json.dump(full_data, file, indent=4)
 
-def main():
+def append_sites_to_txt(json_path: str, txt_path: str) -> int:
     """
-     extract_unique_domains("logs/urlscan.csv", "logs/unique_sites.json")
+    Read a JSON file with 'reported' and 'unreported' lists,
+    and append all sites to a text file (one per line).
+
+    Returns the total number of sites appended.
+    """
+    with open(json_path, "r") as f:
+        data = json.load(f)
+
+    sites = data.get("reported", []) + data.get("unreported", [])
+
+    with open(txt_path, "a") as f:
+        for site in sites:
+            f.write(site + "\n")
+
+    return len(sites)
+
+def main():
+    extract_unique_domains("logs/urlscan.csv", "logs/unique_sites.json")
     check_sites_reported_bulk("logs/unique_sites.json", "logs/reported_unreported_sites.json")
     get_webapi_from_all_sites("logs/reported_unreported_sites.json", "logs/sites_webapi_with_uuids.json")
     compile_all_sites_into_webapi_json("logs/sites_webapi_with_uuids.json", "logs/webapi_final.json")
     scrape_all_wallets("getAllSetting", "logs/webapi_final.json", "logs/scraped_wallets.json")
     validate_wallet_data("logs/scraped_wallets.json", "logs/validated_wallets.json")
-    """
     submit_wallets_bulk("logs/validated_wallets.json")
+    append_sites_to_txt("logs/reported_unreported_sites.json", "logs/all_reported_sites.txt")
 
-print(identify_wallet_address("bc1qkj40fclj226qs5fv4gaccvyx6lhtas8eya844r"))
-
-# main()
+main()
