@@ -1,0 +1,544 @@
+{
+    "null": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "bitoasiss.com",
+            "luno-otc.net",
+            "luno-otc.org",
+            "ycdnx.cfd"
+        ]
+    },
+    "webapi.metakey.cyou": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "coin-tru.app",
+            "trusttrading.cyou"
+        ]
+    },
+    "webapi.hk-crypto.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "hk-crypto.com"
+        ]
+    },
+    "apiweb.imtokentrade.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "waptrade.pages.dev"
+        ]
+    },
+    "api.mejorcrypto.vip": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "mejorcrypto.vip"
+        ]
+    },
+    "webapi.ifcwbb.top": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "ifcwbb.top"
+        ]
+    },
+    "webapi.crypto-hongkong.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "crypto-hongkong.com"
+        ]
+    },
+    "webapi.dkoexpert.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "dkcexpert.com",
+            "dkoexpert.com"
+        ]
+    },
+    "webapi.idaco-jp.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "idaco-jp.com"
+        ]
+    },
+    "webapi.dsjexpty.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "dsjexpty.com"
+        ]
+    },
+    "api.coinbaseaai.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "hsjteth.com"
+        ]
+    },
+    "api.hsjtt.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "hsjtex.com"
+        ]
+    },
+    "webapi.a16zvip.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "a16zvip.com"
+        ]
+    },
+    "webapi.bisonwb.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "bisonwb.com"
+        ]
+    },
+    "webapi.goldcoins.cc": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "goldcoins.cc"
+        ]
+    },
+    "api.exerty.org": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "exerty.org"
+        ]
+    },
+    "api-web.xdexgate.co": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "xdexgate.co"
+        ]
+    },
+    "api.okcniinc.top": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "okcniinc.top"
+        ]
+    },
+    "mk390-pc.ciscost.net": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "ciscost.net"
+        ]
+    },
+    "webapi.ifccbb.top": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "ifccbb.top"
+        ]
+    },
+    "api.nexlumo.xyz": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "nexlumo.xyz"
+        ]
+    },
+    "webapi.dotcoinn.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "miforex.vip"
+        ]
+    },
+    "webapi.coinssdex.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "coinssdex.com"
+        ]
+    },
+    "api.osl258.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "osl258.com"
+        ]
+    },
+    "api.infurablockz.top": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "infurablockz.top"
+        ]
+    },
+    "api.fxcn-uoce.top": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "fxcn-uoce.top"
+        ]
+    },
+    "client-api.tokengold.cc": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "tokengold.cc"
+        ]
+    },
+    "api.fortex.icu": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "fortex.icu"
+        ]
+    },
+    "api.okcniinc.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "okcniinc.com"
+        ]
+    },
+    "webapi.ifcubb.top": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "ifcubb.top"
+        ]
+    },
+    "api.coinbase123.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "coinbase123.com"
+        ]
+    },
+    "webapi.jubit888.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "jubit888.com"
+        ]
+    },
+    "webapi.nasdaotr.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "nasdaotr.com"
+        ]
+    },
+    "webapi.naopweb.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "naopweb.com"
+        ]
+    },
+    "api.nnbfutures.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "messengercontact.me",
+            "ckramx.com"
+        ]
+    },
+    "api.okcniinc.shop": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "okcniinc.shop"
+        ]
+    },
+    "webapi.nasbbgi.net": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "nasbbgi.net"
+        ]
+    },
+    "api.okcniinc.vip": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "okcniinc.vip"
+        ]
+    },
+    "webapi.phanback.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "phanback.com"
+        ]
+    },
+    "webapi.okcoindex.cn": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "okcoindex.cn"
+        ]
+    },
+    "webapi.trustwalletcoin.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "trustwalletcoin.com"
+        ]
+    },
+    "api.sgxcoinhako.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "sgxcoinhako.com"
+        ]
+    },
+    "api.exerty.cc": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "exerty.cc"
+        ]
+    },
+    "webapi.sg-crypto.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "sg-crypto.com"
+        ]
+    },
+    "webapi.coonmebvx.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "coonmebvx.com"
+        ]
+    },
+    "api.waw856.co": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TMDaQ8UUr411ZFeFhuYAbqDHrFgwVjJEnE"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xfc5fbbc820c08159091701349c32db0d2df5cf67"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xfc5fbbc820c08159091701349c32db0d2df5cf67"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "39yQYuFviUpdefQL1smWJBMfXshFZa3HN1"
+            },
+            {
+                "coin": "wallet",
+                "network": "365\u94b1\u5305",
+                "address": "9999999999999999"
+            }
+        ],
+        "correlated-sites": [
+            "waw856.co"
+        ],
+        "curlable": true
+    },
+    "api.lljre.top": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TADaBEMhkXvjyNf7XLHZpPcvqq9u44eHXj"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xEc5f79eAd2466177471992fB33340C40817AF645"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xEc5f79eAd2466177471992fB33340C40817AF645"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "bc1q7fjfm0zay537xwkyd5deeyqjrwmjfhz3mcq2hp"
+            }
+        ],
+        "correlated-sites": [
+            "lljre.top"
+        ],
+        "curlable": true
+    },
+    "webapi.xiangshangwed3vip.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TVCerVfys49SUtNfLbDGXEnsotG9WCkm3t"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x3B58A33899E8755eF40dF02D7E95229B264A5F25"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x3B58A33899E8755eF40dF02D7E95229B264A5F25"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "bc1qyl0qp5l22zctv8p3h2pk95znxaswkkeh3lr09u"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x3B58A33899E8755eF40dF02D7E95229B264A5F25"
+            }
+        ],
+        "correlated-sites": [
+            "cryptowed3vip.com"
+        ],
+        "curlable": true
+    },
+    "api.okcicni.cc": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "okcicni.cc"
+        ]
+    },
+    "apiweb.bitpointa.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "bitpointa.com"
+        ]
+    },
+    "api.quick-loans.cc": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "quick-loans.cc"
+        ]
+    },
+    "webapi.aiwei66.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "aiwei66.com"
+        ]
+    },
+    "webapi.vvex.net": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "vvex.net"
+        ]
+    },
+    "webapi.capstons.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "capstons.com"
+        ]
+    },
+    "webapi.hk-crypto-vip.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "hk-crypto-vip.com"
+        ]
+    },
+    "webapi.apexjsy.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "apexjsy.com"
+        ]
+    },
+    "webapi.okifc.xyz": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "okifc.xyz"
+        ]
+    },
+    "api.coinsbma.cc": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "coinsbma.cc"
+        ]
+    },
+    "webapi.bb5.icu": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "tradingcct.cyou",
+            "tradingcctt.com"
+        ]
+    },
+    "webapi.coinswfit.xyz": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "binancevip.biz",
+            "coinswfit.club"
+        ]
+    },
+    "webapi.hfu888.top": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "hfu888.top"
+        ]
+    },
+    "webapi.cryptov.vip": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "cryptov.vip"
+        ]
+    }
+}

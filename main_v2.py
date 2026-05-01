@@ -153,6 +153,23 @@ Example submit payload
 {"site_url": "https://scamsite.com", "wallets": [{"address": "0xABC...", "chain": "eth"}]}
 """
 
+def report_sites_from_urlscan_csv(urlscanFileName: str):
+    with open(urlscanFileName, mode='r', newline='', encoding='utf-8') as file:
+        reader = csv.reader(file)
+
+        first_row = next(reader)
+        PageApexDomainIndex = first_row.index("Page Apex Domain")
+
+        for siteInfo in reader:
+            site_url = siteInfo[PageApexDomainIndex]
+
+            if is_site_reported(site_url):
+                print(f"Site {site_url} is reported, skipping")
+                continue
+
+            print(f"Site {site_url} is unreported, submitting empty wallet data to report the site")
+            submit_wallets(site_url, [])
+
 def format_wallets_for_submission(wallets: list) -> list:
     formatted_wallets = []
 
@@ -331,13 +348,77 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
         print('Cannot reach API URL:', api_url)
         walletData[api_url] = {
                 "wallets": returnWallets,
+                "curlable": False,
                 "correlated-sites": sites
         }
 
         return
 
     if scrapeType == "vipcservice":
-        print("Placeholder")
+        API_URL = "https://" + api_url + "/api/common/getAssetList"
+
+        """
+        Fetch asset list data from the API.
+        
+        Returns:
+            dict: Asset data containing coin names and network information
+            
+        Raises:
+            Exception: If API request fails
+        """
+        payload = {"type": "BTC", "content": "BitCoin"}
+        response = requests.post(API_URL, json=payload)
+        initial_data = response.json()
+        
+        if initial_data["code"] != 200:
+            raise Exception(f"API request failed with code {initial_data['code']}: {initial_data['msg']}")
+
+        initial_data = initial_data["data"]
+
+        """
+        Create a table of coins with their networks and addresses.
+        
+        Returns:
+            list: List of dictionaries containing coin, network, and address info
+        """
+        coin_names = initial_data["coinNames"]
+        symbol_net = initial_data["symbolNet"]
+        
+        # Fetch address data for each coin-network pair
+        for coin in coin_names:
+            networks = symbol_net.get(coin, [])
+            for network in networks:
+                payload = {"type": coin, "content": network}
+                response = requests.post(API_URL, json=payload)
+                secondary_data = response.json()
+                
+                if secondary_data["code"] != 200:
+                    continue
+
+                symbol_address = secondary_data["data"].get("symbolAddress", "")
+                returnWallets.append({
+                    "coin": coin,
+                    "network": network,
+                    "address": symbol_address
+                })    
+        
+        walletData[api_url] = {
+            "wallets": returnWallets,
+            "curlable": True,
+            "correlated-sites": sites
+        }
+    elif scrapeType == "ops-users":
+        url = "https://user" + api_url + "/ops/users"
+
+        coinTypes = ["Bitcoin", "Ethereum"]
+
+        payload = "request=getcoin&type=Bitcoin"
+        headers = {
+            'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        }
+        response = requests.request("POST", url, headers=headers, data=payload)
+
+        print(response.text)
     elif scrapeType == "getAllSetting":
         if api_url is None:
             print("No API URL provided for getAllSetting scrape type")
@@ -353,6 +434,8 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
             print('Error reaching API URL:', api_url)
             walletData[api_url] = {
                 "wallets": returnWallets,
+                "curlable": True,
+                "error": "Failed to reach API endpoint",
                 "correlated-sites": sites
             }
 
@@ -363,6 +446,9 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
             print(f"API request failed {data} for URL: {api_url}")
             walletData[api_url] = {
                 "wallets": returnWallets,
+                "curlable": True,
+                "error": "API request failed. Check response data for details.",
+                "response_data": data,
                 "correlated-sites": sites
             }
 
@@ -375,6 +461,7 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
 
             walletData[api_url] = {
                 "wallets": returnWallets,
+                "curlable": True,
                 "correlated-sites": sites
             }
 
@@ -426,7 +513,8 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
     print('Finished scraping wallets for API URL:', api_url, 'Scraped wallets:', returnWallets)
     walletData[api_url] = {
         "wallets": returnWallets,
-        "correlated-sites": sites
+        "correlated-sites": sites,
+        "curlable": True
     }
 
     return returnWallets
@@ -560,13 +648,19 @@ def append_sites_to_txt(json_path: str, txt_path: str) -> int:
     return len(sites)
 
 def main():
+    """
     extract_unique_domains("logs/urlscan.csv", "logs/unique_sites.json")
     check_sites_reported_bulk("logs/unique_sites.json", "logs/reported_unreported_sites.json")
     get_webapi_from_all_sites("logs/reported_unreported_sites.json", "logs/sites_webapi_with_uuids.json")
     compile_all_sites_into_webapi_json("logs/sites_webapi_with_uuids.json", "logs/webapi_final.json")
-    scrape_all_wallets("getAllSetting", "logs/webapi_final.json", "logs/scraped_wallets.json")
-    validate_wallet_data("logs/scraped_wallets.json", "logs/validated_wallets.json")
-    submit_wallets_bulk("logs/validated_wallets.json")
-    append_sites_to_txt("logs/reported_unreported_sites.json", "logs/all_reported_sites.txt")
+    """
+
+    
+    # scrape_all_wallets("getAllSetting", "logs/webapi_final.json", "logs/scraped_wallets.json")
+    # validate_wallet_data("logs/scraped_wallets.json", "logs/validated_wallets.json")
+    # submit_wallets_bulk("logs/validated_wallets.json")
+    # append_sites_to_txt("logs/reported_unreported_sites.json", "logs/all_reported_sites.txt")
+
+    report_sites_from_urlscan_csv("logs/urlscan.csv")
 
 main()
