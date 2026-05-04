@@ -1,0 +1,883 @@
+{
+    "null": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "tufejix.cyou",
+            "tufejix.xyz",
+            "tufejix.top",
+            "weendash.icu",
+            "zunepok-ex.win",
+            "securexy.com",
+            "securexat.cyou",
+            "securexat2.com",
+            "securexat1.com",
+            "goldbridgex.com",
+            "secureourkids.com",
+            "securexat.com",
+            "bcbbs.cam",
+            "ckrigxui.com",
+            "bitstamp.cyou",
+            "btcbox.cc",
+            "btcbox.bond",
+            "btcbox.cyou",
+            "btcbox.one",
+            "batongfbvtl.com",
+            "batonhgtt.com",
+            "batonexcrypto.com",
+            "batonghroh.com",
+            "axoracoin.com",
+            "coinlyn.cc",
+            "paxos5.cc",
+            "mirprogs.com",
+            "nexttoit.cyou",
+            "paxos3.cc",
+            "paxosl.vip",
+            "paxosl.top",
+            "paxosl.xyz",
+            "paxosii.cyou",
+            "paxosii.shop",
+            "paxosii.top",
+            "paxosii.vip",
+            "paxosii.xyz",
+            "paxosjp.top",
+            "paxosi.xyz",
+            "paxosi.qpon",
+            "paxosi.icu",
+            "agorac.cc",
+            "meridianfxx.cc",
+            "meridianfx.shop",
+            "meridianfxx.com",
+            "agorac.cyou",
+            "meridianfx.net",
+            "agorac.top",
+            "agorac.xyz",
+            "bitkuae.com",
+            "meridianfx.xyz",
+            "paxosi.top",
+            "paxosi.vip",
+            "paxosii.cc",
+            "paxosii.com",
+            "paxos.qpon",
+            "paxosi.cc",
+            "ooenhub.co",
+            "paxos.icu",
+            "schwaba.vip",
+            "meridianfx.cc",
+            "paxos-jp.vip",
+            "paxosjp.cyou",
+            "paxosjp.qpon",
+            "paxosjp.online",
+            "paxos-jp.xyz",
+            "paxosjp.shop",
+            "paxos-jp.cc",
+            "schwaba.cyou",
+            "meridianfx.me",
+            "paxosjp.com",
+            "schwaba.shop",
+            "schwaba.cc",
+            "okcoini.top",
+            "web3-cumberland.top",
+            "web3-cumberland.vip",
+            "batonexz.cc",
+            "forexcapitals23.com",
+            "lctvrpt.cc",
+            "dappaipro.net",
+            "okcoini.cc",
+            "lctvrpt.top",
+            "agorac.vip",
+            "meridianfx.icu",
+            "meridianfx.cyou",
+            "ooenhub.net",
+            "ooenhub.vip",
+            "ooenhub.org",
+            "ooenhub.cc",
+            "ooenhub.top",
+            "ooenhub.icu",
+            "okcoins.vip",
+            "okcoins.org",
+            "okcoins.biz",
+            "okcoins.me",
+            "paxosjp.vip",
+            "dappifypro.top",
+            "okcoins.icu",
+            "unsiki.icu",
+            "unsiki.site",
+            "unsiki.store",
+            "unsiki.cyou",
+            "lctvrpt.vip",
+            "zebtrix.net",
+            "zebtrix.cc",
+            "zebtrixa.com",
+            "lctvrpt.net",
+            "zebtrix.com",
+            "aiwzkbr.net",
+            "aiwzkbr.com",
+            "fx-cm-tyb.top",
+            "dappifypro.net",
+            "dappifypro.cc",
+            "mexcsis-sty.top",
+            "cuensoty-erh.top",
+            "mexctybs-eoi.top",
+            "tsduedy-sye.top",
+            "mexcsis-eok.top",
+            "mexcstusp-uew.top",
+            "mexcsis-ues.top"
+        ]
+    },
+    "api.cumber-land.cyou": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "cumber-land.cc",
+            "cumbreland.cc"
+        ]
+    },
+    "api.okcoins.co": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "okcoini.com"
+        ]
+    },
+    "api.tufejix.bond": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "btc",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "7cspVYXcjeqSvbXuP43sYhAa5vdsVrHQ5KoZifsC8qVg"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            }
+        ],
+        "correlated-sites": [
+            "tufejix.bond"
+        ],
+        "curlable": true
+    },
+    "api.kieixpapp.top": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TEUBG4k8fSV9DJ5tUwFRRY2wA6R2mRxXoq"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x721b12df7dd2C94BE4A8A7B9DFB9B3da80034D3b"
+            },
+            {
+                "coin": "usdt",
+                "network": "USDT-SOL",
+                "address": "5rzwssx6Zm17wFX6UeUfq1eCPnwc8xAeB3qiQm7vSAVP"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x721b12df7dd2C94BE4A8A7B9DFB9B3da80034D3b"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "39mXNZRoDPUFjBJoK2M2PuuzYBWCv4o8cJ "
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "ECXM258zZ2TavfKatQxU7Gw9bH4JA7LsCWirLLpps33x"
+            },
+            {
+                "coin": "xrp",
+                "network": "XRP",
+                "address": "rLq7XbZJJm53gjEZmpX2EpAeqixcX259Ad"
+            }
+        ],
+        "correlated-sites": [
+            "kieixpapp.top"
+        ],
+        "curlable": true
+    },
+    "api.unsiki.art": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TKjxcgrRZzrd1PNKEirF55NRFsDHhLNP7N"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "1PmAdireqsQoL8oBDbupWjTR1xiWP82i29"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            }
+        ],
+        "correlated-sites": [
+            "unsiki.art"
+        ],
+        "curlable": true
+    },
+    "api.forexcapitals12.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TEfDJAFUkuqAnXR3gL4od82TpxzMd7ydtd"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "1Bjb34H1weDSj9Bf3rwxgPvxJ27hQEaSdP "
+            },
+            {
+                "coin": "doge",
+                "network": "doge",
+                "address": "DPJmRV3qqSzFzeWnP28hn9ZqnbX3g9idRc"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "HqHmVWPBxr3JzRsnUo6GiydjYfyZwLvfvKnTijHtHgrV"
+            },
+            {
+                "coin": "xrp",
+                "network": "XRP",
+                "address": "rMwsPKs3cwhKmLH5hry9XzjaJW8Rpj3CGX"
+            },
+            {
+                "coin": "usdt",
+                "network": "USDT-SOL",
+                "address": "5mcP8Dsn8z7xudqDGmni1jczdSY3uLKs9EYJmWdHEjY6"
+            },
+            {
+                "coin": "usdc",
+                "network": "USDC-SOL",
+                "address": "5mcP8Dsn8z7xudqDGmni1jczdSY3uLKs9EYJmWdHEjY6"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            },
+            {
+                "coin": "ltc",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            }
+        ],
+        "correlated-sites": [
+            "forexcapitals12.com"
+        ],
+        "curlable": true
+    },
+    "api.forexcapitals5.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TEfDJAFUkuqAnXR3gL4od82TpxzMd7ydtd"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "1Bjb34H1weDSj9Bf3rwxgPvxJ27hQEaSdP "
+            },
+            {
+                "coin": "doge",
+                "network": "doge",
+                "address": "DPJmRV3qqSzFzeWnP28hn9ZqnbX3g9idRc"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "HqHmVWPBxr3JzRsnUo6GiydjYfyZwLvfvKnTijHtHgrV"
+            },
+            {
+                "coin": "xrp",
+                "network": "XRP",
+                "address": "rMwsPKs3cwhKmLH5hry9XzjaJW8Rpj3CGX"
+            },
+            {
+                "coin": "usdt",
+                "network": "USDT-SOL",
+                "address": "5mcP8Dsn8z7xudqDGmni1jczdSY3uLKs9EYJmWdHEjY6"
+            },
+            {
+                "coin": "usdc",
+                "network": "USDC-SOL",
+                "address": "5mcP8Dsn8z7xudqDGmni1jczdSY3uLKs9EYJmWdHEjY6"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            },
+            {
+                "coin": "ltc",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            }
+        ],
+        "correlated-sites": [
+            "forexcapitals5.com"
+        ],
+        "curlable": true
+    },
+    "api.unsiki.cloud": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TKjxcgrRZzrd1PNKEirF55NRFsDHhLNP7N"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "1PmAdireqsQoL8oBDbupWjTR1xiWP82i29"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            }
+        ],
+        "correlated-sites": [
+            "unsiki.cloud"
+        ],
+        "curlable": true
+    },
+    "api.unsiki.cc": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TKjxcgrRZzrd1PNKEirF55NRFsDHhLNP7N"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "1PmAdireqsQoL8oBDbupWjTR1xiWP82i29"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            }
+        ],
+        "correlated-sites": [
+            "unsiki.cc"
+        ],
+        "curlable": true
+    },
+    "api.tufejix.asia": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "btc",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "7cspVYXcjeqSvbXuP43sYhAa5vdsVrHQ5KoZifsC8qVg"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            }
+        ],
+        "correlated-sites": [
+            "tufejix.asia"
+        ],
+        "curlable": true
+    },
+    "api.cme-s.vip": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TKs6zoR1jTkqtC66QyV2XxJ7UKk3A7W8pn"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x16588b7492ebf5c94ac7ed6c30a134ae68e24d77"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x16588b7492ebf5c94ac7ed6c30a134ae68e24d77"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "1K1ZW9BhKSAtnGEW1KjkJb1s3SDpfQXsPg"
+            },
+            {
+                "coin": "doge",
+                "network": "doge",
+                "address": "DP9f3Q8Lcr5BKGR6jujJrMBTvZx84EaBMb"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "ErHtV5eVx2B7SmA8NWB8FMLAqYqWm5giWJkJ2eNNFt2c"
+            },
+            {
+                "coin": "xrp",
+                "network": "XRP",
+                "address": "rpGDQ6Mq4zrybyCaPz38bG97v1GTEg9UB8"
+            }
+        ],
+        "correlated-sites": [
+            "cme-s.vip"
+        ],
+        "curlable": true
+    },
+    "api.weendash.vip": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TEfDJAFUkuqAnXR3gL4od82TpxzMd7ydtd"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "1Bjb34H1weDSj9Bf3rwxgPvxJ27hQEaSdP "
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "rMwsPKs3cwhKmLH5hry9XzjaJW8Rpj3CGX"
+            }
+        ],
+        "correlated-sites": [
+            "weendash.vip"
+        ],
+        "curlable": true
+    },
+    "api.unsiki.one": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TKjxcgrRZzrd1PNKEirF55NRFsDHhLNP7N"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "1PmAdireqsQoL8oBDbupWjTR1xiWP82i29"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x32641BCbE5aF61A96E4ad21314E66091B5cCf3D7"
+            }
+        ],
+        "correlated-sites": [
+            "unsiki.one"
+        ],
+        "curlable": true
+    },
+    "api.tufejix.shop": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "btc",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "7cspVYXcjeqSvbXuP43sYhAa5vdsVrHQ5KoZifsC8qVg"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            }
+        ],
+        "correlated-sites": [
+            "tufejix.shop"
+        ],
+        "curlable": true
+    },
+    "api.nexttoit.vip": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TEfDJAFUkuqAnXR3gL4od82TpxzMd7ydtd"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0xa5e0B5613C27D8cBc1f175188553473c04298CA8"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "1Bjb34H1weDSj9Bf3rwxgPvxJ27hQEaSdP "
+            },
+            {
+                "coin": "doge",
+                "network": "doge",
+                "address": "DPJmRV3qqSzFzeWnP28hn9ZqnbX3g9idRc"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "HqHmVWPBxr3JzRsnUo6GiydjYfyZwLvfvKnTijHtHgrV"
+            },
+            {
+                "coin": "xrp",
+                "network": "XRP",
+                "address": "rMwsPKs3cwhKmLH5hry9XzjaJW8Rpj3CGX"
+            }
+        ],
+        "correlated-sites": [
+            "nexttoit.vip"
+        ],
+        "curlable": true
+    },
+    "api.spmdym.shop": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "btc",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "7cspVYXcjeqSvbXuP43sYhAa5vdsVrHQ5KoZifsC8qVg"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            }
+        ],
+        "correlated-sites": [
+            "spmdym.shop"
+        ],
+        "curlable": true
+    },
+    "api.onchnia.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "btc",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "7cspVYXcjeqSvbXuP43sYhAa5vdsVrHQ5KoZifsC8qVg"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x44dDbeEC6ef4EDa6E2E859F85e783A4583A72613"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "TWekutyzQ2s1f79h3ae4evTbgrCAyFv15i"
+            }
+        ],
+        "correlated-sites": [
+            "onchnia.com"
+        ],
+        "curlable": true
+    },
+    "api.betonaxcaptial.com": {
+        "wallets": [
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "2pBLs3rTCeG5s326c3FFFcta77ofiJtx1w5YGLTcpvVP"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "THymMTqmpFQYy8RWNmGwgHuAcBW9HUGPPW"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x01401F63e639BB42E6D94BE2a905A7e8a45625fA"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x5961745B9C9A78A962822554360260C3d258c716"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x01401F63e639BB42E6D94BE2a905A7e8a45625fA"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "bc1p53emd7vgxmjj2p45qpske9j82f78s3edxeumvfyklfxm2hp7xges00c4jf"
+            },
+            {
+                "coin": "xrp",
+                "network": "XRP",
+                "address": "rMQqEw9GQpgqobbx5oD8YqAzrJ471muvJ5"
+            }
+        ],
+        "correlated-sites": [
+            "betonaxcaptial.com"
+        ],
+        "curlable": true
+    },
+    "api.batonexs.cc": {
+        "wallets": [
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "2pBLs3rTCeG5s326c3FFFcta77ofiJtx1w5YGLTcpvVP"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "THymMTqmpFQYy8RWNmGwgHuAcBW9HUGPPW"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x01401F63e639BB42E6D94BE2a905A7e8a45625fA"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x5961745B9C9A78A962822554360260C3d258c716"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x01401F63e639BB42E6D94BE2a905A7e8a45625fA"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "bc1p53emd7vgxmjj2p45qpske9j82f78s3edxeumvfyklfxm2hp7xges00c4jf"
+            },
+            {
+                "coin": "xrp",
+                "network": "XRP",
+                "address": "rMQqEw9GQpgqobbx5oD8YqAzrJ471muvJ5"
+            }
+        ],
+        "correlated-sites": [
+            "batonexs.cc"
+        ],
+        "curlable": true
+    },
+    "api.batonrohhj.com": {
+        "wallets": [
+            {
+                "coin": "sol",
+                "network": "SOL",
+                "address": "2pBLs3rTCeG5s326c3FFFcta77ofiJtx1w5YGLTcpvVP"
+            },
+            {
+                "coin": "usdt",
+                "network": "trx",
+                "address": "THymMTqmpFQYy8RWNmGwgHuAcBW9HUGPPW"
+            },
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x01401F63e639BB42E6D94BE2a905A7e8a45625fA"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x5961745B9C9A78A962822554360260C3d258c716"
+            },
+            {
+                "coin": "eth",
+                "network": "eth",
+                "address": "0x01401F63e639BB42E6D94BE2a905A7e8a45625fA"
+            },
+            {
+                "coin": "btc",
+                "network": "btc",
+                "address": "bc1p53emd7vgxmjj2p45qpske9j82f78s3edxeumvfyklfxm2hp7xges00c4jf"
+            },
+            {
+                "coin": "xrp",
+                "network": "XRP",
+                "address": "rMQqEw9GQpgqobbx5oD8YqAzrJ471muvJ5"
+            }
+        ],
+        "correlated-sites": [
+            "batonrohhj.com"
+        ],
+        "curlable": true
+    },
+    "api.meridianfx.top": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "meridianfx.top"
+        ]
+    },
+    "api.cryptonetes.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "Failed to reach API endpoint",
+        "correlated-sites": [
+            "cryptonetes.com"
+        ]
+    }
+}

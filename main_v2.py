@@ -170,6 +170,22 @@ def report_sites_from_urlscan_csv(urlscanFileName: str):
             print(f"Site {site_url} is unreported, submitting empty wallet data to report the site")
             submit_wallets(site_url, [])
 
+def report_sites_from_blank_json_file(jsonFileName: str):
+    with open(jsonFileName, mode='r', newline='', encoding='utf-8') as file:
+        data = json.load(file)
+
+        for site_url in data:
+            print("site_url:", site_url)
+            submit_wallets(site_url, [])
+
+def output_json_to_txt(jsonFileName: str, txtFileName: str):
+    with open(jsonFileName, mode='r', newline='', encoding='utf-8') as file:
+        data = json.load(file)
+
+        with open(txtFileName, mode='w', newline='', encoding='utf-8') as txt_file:
+            for site_url in data:
+                txt_file.write(site_url + "\n")
+
 def format_wallets_for_submission(wallets: list) -> list:
     formatted_wallets = []
 
@@ -193,7 +209,7 @@ def format_wallets_for_submission(wallets: list) -> list:
 
     return formatted_wallets
 
-def submit_wallets_bulk(inputFileName: str):
+def submit_wallets_bulk(inputFileName: str, testMode: bool = False):
     with open(inputFileName, mode='r', newline='', encoding='utf-8') as file:
         file = json.load(file)
 
@@ -205,7 +221,9 @@ def submit_wallets_bulk(inputFileName: str):
 
             for site_url in correlated_sites:
                 print(f"Submitting wallets for site {site_url}: {formatted_wallets}")
-                submit_wallets(site_url, formatted_wallets)
+
+                if not testMode:
+                    submit_wallets(site_url, formatted_wallets)
         
 
 # FILE ANALYSIS
@@ -233,6 +251,24 @@ def extract_unique_domains(urlscanFileName: str, outputFileName: str):
     with open(outputFileName, mode='w', encoding='utf-8') as file:
         json.dump(uniqueDomainList, file, indent=4)  # Save the unique domain list as JSON for later use
 # extract_unique_domains("logs/_run3/urlscan.csv", "logs/unique_sites.json")
+
+def check_all_curlable_websites(inputFileName: str) -> list:
+    curlableSites = []
+
+    with open(inputFileName, mode='r', newline='', encoding='utf-8') as file:
+        file = json.load(file)['unreported']  # Assuming the JSON structure has an "unreported" key with the list of sites
+
+        for site in file:
+            if can_curl_website(site):
+                print('Curlable:', site)
+                curlableSites.append(site)
+            else:
+                print('Not curlable:', site)
+
+    with open("logs/curlable_sites.json", mode='w', encoding='utf-8') as file:
+        json.dump(curlableSites, file, indent=4)  # Save the curlable sites list as JSON for later use
+
+    return curlableSites
 
 # Takes JSON of site lists and checks if they are reported or not, then outputs two text files: one for reported sites and one for unreported sites
 def check_sites_reported_bulk(inputFileName: str, outputFileName: str):
@@ -291,6 +327,14 @@ def get_webapi_from_all_sites(unreported_file_name: str, outputFileName: str):
     print('Total unreported sites:', len(unreportedSites))
 
     for site in unreportedSites:
+        if not can_curl_website(site):
+            print('Cannot reach site:', site, 'Skipping API extraction for this site')
+            siteData[site] = {
+                "api_url": None,
+                "uuid": None,
+            }
+            continue
+
         print('Progress:' + str(unreportedSites.index(site) + 1) + '/' + str(len(unreportedSites)) + ' - Checking site:', site)
         uuid = get_uuid_from_site_url(site)
         domains = get_urlscan_result_from_uuid(uuid).get('lists', {}).get('domains', [])
@@ -648,19 +692,22 @@ def append_sites_to_txt(json_path: str, txt_path: str) -> int:
     return len(sites)
 
 def main():
-    """
-    extract_unique_domains("logs/urlscan.csv", "logs/unique_sites.json")
-    check_sites_reported_bulk("logs/unique_sites.json", "logs/reported_unreported_sites.json")
-    get_webapi_from_all_sites("logs/reported_unreported_sites.json", "logs/sites_webapi_with_uuids.json")
-    compile_all_sites_into_webapi_json("logs/sites_webapi_with_uuids.json", "logs/webapi_final.json")
-    """
-
+    # extract_unique_domains("logs/urlscan.csv", "logs/unique_sites.json")
+    # check_sites_reported_bulk("logs/unique_sites.json", "logs/reported_unreported_sites.json")
+    # check_all_curlable_websites("logs/reported_unreported_sites.json")
     
+    # get_webapi_from_all_sites("logs/reported_unreported_sites.json", "logs/sites_webapi_with_uuids.json")
+    # compile_all_sites_into_webapi_json("logs/sites_webapi_with_uuids.json", "logs/webapi_final.json")
     # scrape_all_wallets("getAllSetting", "logs/webapi_final.json", "logs/scraped_wallets.json")
     # validate_wallet_data("logs/scraped_wallets.json", "logs/validated_wallets.json")
-    # submit_wallets_bulk("logs/validated_wallets.json")
-    # append_sites_to_txt("logs/reported_unreported_sites.json", "logs/all_reported_sites.txt")
+    submit_wallets_bulk("logs/validated_wallets.json", False)
 
-    report_sites_from_urlscan_csv("logs/urlscan.csv")
+    """
+    # report_sites_from_blank_json_file("logs/curlable_sites.json")
+    # report_sites_from_urlscan_csv("logs/urlscan.csv")
+    # append_sites_to_txt("logs/reported_unreported_sites.json", "logs/all_reported_sites.txt")
+    """
+    
+
 
 main()
