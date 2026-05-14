@@ -1,0 +1,1628 @@
+{
+    "crypt0v.co": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "crypt0v.co"
+        ]
+    },
+    "cryptoex6.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "cryptoex6.com"
+        ]
+    },
+    "cryptoex88.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "cryptoex88.com"
+        ]
+    },
+    "cryptoway8.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "cryptoway8.com"
+        ]
+    },
+    "mcryptop.shop": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "mcryptop.shop"
+        ]
+    },
+    "cryptoway6.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "cryptoway6.com"
+        ]
+    },
+    "cryptoex66.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "cryptoex66.com"
+        ]
+    },
+    "crypt0ex.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "crypt0ex.com"
+        ]
+    },
+    "cryptoex8.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "cryptoex8.com"
+        ]
+    },
+    "cryptc0.com": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "cryptc0.com"
+        ]
+    },
+    "cryptoxsvip.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "API request failed with status code 405",
+        "correlated-sites": [
+            "cryptoxsvip.com"
+        ]
+    },
+    "cryptoxx11.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "API request failed with status code 405",
+        "correlated-sites": [
+            "cryptoxx11.com"
+        ]
+    },
+    "cryptop.shop": {
+        "wallets": [],
+        "curlable": true,
+        "error": "API request failed with status code 400",
+        "correlated-sites": [
+            "cryptop.shop"
+        ]
+    },
+    "coinbaseoc.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "API request failed with status code 404",
+        "correlated-sites": [
+            "coinbaseoc.com"
+        ]
+    },
+    "coinbaseyy.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "API request failed with status code 404",
+        "correlated-sites": [
+            "coinbaseyy.com"
+        ]
+    },
+    "cryptox6.vip": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cryptox6.vip"
+        ],
+        "curlable": true
+    },
+    "cryptoqt.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cryptoqt.com"
+        ],
+        "curlable": true
+    },
+    "diablocrypt.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "diablocrypt.com"
+        ],
+        "curlable": true
+    },
+    "cryptox66.vip": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cryptox66.vip"
+        ],
+        "curlable": true
+    },
+    "crypoto55.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "crypoto55.com"
+        ],
+        "curlable": true
+    },
+    "cryptomt.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cryptomt.com"
+        ],
+        "curlable": true
+    },
+    "crypt00x.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "crypt00x.com"
+        ],
+        "curlable": true
+    },
+    "cryptosgaming.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cryptosgaming.com"
+        ],
+        "curlable": true
+    },
+    "crypti0.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xBf23CAc7e8e7b69D76787CC913971f19D8246fbA"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "37zKRVhB5TyVmpM8AyvfddvhWnjTNCtvCu"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0xBf23CAc7e8e7b69D76787CC913971f19D8246fbA"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0xBf23CAc7e8e7b69D76787CC913971f19D8246fbA"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "0"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "DOT",
+                "address": "0"
+            },
+            {
+                "coin": "adausdt",
+                "network": "ADA",
+                "address": "0"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "XRP",
+                "address": "0"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "0"
+            }
+        ],
+        "correlated-sites": [
+            "crypti0.com"
+        ],
+        "curlable": true
+    },
+    "cryptox00.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cryptox00.com"
+        ],
+        "curlable": true
+    },
+    "crypt0x77.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "crypt0x77.com"
+        ],
+        "curlable": true
+    },
+    "cryptorpg.net": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cryptorpg.net"
+        ],
+        "curlable": true
+    },
+    "crypt0v.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0xBf23CAc7e8e7b69D76787CC913971f19D8246fbA"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "37zKRVhB5TyVmpM8AyvfddvhWnjTNCtvCu"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0xBf23CAc7e8e7b69D76787CC913971f19D8246fbA"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0xBf23CAc7e8e7b69D76787CC913971f19D8246fbA"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "0"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "DOT",
+                "address": "0"
+            },
+            {
+                "coin": "adausdt",
+                "network": "ADA",
+                "address": "0"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "XRP",
+                "address": "0"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "0"
+            }
+        ],
+        "correlated-sites": [
+            "crypt0v.com"
+        ],
+        "curlable": true
+    },
+    "crypt0xsvip.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "crypt0xsvip.com"
+        ],
+        "curlable": true
+    },
+    "crypt0x06.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "crypt0x06.com"
+        ],
+        "curlable": true
+    },
+    "cyrptoxkf.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cyrptoxkf.com"
+        ],
+        "curlable": true
+    },
+    "crypdian.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "crypdian.com"
+        ],
+        "curlable": true
+    },
+    "crypto008.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "crypto008.com"
+        ],
+        "curlable": true
+    },
+    "cryptox6.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cryptox6.com"
+        ],
+        "curlable": true
+    },
+    "cryptox188.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cryptox188.com"
+        ],
+        "curlable": true
+    },
+    "crypt0xx.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "crypt0xx.com"
+        ],
+        "curlable": true
+    },
+    "betcrypto247.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "betcrypto247.com"
+        ],
+        "curlable": true
+    },
+    "cyrptox999.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cyrptox999.com"
+        ],
+        "curlable": true
+    },
+    "cryptox30.com": {
+        "wallets": [
+            {
+                "coin": "usdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1pgnl3x8gnsjfpnxp7nrvwv9s9ea3cu3v7dp7dqmvnfgpdffa4vgjqgjwtkn"
+            },
+            {
+                "coin": "ethusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0x6725DD9880307B7048a209352c17A76FbF16D4c3"
+            },
+            {
+                "coin": "solusdt",
+                "network": "SOL",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "trxusdt",
+                "network": "trx",
+                "address": "TU9XD39seSVbwkoxHuj3YgWL59p1YhyKBw"
+            },
+            {
+                "coin": "dogeusdt",
+                "network": "doge",
+                "address": "DNQ5EzzYznvXErfBrBKQwo6DSSMzMq6rKb"
+            },
+            {
+                "coin": "adausdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "bnbusdt",
+                "network": "BNB",
+                "address": "6Wb3Pwy3ow49co9u5ya7S7gyXsq4aqd4iGkxmz7ukypM"
+            },
+            {
+                "coin": "dotusdt",
+                "network": "eth",
+                "address": "0x59bc0DF3e63C957828F43c00977B92c6b7180B84"
+            },
+            {
+                "coin": "xrpusdt",
+                "network": "eth",
+                "address": "0xa8b06c44e6556189412a050f7bbce2e142f75791"
+            }
+        ],
+        "correlated-sites": [
+            "cryptox30.com"
+        ],
+        "curlable": true
+    },
+    "cryptoexeth.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "API request failed with status code 502",
+        "correlated-sites": [
+            "cryptoexeth.com"
+        ]
+    },
+    "cryptoexbtc.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "API request failed with status code 502",
+        "correlated-sites": [
+            "cryptoexbtc.com"
+        ]
+    },
+    "cryptoexsol.com": {
+        "wallets": [],
+        "curlable": true,
+        "error": "API request failed with status code 502",
+        "correlated-sites": [
+            "cryptoexsol.com"
+        ]
+    }
+}

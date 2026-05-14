@@ -1,0 +1,109 @@
+{
+    "site": {
+        "wallets": [
+            {
+                "address": "3ET4sqHWaudTbRTrLBBts4udijej8dEmTQ",
+                "blockchain": "btcusdt",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x6c1f32e2a7961c1b42f2e64fec38164eb02db78e",
+                "blockchain": "ethusdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TTm7ghWHzRTt6i1jWjpygQbHfAx6mazFnP",
+                "blockchain": "usdtusdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xf0c67e0585159ad032d5a32b91b82b15e62fb9d2",
+                "blockchain": "usdcusdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "3DfZDeb3y2QoL7unC3y8FadJ2Pr7VtNja6",
+                "blockchain": "btcusdt",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x9e8a750796aa056c8ad57a4030ca78ba01a244e1",
+                "blockchain": "ethusdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xb76d5fa5dea5437736c916d4e5cf7a78b984dcaf",
+                "blockchain": "usdcusdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "mexckmd.com"
+        ],
+        "curlable": true
+    },
+    "kracexcharge.it.com": {
+        "wallets": [
+            {
+                "address": "TVaKNoEbMXveCBc2qfpUjPZyUD9gQzZJV9",
+                "blockchain": "usdtusdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x698f0c8b1de371ccc6ec95c4119ac962e1d2b7a6",
+                "blockchain": "usdtusdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "bc1pr6u6p7lzcpuhzyrqtfpdx5748asyrsx6yvg6mpp75n9yx4kwfa7qlz9px9",
+                "blockchain": "btcusdt",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x698f0c8b1de371ccc6ec95c4119ac962e1d2b7a6",
+                "blockchain": "ethusdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xd81d89834d13a765c1e9b28e6cd0b278fa3cb3049de3958ee86dc5bc32841d08",
+                "blockchain": "usdcusdt",
+                "network": "eth",
+                "is_valid": false,
+                "is_supported": true
+            },
+            {
+                "address": "4yx8YG9QBs5YwuGPt45wLWfeJxD4pkug3Xxt5Xwyhuvi",
+                "blockchain": "solusdt",
+                "network": "sol",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "kracexcharge.it.com"
+        ],
+        "curlable": true
+    }
+}

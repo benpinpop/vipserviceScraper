@@ -1,0 +1,38 @@
+{
+    "api": {
+        "wallets": [
+            {
+                "coin": "btcusdt",
+                "network": "btc",
+                "address": "bc1plewwkevt87m8ell2tdt3ukq90457m46p5gkhw9w5ql2mpj56jljsaley22"
+            },
+            {
+                "coin": "usdtusdt",
+                "network": "trx",
+                "address": "THzPsj6u74gswnBjYzc3sTDb3ahqEWzuMQ"
+            },
+            {
+                "coin": "usdcusdt",
+                "network": "eth",
+                "address": "0xF6c24682eE6D1c34Ab80BcB70f21476F469fab35"
+            }
+        ],
+        "correlated-sites": [
+            "pc.riot-ex.top",
+            "pc.riot-ex.vip",
+            "pc.riot-ex.net",
+            "pc.riot-ex.cc",
+            "pc.riot-ex.com",
+            "pc.riot-plat.xyz",
+            "pc.riot-plat.info",
+            "pc.riot-plat.top",
+            "pc.riot-plat.site",
+            "pc.riot-plat.vip",
+            "pc.riot-plat.cc",
+            "pc.riot-plat.com",
+            "pc.riot-plat.net",
+            "pc.riotplat.info",
+            "pc.riotplat.net"
+        ]
+    }
+}

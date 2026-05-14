@@ -1,0 +1,44 @@
+{
+    "Site": {
+        "wallets": [
+            {
+                "address": "34f48bunMxMAAgrZSQy56KePNtXLk93nkL",
+                "blockchain": "btcusdt",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x4c8608109e084455BE11b66753eB7212d1256277",
+                "blockchain": "ethusdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "3NJSMT48YmoMYb5CkUbMTTd4Rvau66h3kx",
+                "blockchain": "btcusdt",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xD6843561E86A58a3e709a4fd692C466db1351c87",
+                "blockchain": "ethusdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "bybititoiu.com",
+            "bybititjue.com",
+            "bybititent.com",
+            "bybitsac.com",
+            "bybitaitsr.com",
+            "bybititsr.com",
+            "bybititru.com"
+        ],
+        "curlable": true
+    }
+}

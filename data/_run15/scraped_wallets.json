@@ -1,0 +1,80 @@
+{"site": {
+    "wallets": [
+        {
+            "coin": "btcusdt",
+            "network": "btc",
+            "address": "3ET4sqHWaudTbRTrLBBts4udijej8dEmTQ"
+        },
+        {
+            "coin": "ethusdt",
+            "network": "eth",
+            "address": "0x6c1f32e2a7961c1b42f2e64fec38164eb02db78e"
+        },
+        {
+            "coin": "usdtusdt",
+            "network": "trx",
+            "address": "TTm7ghWHzRTt6i1jWjpygQbHfAx6mazFnP"
+        },
+        {
+            "coin": "usdcusdt",
+            "network": "eth",
+            "address": "0xf0c67e0585159ad032d5a32b91b82b15e62fb9d2"
+        },
+        {
+            "coin": "btcusdt",
+            "network": "btc",
+            "address": "3DfZDeb3y2QoL7unC3y8FadJ2Pr7VtNja6"
+        },
+        {
+            "coin": "ethusdt",
+            "network": "eth",
+            "address": "0x9e8a750796aa056c8ad57a4030ca78ba01a244e1"
+        },
+        {
+            "coin": "usdcusdt",
+            "network": "eth",
+            "address": "0xb76d5fa5dea5437736c916d4e5cf7a78b984dcaf"
+        }
+    ],
+    "correlated-sites": [
+        "mexckmd.com"
+    ],
+    "curlable": true
+},"kracexcharge.it.com": {
+    "wallets": [
+        {
+            "coin": "usdtusdt",
+            "network": "trx",
+            "address": "TVaKNoEbMXveCBc2qfpUjPZyUD9gQzZJV9"
+        },
+        {
+            "coin": "usdtusdt",
+            "network": "eth",
+            "address": "0x698f0c8b1de371ccc6ec95c4119ac962e1d2b7a6"
+        },
+        {
+            "coin": "btcusdt",
+            "network": "btc",
+            "address": "bc1pr6u6p7lzcpuhzyrqtfpdx5748asyrsx6yvg6mpp75n9yx4kwfa7qlz9px9"
+        },
+        {
+            "coin": "ethusdt",
+            "network": "eth",
+            "address": "0x698f0c8b1de371ccc6ec95c4119ac962e1d2b7a6"
+        },
+        {
+            "coin": "usdcusdt",
+            "network": "eth",
+            "address": "0xd81d89834d13a765c1e9b28e6cd0b278fa3cb3049de3958ee86dc5bc32841d08"
+        },
+        {
+            "coin": "solusdt",
+            "network": "sol",
+            "address": "4yx8YG9QBs5YwuGPt45wLWfeJxD4pkug3Xxt5Xwyhuvi"
+        }
+    ],
+    "correlated-sites": [
+        "kracexcharge.it.com"
+    ],
+    "curlable": true
+}}

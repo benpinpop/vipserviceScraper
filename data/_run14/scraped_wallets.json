@@ -1,0 +1,34 @@
+{"Site": {
+    "wallets": [
+        {
+            "coin": "btcusdt",
+            "network": "btc",
+            "address": "34f48bunMxMAAgrZSQy56KePNtXLk93nkL"
+        },
+        {
+            "coin": "ethusdt",
+            "network": "eth",
+            "address": "0x4c8608109e084455BE11b66753eB7212d1256277"
+        },
+        {
+            "coin": "btcusdt",
+            "network": "btc",
+            "address": "3NJSMT48YmoMYb5CkUbMTTd4Rvau66h3kx"
+        },
+        {
+            "coin": "ethusdt",
+            "network": "eth",
+            "address": "0xD6843561E86A58a3e709a4fd692C466db1351c87"
+        }
+    ],
+    "correlated-sites": [
+        "bybititoiu.com",
+        "bybititjue.com",
+        "bybititent.com",
+        "bybitsac.com",
+        "bybitaitsr.com",
+        "bybititsr.com",
+        "bybititru.com"
+    ],  
+    "curlable": true
+}}
