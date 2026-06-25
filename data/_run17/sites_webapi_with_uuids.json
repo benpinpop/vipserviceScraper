@@ -1,0 +1,86 @@
+{
+    "keeta.international": {
+        "api_url": "webapi.keet138ta.com",
+        "uuid": "019e79de-5334-7294-b81a-67512cdcad1e"
+    },
+    "keeta.financial": {
+        "api_url": "webapi.keet138ta.com",
+        "uuid": "019e78b5-92da-7082-94bc-2e7c5345e6da"
+    },
+    "goldpocket.asia": {
+        "api_url": "webapi.goldocket1688.vip",
+        "uuid": "019e6a37-9b0f-73b5-992d-fe701a86dcf2"
+    },
+    "nextepochmarket.org": {
+        "api_url": "webapi.nextebackend.cc",
+        "uuid": "019e5f25-a613-720e-b538-c98f80e1a3c0"
+    },
+    "keeta.id": {
+        "api_url": "webapi.keet138ta.com",
+        "uuid": "019e551a-a9f0-7350-a138-67513933f263"
+    },
+    "bitbank.click": {
+        "api_url": "webapi.bit138bank.com",
+        "uuid": "019e3b61-1974-74b1-8b08-29d6796603ce"
+    },
+    "finbridge.im": {
+        "api_url": null,
+        "uuid": null
+    },
+    "gisnz.cc": {
+        "api_url": "webapi.growtrivo.org",
+        "uuid": "019e189e-b51d-75d3-a872-097b9c47546c"
+    },
+    "finbridge.tw": {
+        "api_url": "webapi.adooo.cc",
+        "uuid": "019e189e-5c24-71db-ac8d-f5d9279e9f8b"
+    },
+    "gisnz.vip": {
+        "api_url": "webapi.growtrivo.org",
+        "uuid": "019e189d-e27a-703a-a410-b7533299a0a9"
+    },
+    "gisnz.net": {
+        "api_url": "webapi.growtrivo.org",
+        "uuid": "019e189d-c327-740e-9288-8e6a8c8f0703"
+    },
+    "finbridge.win": {
+        "api_url": "webapi.adooo.cc",
+        "uuid": "019e1899-7c4e-7318-9279-43355b817f75"
+    },
+    "finbridge.art": {
+        "api_url": "webapi.adooo.cc",
+        "uuid": "019e1899-7a2f-725d-bff6-f990d12d5bf2"
+    },
+    "nexte-amm.com": {
+        "api_url": "webapi.nextebackend.cc",
+        "uuid": "019e170f-e24d-73dc-964d-b20b8c4d231b"
+    },
+    "nextepochmarket.xyz": {
+        "api_url": null,
+        "uuid": null
+    },
+    "nextepochmarket.vip": {
+        "api_url": "webapi.nextebackend.cc",
+        "uuid": "019df32e-3b14-7665-8823-26e8f4b9d4c8"
+    },
+    "kta.vc": {
+        "api_url": "webapi.keeta.bz",
+        "uuid": "019de2e9-f361-74cf-82b4-a2ab71b929e0"
+    },
+    "atomany.vip": {
+        "api_url": "webapi.atomany.vip",
+        "uuid": "019de263-c248-7705-989a-20f18fbf4833"
+    },
+    "kta.us.cc": {
+        "api_url": "webapi.keeta.bz",
+        "uuid": "019de05e-aa82-717d-b2a0-f125695a182f"
+    },
+    "werewolfs.com": {
+        "api_url": "webapi.were137wolfs.com",
+        "uuid": "019ddded-1466-722e-9948-b69961fd63dc"
+    },
+    "vip-cservice.com": {
+        "api_url": "webapi.keet138ta.com",
+        "uuid": "019e79de-5334-7294-b81a-67512cdcad1e"
+    }
+}

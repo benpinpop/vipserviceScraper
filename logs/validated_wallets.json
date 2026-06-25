@@ -1,0 +1,73 @@
+{
+    "webapi.fx136trad.com": {
+        "wallets": [
+            {
+                "address": "bc1q3kj7h8e7cpn6l36kn0wfd7ns96ajjj9gm7u62a",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x0de94625770b3db9e81adcfdaac9339a436e5298",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x0de94625770b3db9e81adcfdaac9339a436e5298",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TLANuKymqeDWZYMeHKKXjrYipvEY9WPCk1",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x0de94625770b3db9e81adcfdaac9339a436e5298",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TLANuKymqeDWZYMeHKKXjrYipvEY9WPCk1",
+                "blockchain": "usdc",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "GvKQ4NRDzgU1qYtRCe4ZSgTSBEDtVmX5Twf36rhY4HR3",
+                "blockchain": "sol",
+                "network": "solana",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "DFmsGPrGQXALhjUW69AB5vx5YgHDj7A59Y",
+                "blockchain": "doge",
+                "network": "doge",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "rBscbhponSieRHa6NaDFM3Xtdj172sbRTb",
+                "blockchain": "xrp",
+                "network": "ripple",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "fxtradx.com"
+        ],
+        "curlable": true
+    }
+}

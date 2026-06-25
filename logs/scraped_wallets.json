@@ -1,0 +1,55 @@
+{
+    "webapi.fx136trad.com": {
+        "wallets": [
+            {
+                "coin": "BTC",
+                "network": "btc",
+                "address": "bc1q3kj7h8e7cpn6l36kn0wfd7ns96ajjj9gm7u62a"
+            },
+            {
+                "coin": "ETH",
+                "network": "eth",
+                "address": "0x0de94625770b3db9e81adcfdaac9339a436e5298"
+            },
+            {
+                "coin": "USDT",
+                "network": "eth",
+                "address": "0x0de94625770b3db9e81adcfdaac9339a436e5298"
+            },
+            {
+                "coin": "USDT",
+                "network": "trx",
+                "address": "TLANuKymqeDWZYMeHKKXjrYipvEY9WPCk1"
+            },
+            {
+                "coin": "usdc",
+                "network": "eth",
+                "address": "0x0de94625770b3db9e81adcfdaac9339a436e5298"
+            },
+            {
+                "coin": "usdc",
+                "network": "trx",
+                "address": "TLANuKymqeDWZYMeHKKXjrYipvEY9WPCk1"
+            },
+            {
+                "coin": "SOL",
+                "network": "Solana",
+                "address": "GvKQ4NRDzgU1qYtRCe4ZSgTSBEDtVmX5Twf36rhY4HR3"
+            },
+            {
+                "coin": "DOGE",
+                "network": "doge",
+                "address": "DFmsGPrGQXALhjUW69AB5vx5YgHDj7A59Y"
+            },
+            {
+                "coin": "XRP",
+                "network": "Ripple",
+                "address": "rBscbhponSieRHa6NaDFM3Xtdj172sbRTb"
+            }
+        ],
+        "correlated-sites": [
+            "fxtrad.com"
+        ],
+        "curlable": true
+    }
+}

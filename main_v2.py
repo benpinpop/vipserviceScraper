@@ -51,6 +51,10 @@ def get_uuid_from_urlscancsv(site_url: str, urlscanFileName: str | None) -> str 
     if urlscanFileName is None:
         urlscanFileName = "logs/urlscan.csv"
 
+    if not os.path.exists(urlscanFileName):
+        print(f"File {urlscanFileName} not found.")
+        return None
+
     with open(urlscanFileName, mode='r', newline='', encoding='utf-8') as file:
         reader = csv.reader(file)
 
@@ -81,6 +85,21 @@ def get_uuid_from_site_url(site_url: str) -> str | None:
     response.raise_for_status()
     results = response.json().get("results", [])
     return results[0].get("_id") if results else None
+
+def get_list_of_sites_from_domain(domain: str) -> list:
+    response = requests.get(
+        f"{URLSCAN_FETCH_ENDPOINT}?q=domain:{domain}",
+        headers={"api-key": URL_SCAN_API_KEY},
+        timeout=30,
+    )
+    response.raise_for_status()
+    results = response.json().get("results", [])
+    domain_list = []
+    for result in results:
+        if result.get("page", {}).get("apexDomain"):
+            domain_list.append(result["page"]["apexDomain"])
+    
+    return domain_list
 
 # Retrieves the urlscan.io result for a given UUID. Note: the result may not be immediately available after scanning, so you may want to add a delay before calling this function after scanning.
 def get_urlscan_result_from_uuid(uuid: str) -> dict:
@@ -147,15 +166,51 @@ def submit_wallets(site_url: str, wallets: list):
     time.sleep(1)  # Sleep to avoid hitting rate limits
 
     if response.status_code == 201:
-        print(f"Successfully submitted site {site_url} to ScamBusters API", response.text)
+        print(f"\033[92mSuccessfully submitted site {site_url} to ScamBusters API\033[0m {response.text}")
     elif response.status_code == 200:
-        print(f"Site {site_url} already exists in ScamBusters database, updated with new wallet data if applicable", response.text)
+        print(f"\033[93mSite {site_url} already exists in ScamBusters database, updated with new wallet data if applicable\033[0m", response.text)
     elif response.status_code == 429:
         print("Rate limit hit, sleeping for 60 seconds")
         time.sleep(60)
         return submit_wallets(site_url, wallets)
     else:
-        print(f"Failed to submit site {site_url} to ScamBusters API: {response.status_code} - {response.text}")
+        print(f"\033[91mFailed to submit site {site_url} to ScamBusters API: {response.status_code} - {response.text}\033[0m")
+
+def identify_wallet_address(address: str) -> list[str]:
+    """
+    Identify which cryptocurrency network(s) a wallet address could belong to.
+    Supports: btc, eth, trx, doge.
+    """
+
+    patterns: dict[str, list[re.Pattern]] = {
+        # Bitcoin: Legacy (1...), SegWit P2SH (3...), Native SegWit (bc1q/bc1p)
+        "btc": [
+            re.compile(r"^1[a-km-zA-HJ-NP-Z1-9]{25,34}$"),
+            re.compile(r"^3[a-km-zA-HJ-NP-Z1-9]{25,34}$"),
+            re.compile(r"^bc1q[a-z0-9]{38,58}$"),
+            re.compile(r"^bc1p[a-z0-9]{58}$"),
+        ],
+        # Ethereum: 0x prefix, 40 hex characters
+        "eth": [
+            re.compile(r"^0x[0-9a-fA-F]{40}$"),
+        ],
+        # Tron: starts with T, 34 chars, Base58
+        "trx": [
+            re.compile(r"^T[a-km-zA-HJ-NP-Z1-9]{33}$"),
+        ],
+        # Dogecoin: starts with D or A (multisig)
+        "doge": [
+            re.compile(r"^D[5-9A-HJ-NP-U][a-km-zA-HJ-NP-Z1-9]{24,33}$"),
+            re.compile(r"^A[a-km-zA-HJ-NP-Z1-9]{25,34}$"),
+        ],
+    }
+
+    address = address.strip()
+    return [
+        chain
+        for chain, regexes in patterns.items()
+        if any(regex.match(address) for regex in regexes)
+    ]
 
 """
 Example submit payload
@@ -167,6 +222,10 @@ def report_sites_from_urlscan_csv(urlscanFileName: str):
         reader = csv.reader(file)
 
         first_row = next(reader)
+        if "Page Domain" not in first_row:
+            print("Column 'Page Domain' not found in the CSV file.")
+            return None
+
         PageApexDomainIndex = first_row.index("Page Domain")
 
         length = sum(1 for _ in open(urlscanFileName, mode='r', newline='', encoding='utf-8')) - 1
@@ -201,6 +260,11 @@ def output_json_to_txt(jsonFileName: str, txtFileName: str):
         with open(txtFileName, mode='w', newline='', encoding='utf-8') as txt_file:
             for site_url in data:
                 txt_file.write(site_url + "\n")
+
+def output_list_to_txt(list: list, txtFileName: str):
+    with open(txtFileName, mode='w', newline='', encoding='utf-8') as txt_file:
+        for site_url in list:
+            txt_file.write(site_url + "\n")
 
 def format_wallets_for_submission(wallets: list) -> list:
     formatted_wallets = []
@@ -268,6 +332,28 @@ def extract_unique_domains(urlscanFileName: str, outputFileName: str):
         json.dump(uniqueDomainList, file, indent=4)  # Save the unique domain list as JSON for later use
 # extract_unique_domains("logs/_run3/urlscan.csv", "logs/unique_sites.json")
 
+def extract_unique_domains_from_txt(inputFileName: str, outputFileName: str):
+    uniqueDomainList = []
+
+    with open(inputFileName, mode='r', newline='', encoding='utf-8') as file:
+        for line in file:
+            line = line.strip()
+
+            if line == "":
+                print("Empty line in unique sites file, skipping")
+                continue
+
+            if line not in uniqueDomainList:
+                uniqueDomainList.append(line)
+                continue
+
+            print('Duplicate site:', line)
+
+    print(len(uniqueDomainList),uniqueDomainList)
+
+    with open(outputFileName, mode='w', encoding='utf-8') as file:
+        json.dump(uniqueDomainList, file, indent=4)  # Save the unique domain list as JSON for later use
+
 def check_all_curlable_websites(inputFileName: str) -> list:
     curlableSites = []
 
@@ -328,7 +414,7 @@ def get_unreported_sites(inputFileName: str) -> list:
 
     return unreportedSites
 
-def get_reported_sites(inputFileName) -> list:
+def get_reported_sites(inputFileName: str) -> list:
     reportedSites = []
 
     with open(inputFileName, mode='r', newline='', encoding='utf-8') as file:
@@ -427,7 +513,7 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
             Exception: If API request fails
         """
         payload = {"type": "BTC", "content": "BitCoin"}
-        response = requests.post(API_URL, json=payload)
+        response = requests.post(API_URL, json=payload, verify=False, timeout=10)
         initial_data = response.json()
         
         if initial_data["code"] != 200:
@@ -449,7 +535,7 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
             networks = symbol_net.get(coin, [])
             for network in networks:
                 payload = {"type": coin, "content": network}
-                response = requests.post(API_URL, json=payload)
+                response = requests.post(API_URL, json=payload, verify=False, timeout=10)
                 secondary_data = response.json()
                 
                 if secondary_data["code"] != 200:
@@ -476,7 +562,7 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
         headers = {
             'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
         }
-        response = requests.request("POST", url, headers=headers, data=payload)
+        response = requests.request("POST", url, headers=headers, data=payload, verify=False, timeout=10)
 
         print(response.text)
     elif scrapeType == "appconfig":
@@ -635,16 +721,15 @@ def scrape_wallets(scrapeType: str, api_url: str, sites) -> list:
 
     return returnWallets
 
+print(scrape_wallets("vipcservice","webapi.bo1688aei.com",["bo1688aei.com"]))
 def scrape_all_wallets_from_site_list(scrapeType: str, site_list_file_name: str, outputFileName: str):
     with open(site_list_file_name, mode='r', newline='', encoding='utf-8') as file:
         file = json.load(file)
 
         threads = []
 
-        for site in file:
-            api_url = site
-
-            t = Thread(target=scrape_wallets, args=(scrapeType, api_url, [site]))
+        for api_url, sites in file.items():
+            t = Thread(target=scrape_wallets, args=(scrapeType, api_url, sites))
             t.start()
             threads.append(t)
 
@@ -682,42 +767,6 @@ def _extract_network_key(network: str, blockchain: str) -> str:
             return part
 
     return raw
-
-def identify_wallet_address(address: str) -> list[str]:
-    """
-    Identify which cryptocurrency network(s) a wallet address could belong to.
-    Supports: btc, eth, trx, doge.
-    """
-
-    patterns: dict[str, list[re.Pattern]] = {
-        # Bitcoin: Legacy (1...), SegWit P2SH (3...), Native SegWit (bc1q/bc1p)
-        "btc": [
-            re.compile(r"^1[a-km-zA-HJ-NP-Z1-9]{25,34}$"),
-            re.compile(r"^3[a-km-zA-HJ-NP-Z1-9]{25,34}$"),
-            re.compile(r"^bc1q[a-z0-9]{38,58}$"),
-            re.compile(r"^bc1p[a-z0-9]{58}$"),
-        ],
-        # Ethereum: 0x prefix, 40 hex characters
-        "eth": [
-            re.compile(r"^0x[0-9a-fA-F]{40}$"),
-        ],
-        # Tron: starts with T, 34 chars, Base58
-        "trx": [
-            re.compile(r"^T[a-km-zA-HJ-NP-Z1-9]{33}$"),
-        ],
-        # Dogecoin: starts with D or A (multisig)
-        "doge": [
-            re.compile(r"^D[5-9A-HJ-NP-U][a-km-zA-HJ-NP-Z1-9]{24,33}$"),
-            re.compile(r"^A[a-km-zA-HJ-NP-Z1-9]{25,34}$"),
-        ],
-    }
-
-    address = address.strip()
-    return [
-        chain
-        for chain, regexes in patterns.items()
-        if any(regex.match(address) for regex in regexes)
-    ]
 
 def validate_wallet_data(inputFileName: str, outputFileName: str):
     with open(inputFileName, mode="r", encoding="utf-8") as file:
@@ -783,22 +832,20 @@ def append_sites_to_txt(json_path: str, txt_path: str) -> int:
     return len(sites)
 
 def main():
-    #extract_unique_domains("logs/urlscan.csv", "logs/unique_sites.json")
-    #check_sites_reported_bulk("logs/unique_sites.json", "logs/reported_unreported_sites.json")
-    #check_all_curlable_websites("logs/reported_unreported_sites.json")
-    
+    #list = get_list_of_sites_from_domain("vip-cservice.com")
+    #output_list_to_txt(list, "logs/vipcservice_sites.txt")
+
+    # extract_unique_domains_from_txt("logs/sitelist.txt", "logs/unique_sites.json")
+    # check_sites_reported_bulk("logs/unique_sites.json", "logs/reported_unreported_sites.json")
+    # check_all_curlable_websites("logs/reported_unreported_sites.json")
     # get_webapi_from_all_sites("logs/reported_unreported_sites.json", "logs/sites_webapi_with_uuids.json")
     # compile_all_sites_into_webapi_json("logs/sites_webapi_with_uuids.json", "logs/webapi_final.json")
-    # scrape_all_wallets("getAllSetting", "logs/webapi_final.json", "logs/scraped_wallets.json")
-    # scrape_all_wallets_from_site_list("appconfig", "logs/curlable_sites.json", "logs/scraped_wallets.json")
-    #validate_wallet_data("logs/scraped_wallets.json", "logs/validated_wallets.json")
-    #submit_wallets_bulk("logs/validated_wallets.json", False)
-
-    report_sites_from_urlscan_csv("logs/urlscan.csv")
+    # scrape_all_wallets_from_site_list("vipcservice", "logs/webapi_final.json", "logs/scraped_wallets.json")
+    # validate_wallet_data("logs/scraped_wallets.json", "logs/validated_wallets.json")
+    submit_wallets_bulk("logs/validated_wallets.json", False)  # Set to False to actually submit to ScamBusters API
+    append_sites_to_txt("logs/reported_unreported_sites.json", "logs/all_reported_sites.txt")
 
     """
     # report_sites_from_blank_json_file("logs/curlable_sites.json")
-    # append_sites_to_txt("logs/reported_unreported_sites.json", "logs/all_reported_sites.txt")
+    # report_sites_from_urlscan_csv("logs/urlscan.csv")
     """
-
-main()

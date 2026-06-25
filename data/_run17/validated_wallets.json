@@ -1,0 +1,564 @@
+{
+    "null": {
+        "wallets": [],
+        "curlable": false,
+        "correlated-sites": [
+            "finbridge.im",
+            "nextepochmarket.xyz"
+        ]
+    },
+    "webapi.atomany.vip": {
+        "wallets": [
+            {
+                "address": "0x025685aD636c9FbaD585b1B7e2612883c25DB55A",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TDVewoDu4btrMvqHH12MFagMcaQ9uQ9xSs",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "bc1pxu4ycqxslk0j3uxeeqhts3wme70gyrkvn5xv5xwmxzjhljlmxgvswt7r04",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x025685aD636c9FbaD585b1B7e2612883c25DB55A",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x025685aD636c9FbaD585b1B7e2612883c25DB55A",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TDVewoDu4btrMvqHH12MFagMcaQ9uQ9xSs",
+                "blockchain": "usdc",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "rHSq1w1dGyBv8c4HeMh6X1JuUgzagGHCSk",
+                "blockchain": "xrp",
+                "network": "ripple\uff08xrp\uff09",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "Fe6L9KzKemzmiHfFuFXDt7GQuwEiH3RHeBYeVSWDrhyc",
+                "blockchain": "sol",
+                "network": "solana\uff08sol\uff09",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "atomany.vip"
+        ],
+        "curlable": true
+    },
+    "webapi.goldocket1688.vip": {
+        "wallets": [
+            {
+                "address": "17Zox3nVxVJxHZ31sG6jgaq5QvBvrqDJCj",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xdA08b5a2a53f75a79155bBDABEB47A8C424fa2b3",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TSCh6haAG7SJViQ4myMyTsGufLUDNZ79Zo",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x971D07E192fD0B40FE735A645dbbDdAc4Da74Db8",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x10c88e56748C67b3Eed6B27deb6DF37Aaf546c70",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "9mHBdzfpY6HcFXX8sB8o5Q9tZVFvGMQFK1ujaR36SWSf",
+                "blockchain": "sol",
+                "network": "solana",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "DEWpghu5fN3FZxG31WbZFxXEj7MJcSxXLr",
+                "blockchain": "doge",
+                "network": "doge",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "rEzpxXf6GDx4axpQsTJ8tSs28cCkUtz3hV",
+                "blockchain": "xrp",
+                "network": "ripple",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "0x980aeEfa75Aa0D65089bc9dfBEfD262a0fC50a1C",
+                "blockchain": "bnb",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "goldpocket.asia"
+        ],
+        "curlable": true
+    },
+    "webapi.nextebackend.cc": {
+        "wallets": [
+            {
+                "address": "36GvxShv5WZhEuAzw52bNpm19sgmpquN2H",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xa6F80E7B4eC48c64Dd2124deCB58753ae678C879",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xa6F80E7B4eC48c64Dd2124deCB58753ae678C879",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TKTVmHMg6AEfTUZ6ZX7k1ELS8VWzN8pyNS",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xa6F80E7B4eC48c64Dd2124deCB58753ae678C879",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xa6F80E7B4eC48c64Dd2124deCB58753ae678C879",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "CRSVwmWDoGqj7zQ2rhckmDVc3mcXRjDZ82YGg3yid3Gj",
+                "blockchain": "sol",
+                "network": "solana",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "nextepochmarket.org",
+            "nexte-amm.com",
+            "nextepochmarket.vip"
+        ],
+        "curlable": true
+    },
+    "webapi.were137wolfs.com": {
+        "wallets": [
+            {
+                "address": "19uffSR5cfKNecLKSw7xNKLUYfqxUn6ghF",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x559DE2119D1841fcC209021780859c60c65871af",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x559DE2119D1841fcC209021780859c60c65871af",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x559DE2119D1841fcC209021780859c60c65871af",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TNyiYV7qDh4kpTGoFSoGYmsnkxV1QyV6bZ",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "BvrX3YqTqpjAhNg5n3e4EYox4Lt44ej9pVAGgyMxwv4r",
+                "blockchain": "usdt",
+                "network": "solana",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "0x559DE2119D1841fcC209021780859c60c65871af",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x559DE2119D1841fcC209021780859c60c65871af",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "BvrX3YqTqpjAhNg5n3e4EYox4Lt44ej9pVAGgyMxwv4r",
+                "blockchain": "usdc",
+                "network": "solana",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "0x559DE2119D1841fcC209021780859c60c65871af",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "BvrX3YqTqpjAhNg5n3e4EYox4Lt44ej9pVAGgyMxwv4r",
+                "blockchain": "sol",
+                "network": "solana",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "werewolfs.com"
+        ],
+        "curlable": true
+    },
+    "webapi.keet138ta.com": {
+        "wallets": [
+            {
+                "address": "3CJWSJXt4eoFnposJ1wb7h9Y1eMXFNdRza",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TYpHobemhvsgKNBEx2Lud5bzw2dzkfdALB",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "1",
+                "blockchain": "usdc",
+                "network": "base",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "HDW8HrjtLMYAAeZWwEfMcqHvPmv2Hk1cE5u45ymLfdzL",
+                "blockchain": "sol",
+                "network": "solana",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "0xf2971Cd68d1eBbdeC7130387D342cd3b71F00F19",
+                "blockchain": "paxg",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "rp71TmGkv2UvXVJC1M2BWvBjwaEgNimT5d",
+                "blockchain": "xrp",
+                "network": "ripple",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "keeta.international",
+            "keeta.financial",
+            "keeta.id"
+        ],
+        "curlable": true
+    },
+    "webapi.adooo.cc": {
+        "wallets": [
+            {
+                "address": "1KaCXSHeoabm3hPfgVa25ABxCg3CyqGUAv",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TRVcxrJzfq82JGnuDXveJ7QTMtMyYfq8Uu",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TRVcxrJzfq82JGnuDXveJ7QTMtMyYfq8Uu",
+                "blockchain": "usdc",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x7cD6E7947f58C501E4999a9f6402398c82EDAB64",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "3PLspEnZvMHH7bK1gSBpyMgPoxkVw5N5uvpUZ5WNgDQv",
+                "blockchain": "sol",
+                "network": "solana",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "DMDm6ELwdz9AUHd2kGG6MZgTMapWfpj22y",
+                "blockchain": "doge",
+                "network": "doge",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "rh9JD9SBRjcrCLo5o8AwcahZ5aVC6icMDe",
+                "blockchain": "xrp",
+                "network": "ripple",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "0xAc007d5537DAA891639Bf7AE6598ea96dA3f5d89",
+                "blockchain": "xaut",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            }
+        ],
+        "correlated-sites": [
+            "finbridge.tw",
+            "finbridge.win",
+            "finbridge.art"
+        ],
+        "curlable": true
+    },
+    "webapi.growtrivo.org": {
+        "wallets": [
+            {
+                "address": "bc1pa908mcr99zwq8flgvycdhcu5gtgkkulr96klk8fvprlkvd0taseqnvxvw2",
+                "blockchain": "btc",
+                "network": "btc",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0xb87Ae0780307EB51f03E509079708e5489bD698C",
+                "blockchain": "eth",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x36e7F721748f0BC60389d2E48Cd86C86383a1138",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TGepFKHHwn7Xtg85MHhJ5nfirHVDiZrWE4",
+                "blockchain": "usdt",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "AMAtYNBN5X4KBjzYWb3jhi3nVKJ9KsdK7F4btx1UKpjq",
+                "blockchain": "usdt",
+                "network": "solana",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "0x36e7F721748f0BC60389d2E48Cd86C86383a1138",
+                "blockchain": "usdt",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "0x36e7F721748f0BC60389d2E48Cd86C86383a1138",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "TGepFKHHwn7Xtg85MHhJ5nfirHVDiZrWE4",
+                "blockchain": "usdc",
+                "network": "trx",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "AMAtYNBN5X4KBjzYWb3jhi3nVKJ9KsdK7F4btx1UKpjq",
+                "blockchain": "usdc",
+                "network": "solana",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "0x36e7F721748f0BC60389d2E48Cd86C86383a1138",
+                "blockchain": "usdc",
+                "network": "eth",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "3PLspEnZvMHH7bK1gSBpyMgPoxkVw5N5uvpUZ5WNgDQv",
+                "blockchain": "sol",
+                "network": "solana",
+                "is_valid": false,
+                "is_supported": false
+            },
+            {
+                "address": "DMDm6ELwdz9AUHd2kGG6MZgTMapWfpj22y",
+                "blockchain": "doge",
+                "network": "doge",
+                "is_valid": true,
+                "is_supported": true
+            },
+            {
+                "address": "rh9JD9SBRjcrCLo5o8AwcahZ5aVC6icMDe",
+                "blockchain": "xrp",
+                "network": "ripple",
+                "is_valid": false,
+                "is_supported": false
+            }
+        ],
+        "correlated-sites": [
+            "gisnz.cc",
+            "gisnz.vip",
+            "gisnz.net"
+        ],
+        "curlable": true
+    }
+}
